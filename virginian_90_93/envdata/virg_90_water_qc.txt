@@ -1,0 +1,16 @@
+Dataset:              Water Quality QA Data
+File Name:            va90_2_4.txt
+Date Created:         02/23/96
+# Variables:          4
+# Header Records:     14
+# Data Records:       2
+
+Variables:    STA_NAME     Station name
+              DATE         Sample collection date (YYMMDD)
+              QA           QA code
+              DESCR        Resolution of QA code
+
+STA_NAME  DATE    QA   DESCR
+
+VA90-046  900804  V-A  Reject surface values
+VA90-068  900806  V-A  Reject surface values

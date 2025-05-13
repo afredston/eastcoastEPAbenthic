@@ -1,0 +1,4 @@
+
+Ignore Code	Ignore Code Description
+1	An Ignored Taxon Code of '1' identifies observations where taxon should be excluded from the calculation of taxonomic richness (total number of taxa) at a station, but not excluded from calculations of abundance.  Refer to the associated metadata for a more complete discussion.
+2	An Ignored Taxon Code of '2' indicates organisms that, although captured in the benthic grab, are not typically considered members of the infaunal community.  Refer to the associated metadata for a more complete discussion.

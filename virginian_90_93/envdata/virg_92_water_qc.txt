@@ -1,0 +1,37 @@
+Dataset:              Water Quality QA Data
+File Name:            va92_2_4.txt
+Date Created:         02/23/96
+# Variables:          4
+# Header Records:     14
+# Data Records:       16
+
+Variables:    STA_NAME     Station name
+              DATE         Sample collection date (YYMMDD)
+              QA           QA code
+              DESCR        Resolution of QA code
+
+STA_NAME  DATE    QA   DESCR
+
+VA92-451  920810  V-S  Shallow station: surface and bottom
+                       values are identical
+VA92-490  920730  V-S  Shallow station: surface and bottom
+                       values are identical
+VA92-499  920728  V-C  Fluorescence off-scale
+VA92-502  920727  V-S  Shallow station: surface and bottom
+                       values are identical
+VA92-506  920806  V-C  Fluorescence off-scale
+VA92-507  920802  V-C  Fluorescence off-scale
+VA92-509  920809  V-S  Shallow station: surface and bottom
+                       values are identical
+VA92-510  920810  V-C  Fluorescence off-scale
+VA92-511  920803  V-C  Fluorescence off-scale
+VA92-519  920805  V-S  Shallow station: surface and bottom
+                       values are identical
+VA92-521  920828  V-C  Fluorescence off-scale
+VA92-527  920730  V-S  Shallow station: surface and bottom
+                       values are identical
+VA92-532  920827  V-C  Fluorescence off-scale
+VA92-533  920802  V-C  Fluorescence off-scale
+VA92-534  920802  V-C  Fluorescence off-scale
+VA92-565  920730  V-S  Shallow station: surface and bottom
+                       values are identical

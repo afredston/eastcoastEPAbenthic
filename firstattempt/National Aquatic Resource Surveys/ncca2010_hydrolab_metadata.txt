@@ -1,0 +1,41 @@
+NCCA 2010 Hydrolab Metadata for Assessed and Not_Assessed files.		
+
+“’Assessed’ data were used to develop the Good, Fair and Poor ratings in the report. ‘Not_Assessed’ data were not used to develop the ratings.”
+		
+"For questions about these data, please contact Hugh Sullivan at sullivan.hugh@epa.gov or use the Contact Us link on the webpage: http://www.epa.gov/national-aquatic-resource-surveys/forms/national-aquatic-resource-surveys-contact-us"		
+"It is the responsibility of the end data user to become familiar with the QA codes used in the NCCA 2010 assessment (NCCA_QA_Codes.csv) and review the ""QA_CODES"" column in each dataset to determine whether the data meet quality objectives for specific uses."		
+Location information for each site is contained in the SITEINFO File. Use UID as key column for merging data.		
+		
+Hydrolab Metadata		
+		
+"Results of in situ Hydrolab profile data collected at assessed/nonassessed sites are reported.  Parameters reported include: Dissolved oxygen (DO), Salinity (SAL), Temperature (TEMP), pH (pH), Ambient PAR (LIGHT_AMB), Underwater PAR (LIGHT_UW), Conductivity (COND) and Turbidity (TURB).  Mean secchi depth (SECCHI_MEAN) and Attenuation coefficient (Kd) were calculated.  Relative measurement location (Surface, Mid-water and Bottom) and cast information (DOWNCAST, UPCAST)  are reported as well as sample depth and QA codes.  Geospatial information such as latitude, longitude and water body is presented in the Assessment/Nonassessment SITEINFO file."		
+		
+Variable		Definition
+		
+UID		Unique Identifier for site and visit number
+SITE_ID		Unique NCCA site dentifier
+STATE		State in which sample collection site s located
+VISIT_NO		"Sequential visit number in sampling season. ALL ASSESSED visits are Visit 1, so the VISIT_NO column is removed from the ASSESSED file."
+DATE_COL		Date sample was collected at field site
+STATION_DEPTH(m)		Total depth of station (meters)
+COL_LOC		"Relative depth of in situ measurement: Surface, Mid-water, Bottom, blank (calculated value or no sample depth recorded)"
+SDEPTH		Depth (m) of in situ measurement
+CAST		"Cast Information: DOWNCAST, UPCAST, IM_CALC (calculated measurement), NOT REC and blank (CAST information not available)"
+PARAMETER		Code for parameter analyzed
+COND		Conductivity
+DO		Dissolved oxygen
+Kd		Light Attenuation coefficient- compares ambient PAR to decrease in PAR with depth
+LIGHT_AMB		Ambient Photosynthetically active readiation (PAR)
+LIGHT_UW		Underwater Photosynthetically active readiation (PAR)
+pH		pH
+SAL		Salinity
+SECCHI_MEAN		Mean secchi
+TEMP		Temperature
+TURB		Turbidity
+PARAMETER_NAME		Name of parameter analyzed
+RESULT		Value of parameter
+UNITS		Units of measure
+QA_CODE		Measurement Qualifier code
+QA_COMMENT		Comment explaining QA code
+CAST_COMMENT		Comment explaining Cast Flag QA code
+CAST_FLAG		QA Code applied to entire cast

@@ -1,0 +1,23 @@
+Dataset:              Water Quality QA Data
+File Name:            va91_2_4.txt
+Date Created:         02/23/96
+# Variables:          4
+# Header Records:     14
+# Data Records:       9
+
+Variables:.   STA_NAME     Station name
+              DATE         Sample collection date (YYMMDD)
+              QA           QA code
+              DESCR        Resolution of QA code
+
+STA_NAME  DATE    QA   DESCR
+
+VA91-273  910804  V-C  Fluorescence off-scale
+VA91-300  910729  V-C  Fluorescence off-scale
+VA91-309  910729  V-C  Fluorescence off-scale
+VA91-338  910723  V-C  Fluorescence off-scale
+VA91-340  910904  V-C  Fluorescence off-scale
+VA91-346  910827  V-C  Fluorescence off-scale
+VA91-362  910805  V-C  Fluorescence off-scale
+VA91-371  910803  V-C  Fluorescence off-scale
+VA91-379  910806  V-C  Fluorescence off-scale

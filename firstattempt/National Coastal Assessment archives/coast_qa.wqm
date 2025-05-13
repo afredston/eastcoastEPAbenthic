@@ -1,0 +1,16 @@
+
+QA Code	QA Code Description
+WQ-AA	Indicates that the concentration of an analyte was too low to detect.  The concentration is reported as 0.  Although the actual concentration is unknown (but likely very low to none), reporting a concentration of 0 serves as a place holder.
+WQ-BB	Concentrations calculated from volume reported on field data sheet.
+WQ-CC	The reported concentration is below or equal to the detection limit; an estimated concentration is reported.  The detection limit may be reported.
+WQ-DD	Result may be affected by interference; an estimated concentration is reported.
+WQ-EE	Surface photosynthetically active radiation (PAR) readings were not recorded.
+WQ-FF	Fewer than four photosynthetically active radiation (PAR) readings recorded; possible diminished reliability of attenuation coefficient estimate.
+WQ-GG	Calculated attenuation coefficients less then zero (not valid); reported as zero.
+WQ-I	Depth values questionable
+WQ-J	Fluorescence off-scale
+WQ-K	Shallow station: surface and bottom values equal. Bottom file used for both.
+WQ-M	The calculated salinity range was -0.1 to 0.1 ppt.  The value is reported as zero.
+WQ-N	The measured concentration is below the detection limit; zero is reported for the parameter and the detection limit for the parameter may be reported.
+WQ-Q	At a shallow station (<3m), a single mid-depth measurement was taken or a single mid-depth sample was collected.  Measurements are reported identically in both the surface and bottom layers.
+WQ-S	Secchi disc hit the bottom; the reading may be inaccurate (the true Secchi depth may have been deeper).

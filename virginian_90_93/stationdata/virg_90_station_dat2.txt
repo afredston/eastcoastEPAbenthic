@@ -1,0 +1,126 @@
+Dataset:              Station Information Data
+File Name:            va90_1_3.txt
+Date Created:         02/23/96
+# Variables:          5
+# Header Records:     15
+# Data Records:       111
+Missing Value Symbol: .
+
+Variables:    STA_NAME     Station name
+              CLASCODE     Station class
+              STRATA       Strata (L: Large, TR: Tidal River, O: Other/Small)
+              STA_AREA     Station area (km2)
+              ESTUARY      Estuary name
+
+STA_NAME  CLASCODE        STRATA     STA_AREA  ESTUARY
+VA90-021  BASE                L         70.00  LONG ISLAND SOUND             
+VA90-022  BASE/LTDO           L         70.00  LONG ISLAND SOUND             
+VA90-023  BASE                L         70.00  GREAT SOUTH BAY               
+VA90-024  BASE                L         70.00  LONG ISLAND SOUND             
+VA90-025  BASE                L         70.00  LONG ISLAND SOUND             
+VA90-026  BASE/LTDO           L         70.00  LONG ISLAND SOUND             
+VA90-027  BASE                L         70.00  NANTUCKET SOUND               
+VA90-028  BASE                L         70.00  LONG ISLAND SOUND             
+VA90-029  BASE                L         70.00  NANTUCKET SOUND               
+VA90-031  BASE                L         70.00  DELAWARE BAY                  
+VA90-032  BASE                L         70.00  DELAWARE BAY                  
+VA90-033  BASE/LTDO           L         70.00  DELAWARE BAY                  
+VA90-034  BASE                L         70.00  CHINCOTEAGUE BAY              
+VA90-035  BASE                L         70.00  DELAWARE BAY                  
+VA90-036  BASE                L         70.00  DELAWARE BAY                  
+VA90-037  BASE                L         70.00  NANTUCKET SOUND               
+VA90-038  BASE                L         70.00  NANTUCKET SOUND               
+VA90-039  BASE                L         70.00  POCOMOKE SOUND                
+VA90-040  BASE                L         70.00  POCOMOKE SOUND                
+VA90-041  BASE/LTDO           L         70.00  TANGIER SOUND                 
+VA90-042  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-044  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-045  BASE                L         70.00  TANGIER SOUND                 
+VA90-046  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-047  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-048  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-050  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-051  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-052  BASE                L         70.00  NANTUCKET SOUND               
+VA90-053  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-054  BASE/LTDO           L         70.00  CHESAPEAKE BAY                
+VA90-055  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-056  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-057  BASE/LTDO           L         70.00  CHESAPEAKE BAY                
+VA90-058  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-059  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-060  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-061  BASE/LTDO           L         70.00  CHESAPEAKE BAY                
+VA90-062  BASE/LTDO           L         70.00  CHESAPEAKE BAY                
+VA90-063  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-065  BASE/LTDO           L         70.00  CHESAPEAKE BAY                
+VA90-066  BASE                L         70.00  CHESAPEAKE BAY                
+VA90-068  BASE                L         70.00  VINEYARD SOUND                
+VA90-069  BASE/LTDO           L         70.00  BUZZARDS BAY                  
+VA90-070  BASE/LTDO           L         70.00  NARRAGANSETT BAY              
+VA90-071  BASE                L         70.00  NARRAGANSETT BAY              
+VA90-072  BASE                L         70.00  BLOCK ISLAND SOUND            
+VA90-073  BASE                L         70.00  BLOCK ISLAND SOUND            
+VA90-074  BASE                L         70.00  BLOCK ISLAND SOUND            
+VA90-075  BASE                L         70.00  BLOCK ISLAND SOUND            
+VA90-076  BASE                L         70.00  LONG ISLAND SOUND             
+VA90-077  BASE                L         70.00  LONG ISLAND SOUND             
+VA90-078  BASE                L         70.00  LONG ISLAND SOUND             
+VA90-079  BASE                L         70.00  LONG ISLAND SOUND             
+VA90-086  BASE/ITE/LTDO       O         39.96  ELIZABETH RIVER               
+VA90-088  BASE/ITE/LTDO       O          2.87  ANACOSTIA RIVER               
+VA90-090  BASE/ITE/LTDO       O         35.67  BACK RIVER                    
+VA90-099  BASE/ITE/LTDO       O          3.88  NEW BEDFORD HARBOR            
+VA90-100  BASE/ITE/LTDO       O          9.64  SHREWSBURY RIVER              
+VA90-101  BASE/ITE            TR         3.58  HUDSON RIVER                  
+VA90-102  BASE/ITE/LTDO       O          7.81  HACKENSACK RIVER              
+VA90-104  BASE/LTDO           O         91.01  GREAT PECONIC BAY             
+VA90-106  BASE/LTDO           O          5.00  MYSTIC RIVER                  
+VA90-112  BASE                O         14.10  WEST RIVER                    
+VA90-114  BASE                O         31.30  BROAD CREEK                   
+VA90-118  BASE                O         15.39  MULLICA RIVER                 
+VA90-122  BASE/LTDO           O         30.75  SANDY HOOK BAY                
+VA90-124  BASE                O          2.74  ALLOWAY CREEK                 
+VA90-128  BASE                O          6.75  PORT TOBACCO RIVER            
+VA90-130  BASE                O          8.16  POCOMOKE RIVER                
+VA90-134  BASE/LTDO           O         91.81  PATAPSCO RIVER                
+VA90-136  BASE                O          9.70  MIDDLE RIVER                  
+VA90-141  BASE                O         16.51  MATTAPONI RIVER               
+VA90-144  BASE                O         37.99  MAGOTHY BAY                   
+VA90-150  BASE/LTDO           O         37.89  INDIAN RIVER BAY              
+VA90-156  BASE                O         57.01  LITTLE PECONIC BAY            
+VA90-158  BASE                O          3.07  SHARK RIVER                   
+VA90-159  BASE/ITE/LTDO       O         79.51  NAPEAGUE BAY                  
+VA90-161  BASE                O         35.85  SHINNECOCK BAY                
+VA90-166  BASE                O          7.84  EDGARTOWN HARBOR              
+VA90-169  BASE                O          7.57  HOUSATONIC RIVER              
+VA90-173  BASE                O         41.05  UPPER NJ/NY BAY               
+VA90-177  BASE                TR         8.67  HUDSON RIVER                  
+VA90-178  BASE                TR         2.57  DELAWARE RIVER                
+VA90-180  BASE                TR        84.06  POTOMAC RIVER                 
+VA90-182  BASE                TR        49.47  POTOMAC RIVER                 
+VA90-184  BASE/LTDO           TR        35.97  POTOMAC RIVER                 
+VA90-186  BASE                TR        21.65  POTOMAC RIVER                 
+VA90-188  BASE                TR        11.20  POTOMAC RIVER                 
+VA90-190  BASE                TR        24.23  RAPPAHANNOCK RIVER            
+VA90-192  BASE/LTDO           TR        13.44  RAPPAHANNOCK RIVER            
+VA90-194  BASE                TR         3.93  RAPPAHANNOCK RIVER            
+VA90-196  BASE                TR         6.83  RAPPAHANNOCK RIVER            
+VA90-199  BASE                TR        22.34  HUDSON RIVER                  
+VA90-200  BASE                TR         1.53  RAPPAHANNOCK RIVER            
+VA90-202  BASE                TR        56.62  JAMES RIVER                   
+VA90-204  BASE                TR        55.89  JAMES RIVER                   
+VA90-206  BASE                TR        20.63  JAMES RIVER                   
+VA90-208  BASE                TR         7.25  JAMES RIVER                   
+VA90-210  BASE/LTDO           TR         6.34  JAMES RIVER                   
+VA90-215  BASE                TR         4.48  HUDSON RIVER                  
+VA90-217  BASE                TR         8.25  HUDSON RIVER                  
+VA90-219  BASE                TR        24.17  DELAWARE RIVER                
+VA90-223  BASE/LTDO           TR        14.46  DELAWARE RIVER                
+VA90-227  BASE                TR        10.43  DELAWARE RIVER                
+VA90-231  BASE/LTDO           TR         5.28  DELAWARE RIVER                
+VA90-250  BASE                O          9.95  MAURICE RIVER                 
+VA90-252  BASE                O          1.91  SALEM RIVER                   
+VA90-254  BASE/LTDO           O         34.05  ELK RIVER                     
+VA90-256  BASE/LTDO           O        157.06  BARNEGAT BAY                  
+VA90-258  BASE                O        116.16  VIRGINIAN COASTAL BAYS        

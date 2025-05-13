@@ -1,0 +1,1906 @@
+Dataset:              Fish Tissue Chemistry Data
+File Name:            va91_4_4.txt
+Date Created:         12/02/99
+# Variables:          8
+# Header Records:     18
+# Data Records:       1887
+Missing Value Symbol: .
+
+Variables:    STA_NAME     Station name
+              DATE         Sample collection date (YYMMDD)
+              CMP          Composite code (Y/N)
+              LATIN NAME   Scientific (Latin) name
+              ANAL         Analyte code 
+              CONC         Concentration (wet wt.) of analyte
+              UNIT         Conc. units (ug/g or ng/g)
+              DETLMT       Detection limit of compound
+              QA           Quality assurance code (see QA code lookup table)
+
+STA_NAME DATE CMP LATIN NAME               ANAL         CONC    UNIT   DETLMT       QA
+VA91-261 910803 Y PARALICHTHYS DENTATUS    AG            .      ug/g    0.003       CH-A    
+VA91-261 910803 Y PARALICHTHYS DENTATUS    AL            .      ug/g    2.130       CH-A    
+VA91-261 910803 Y PARALICHTHYS DENTATUS    AS           0.66    ug/g     .                  
+VA91-261 910803 Y PARALICHTHYS DENTATUS    CD           0.00    ug/g     .                  
+VA91-261 910803 Y PARALICHTHYS DENTATUS    CR           0.33    ug/g     .                  
+VA91-261 910803 Y PARALICHTHYS DENTATUS    CU           0.34    ug/g     .                  
+VA91-261 910803 Y PARALICHTHYS DENTATUS    DDT_TOT      0.77    ng/g     .                  
+VA91-261 910803 Y PARALICHTHYS DENTATUS    FE           3.78    ug/g     .                  
+VA91-261 910803 Y PARALICHTHYS DENTATUS    HG           0.01    ug/g     .                  
+VA91-261 910803 Y PARALICHTHYS DENTATUS    NI            .      ug/g    0.014       CH-A    
+VA91-261 910803 Y PARALICHTHYS DENTATUS    PB            .      ug/g    0.014       CH-A    
+VA91-261 910803 Y PARALICHTHYS DENTATUS    PCB_TOT      4.00    ng/g     .                  
+VA91-261 910803 Y PARALICHTHYS DENTATUS    PEST_TOT     0.13    ng/g     .                  
+VA91-261 910803 Y PARALICHTHYS DENTATUS    SE           0.33    ug/g     .                  
+VA91-261 910803 Y PARALICHTHYS DENTATUS    SN            .      ug/g    0.028       CH-A    
+VA91-261 910803 Y PARALICHTHYS DENTATUS    ZN           4.78    ug/g     .                  
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.005       CH-A    
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  AL            .      ug/g    3.500       CH-A    
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  AS           2.25    ug/g     .                  
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  CD            .      ug/g     .          CH-A    
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  CR           0.18    ug/g     .                  
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  CU           0.65    ug/g     .                  
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  DDT_TOT     11.60    ng/g     .                  
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  FE           6.30    ug/g     .                  
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  HG           0.02    ug/g     .                  
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  NI           0.03    ug/g     .                  
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  PB           0.04    ug/g     .                  
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  PCB_TOT     32.60    ng/g     .                  
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  PEST_TOT     4.57    ng/g     .                  
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  SE           0.47    ug/g     .                  
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.047       CH-A    
+VA91-262 910815 Y MICROPOGONIAS UNDULATUS  ZN           6.14    ug/g     .                  
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.004       CH-A    
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  AL            .      ug/g    3.150       CH-A    
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  AS           0.51    ug/g     .                  
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  CD           0.00    ug/g     .                  
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  CR           0.02    ug/g     .                  
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  CU           0.80    ug/g     .                  
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  DDT_TOT     22.00    ng/g     .                  
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  FE           2.81    ug/g     .                  
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  NI           0.07    ug/g     .                  
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  PB            .      ug/g    0.021       CH-A    
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  PCB_TOT     91.40    ng/g     .                  
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  PEST_TOT     7.04    ng/g     .                  
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  SE           0.51    ug/g     .                  
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  SN           0.12    ug/g     .                  
+VA91-263 910803 N MICROPOGONIAS UNDULATUS  ZN           4.30    ug/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.004       CH-A    
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  AL           5.69    ug/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  AS           0.79    ug/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  CD           0.00    ug/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  CR           0.25    ug/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  CU           2.77    ug/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  DDT_TOT     10.50    ng/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  FE           5.91    ug/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  HG           0.02    ug/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  NI           0.04    ug/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  PB            .      ug/g    0.022       CH-A    
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  PCB_TOT     48.30    ng/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  PEST_TOT     4.65    ng/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  SE           0.56    ug/g     .                  
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.045       CH-A    
+VA91-263 910803 Y MICROPOGONIAS UNDULATUS  ZN           5.76    ug/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  AG           0.03    ug/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  AL           4.59    ug/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  AS           0.82    ug/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  CD           0.00    ug/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  CR            .      ug/g    0.015       CH-A    
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  CU           1.09    ug/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  DDT_TOT      6.98    ng/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  FE           3.01    ug/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  NI           0.03    ug/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  PB           0.03    ug/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  PCB_TOT     23.70    ng/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  PEST_TOT     2.07    ng/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  SE           0.35    ug/g     .                  
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.036       CH-A    
+VA91-265 910818 N MICROPOGONIAS UNDULATUS  ZN           5.08    ug/g     .                  
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.003       CH-A    
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  AL            .      ug/g    1.970       CH-A    
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  AS           1.29    ug/g     .                  
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  CD            .      ug/g    0.001       CH-A    
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  CR            .      ug/g    0.027       CH-A    
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  CU           0.18    ug/g     .                  
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  DDT_TOT      4.53    ng/g     .                  
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  FE           1.50    ug/g     .                  
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  HG           0.01    ug/g     .                  
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  NI           0.02    ug/g     .                  
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  PB            .      ug/g    0.013       CH-A    
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  PCB_TOT     12.60    ng/g     .                  
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  PEST_TOT     2.15    ng/g     .                  
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  SE           0.38    ug/g     .                  
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.026       CH-A    
+VA91-265 910818 Y MICROPOGONIAS UNDULATUS  ZN           4.56    ug/g     .                  
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.004       CH-A    
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  AL            .      ug/g    2.880       CH-A    
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  AS           1.39    ug/g     .                  
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  CD           0.01    ug/g     .                  
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  CR           0.29    ug/g     .                  
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  CU           0.98    ug/g     .                  
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  DDT_TOT     35.30    ng/g     .                  
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  FE           5.78    ug/g     .                  
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  NI           0.03    ug/g     .                  
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  PB            .      ug/g    0.019       CH-A    
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  PCB_TOT     40.20    ng/g     .                  
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  PEST_TOT     5.37    ng/g     .                  
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  SE           0.43    ug/g     .                  
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.038       CH-A    
+VA91-266 910817 N MICROPOGONIAS UNDULATUS  ZN           5.11    ug/g     .                  
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     AL            .      ug/g    2.860       CH-A    
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     AS           1.13    ug/g     .                  
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     CD           0.08    ug/g     .                  
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     CR           0.08    ug/g     .                  
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     CU           3.11    ug/g     .                  
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     DDT_TOT      4.85    ng/g     .                  
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     FE           5.15    ug/g     .                  
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.019       CH-A    
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     PB           0.02    ug/g     .                  
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     PCB_TOT      5.94    ng/g     .                  
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     PEST_TOT     0.38    ng/g     .                  
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     SE           0.36    ug/g     .                  
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.038       CH-A    
+VA91-266 910817 Y LEIOSTOMUS XANTHURUS     ZN           5.66    ug/g     .                  
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.003       CH-A    
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  AL            .      ug/g    2.240       CH-A    
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  AS           0.23    ug/g     .                  
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  CD           0.00    ug/g     .                  
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  CR           0.02    ug/g     .                  
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  CU           0.28    ug/g     .                  
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  DDT_TOT     26.10    ng/g     .                  
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  FE           1.94    ug/g     .                  
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  NI            .      ug/g    0.015       CH-A    
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  PB            .      ug/g    0.015       CH-A    
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  PCB_TOT     61.50    ng/g     .                  
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  PEST_TOT     5.46    ng/g     .                  
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  SE           0.34    ug/g     .                  
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.030       CH-A    
+VA91-269 910804 N MICROPOGONIAS UNDULATUS  ZN           2.90    ug/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  AG           0.00    ug/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  AL            .      ug/g    2.860       CH-A    
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  AS           0.31    ug/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  CD           0.02    ug/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  CR           0.06    ug/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  CU           0.84    ug/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  DDT_TOT      6.57    ng/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  FE           4.48    ug/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  HG           0.01    ug/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  NI           0.02    ug/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  PB           0.02    ug/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  PCB_TOT     24.50    ng/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  PEST_TOT     2.57    ng/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  SE           0.78    ug/g     .                  
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.038       CH-A    
+VA91-269 910804 Y MICROPOGONIAS UNDULATUS  ZN           5.04    ug/g     .                  
+VA91-273 910804 Y MORONE AMERICANA         AG            .      ug/g    0.004       CH-A    
+VA91-273 910804 Y MORONE AMERICANA         AL           4.85    ug/g     .                  
+VA91-273 910804 Y MORONE AMERICANA         AS           0.16    ug/g     .                  
+VA91-273 910804 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-273 910804 Y MORONE AMERICANA         CR            .      ug/g    0.044       CH-A    
+VA91-273 910804 Y MORONE AMERICANA         CU           0.31    ug/g     .                  
+VA91-273 910804 Y MORONE AMERICANA         DDT_TOT     22.20    ng/g     .                  
+VA91-273 910804 Y MORONE AMERICANA         FE           3.79    ug/g     .                  
+VA91-273 910804 Y MORONE AMERICANA         HG           0.04    ug/g     .                  
+VA91-273 910804 Y MORONE AMERICANA         NI            .      ug/g    0.019       CH-A    
+VA91-273 910804 Y MORONE AMERICANA         PB            .      ug/g    0.019       CH-A    
+VA91-273 910804 Y MORONE AMERICANA         PCB_TOT     84.20    ng/g     .                  
+VA91-273 910804 Y MORONE AMERICANA         PEST_TOT     6.47    ng/g     .                  
+VA91-273 910804 Y MORONE AMERICANA         SE           0.78    ug/g     .                  
+VA91-273 910804 Y MORONE AMERICANA         SN            .      ug/g    0.039       CH-A    
+VA91-273 910804 Y MORONE AMERICANA         ZN           5.35    ug/g     .                  
+VA91-275 910805 N ICTALURUS PUNCTATUS      AG            .      ug/g    0.004       CH-A    
+VA91-275 910805 N ICTALURUS PUNCTATUS      AL            .      ug/g    2.980       CH-A    
+VA91-275 910805 N ICTALURUS PUNCTATUS      AS           0.05    ug/g     .                  
+VA91-275 910805 N ICTALURUS PUNCTATUS      CD           0.00    ug/g     .                  
+VA91-275 910805 N ICTALURUS PUNCTATUS      CR            .      ug/g    0.016       CH-A    
+VA91-275 910805 N ICTALURUS PUNCTATUS      CU           0.50    ug/g     .                  
+VA91-275 910805 N ICTALURUS PUNCTATUS      DDT_TOT     34.50    ng/g     .                  
+VA91-275 910805 N ICTALURUS PUNCTATUS      FE           3.94    ug/g     .                  
+VA91-275 910805 N ICTALURUS PUNCTATUS      NI            .      ug/g    0.020       CH-A    
+VA91-275 910805 N ICTALURUS PUNCTATUS      PB            .      ug/g    0.020       CH-A    
+VA91-275 910805 N ICTALURUS PUNCTATUS      PCB_TOT    150.00    ng/g     .                  
+VA91-275 910805 N ICTALURUS PUNCTATUS      PEST_TOT    15.10    ng/g     .                  
+VA91-275 910805 N ICTALURUS PUNCTATUS      SE           0.26    ug/g     .                  
+VA91-275 910805 N ICTALURUS PUNCTATUS      SN            .      ug/g    0.040       CH-A    
+VA91-275 910805 N ICTALURUS PUNCTATUS      ZN           5.43    ug/g     .                  
+VA91-275 910805 Y ICTALURUS PUNCTATUS      AG            .      ug/g    0.004       CH-A    
+VA91-275 910805 Y ICTALURUS PUNCTATUS      AL           5.12    ug/g     .                  
+VA91-275 910805 Y ICTALURUS PUNCTATUS      AS            .      ug/g    0.071       CH-A    
+VA91-275 910805 Y ICTALURUS PUNCTATUS      CD           0.00    ug/g     .                  
+VA91-275 910805 Y ICTALURUS PUNCTATUS      CR           0.08    ug/g     .                  
+VA91-275 910805 Y ICTALURUS PUNCTATUS      CU           1.95    ug/g     .                  
+VA91-275 910805 Y ICTALURUS PUNCTATUS      DDT_TOT     16.00    ng/g     .                  
+VA91-275 910805 Y ICTALURUS PUNCTATUS      FE           4.53    ug/g     .                  
+VA91-275 910805 Y ICTALURUS PUNCTATUS      HG           0.01    ug/g     .                  
+VA91-275 910805 Y ICTALURUS PUNCTATUS      NI            .      ug/g    0.020       CH-A    
+VA91-275 910805 Y ICTALURUS PUNCTATUS      PB            .      ug/g    0.020       CH-A    
+VA91-275 910805 Y ICTALURUS PUNCTATUS      PCB_TOT     85.80    ng/g     .                  
+VA91-275 910805 Y ICTALURUS PUNCTATUS      PEST_TOT     8.25    ng/g     .                  
+VA91-275 910805 Y ICTALURUS PUNCTATUS      SE           0.35    ug/g     .                  
+VA91-275 910805 Y ICTALURUS PUNCTATUS      SN            .      ug/g    0.040       CH-A    
+VA91-275 910805 Y ICTALURUS PUNCTATUS      ZN           5.66    ug/g     .                  
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     AL            .      ug/g    2.670       CH-A    
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     AS           1.38    ug/g     .                  
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     CD            .      ug/g    0.002       CH-A    
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.014       CH-A    
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     CU           0.18    ug/g     .                  
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     DDT_TOT      2.71    ng/g     .                  
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     FE           2.32    ug/g     .                  
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.018       CH-A    
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.018       CH-A    
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     PCB_TOT      5.56    ng/g     .                  
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     PEST_TOT     0.88    ng/g     .                  
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     SE           0.41    ug/g     .                  
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.036       CH-A    
+VA91-276 910816 Y LEIOSTOMUS XANTHURUS     ZN           3.62    ug/g     .                  
+VA91-278 910805 N ICTALURUS PUNCTATUS      AG            .      ug/g    0.004       CH-A    
+VA91-278 910805 N ICTALURUS PUNCTATUS      AL            .      ug/g    2.930       CH-A    
+VA91-278 910805 N ICTALURUS PUNCTATUS      AS           0.04    ug/g     .                  
+VA91-278 910805 N ICTALURUS PUNCTATUS      CD           0.00    ug/g     .                  
+VA91-278 910805 N ICTALURUS PUNCTATUS      CR            .      ug/g    0.016       CH-A    
+VA91-278 910805 N ICTALURUS PUNCTATUS      CU           1.15    ug/g     .                  
+VA91-278 910805 N ICTALURUS PUNCTATUS      DDT_TOT     25.90    ng/g     .                  
+VA91-278 910805 N ICTALURUS PUNCTATUS      FE           3.30    ug/g     .                  
+VA91-278 910805 N ICTALURUS PUNCTATUS      NI           0.04    ug/g     .                  
+VA91-278 910805 N ICTALURUS PUNCTATUS      PB           0.05    ug/g     .                  
+VA91-278 910805 N ICTALURUS PUNCTATUS      PCB_TOT    171.00    ng/g     .                  
+VA91-278 910805 N ICTALURUS PUNCTATUS      PEST_TOT    13.10    ng/g     .                  
+VA91-278 910805 N ICTALURUS PUNCTATUS      SE           0.40    ug/g     .                  
+VA91-278 910805 N ICTALURUS PUNCTATUS      SN            .      ug/g    0.039       CH-A    
+VA91-278 910805 N ICTALURUS PUNCTATUS      ZN           6.62    ug/g     .                  
+VA91-278 910805 Y ICTALURUS PUNCTATUS      AG            .      ug/g    0.004       CH-A    
+VA91-278 910805 Y ICTALURUS PUNCTATUS      AL          10.40    ug/g     .                  
+VA91-278 910805 Y ICTALURUS PUNCTATUS      AS            .      ug/g    0.044       CH-A    
+VA91-278 910805 Y ICTALURUS PUNCTATUS      CD           0.00    ug/g     .                  
+VA91-278 910805 Y ICTALURUS PUNCTATUS      CR            .      ug/g    0.041       CH-A    
+VA91-278 910805 Y ICTALURUS PUNCTATUS      CU           0.24    ug/g     .                  
+VA91-278 910805 Y ICTALURUS PUNCTATUS      DDT_TOT     20.70    ng/g     .                  
+VA91-278 910805 Y ICTALURUS PUNCTATUS      FE           2.64    ug/g     .                  
+VA91-278 910805 Y ICTALURUS PUNCTATUS      HG           0.02    ug/g     .                  
+VA91-278 910805 Y ICTALURUS PUNCTATUS      NI           0.02    ug/g     .                  
+VA91-278 910805 Y ICTALURUS PUNCTATUS      PB            .      ug/g    0.019       CH-A    
+VA91-278 910805 Y ICTALURUS PUNCTATUS      PCB_TOT    125.00    ng/g     .                  
+VA91-278 910805 Y ICTALURUS PUNCTATUS      PEST_TOT    12.20    ng/g     .                  
+VA91-278 910805 Y ICTALURUS PUNCTATUS      SE           0.56    ug/g     .                  
+VA91-278 910805 Y ICTALURUS PUNCTATUS      SN            .      ug/g    0.039       CH-A    
+VA91-278 910805 Y ICTALURUS PUNCTATUS      ZN           6.44    ug/g     .                  
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.005       CH-A    
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     AL            .      ug/g    3.380       CH-A    
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     AS           1.32    ug/g     .                  
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.018       CH-A    
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     CU           0.25    ug/g     .                  
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     DDT_TOT     12.50    ng/g     .                  
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     FE           5.86    ug/g     .                  
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.023       CH-A    
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.023       CH-A    
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     PCB_TOT    230.00    ng/g     .                  
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     PEST_TOT     4.41    ng/g     .                  
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     SE           0.30    ug/g     .                  
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.045       CH-A    
+VA91-279 910823 N LEIOSTOMUS XANTHURUS     ZN           3.72    ug/g     .                  
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     AL            .      ug/g    3.140       CH-A    
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     AS           2.43    ug/g     .                  
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     CD            .      ug/g    0.002       CH-A    
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     CR           0.18    ug/g     .                  
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     CU           0.79    ug/g     .                  
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     DDT_TOT      1.78    ng/g     .                  
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     FE           4.04    ug/g     .                  
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.021       CH-A    
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.021       CH-A    
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     PCB_TOT      6.56    ng/g     .                  
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     PEST_TOT     0.81    ng/g     .                  
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     SE           0.60    ug/g     .                  
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.042       CH-A    
+VA91-279 910823 Y LEIOSTOMUS XANTHURUS     ZN           7.84    ug/g     .                  
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     AL            .      ug/g    3.280       CH-A    
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     AS           1.07    ug/g     .                  
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.018       CH-A    
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     CU           0.69    ug/g     .                  
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     DDT_TOT      2.66    ng/g     .                  
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     FE           5.17    ug/g     .                  
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     NI           0.03    ug/g     .                  
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.022       CH-A    
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     PCB_TOT      7.11    ng/g     .                  
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     PEST_TOT     0.61    ng/g     .                  
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     SE           0.51    ug/g     .                  
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.044       CH-A    
+VA91-282 910812 N LEIOSTOMUS XANTHURUS     ZN           5.56    ug/g     .                  
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.003       CH-A    
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     AL            .      ug/g    2.140       CH-A    
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     AS           0.82    ug/g     .                  
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     CR           0.32    ug/g     .                  
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     CU           0.36    ug/g     .                  
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     DDT_TOT      2.79    ng/g     .                  
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     FE           5.64    ug/g     .                  
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     HG           0.00    ug/g     .                  
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.014       CH-A    
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     PB           0.03    ug/g     .                  
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     PCB_TOT      5.19    ng/g     .                  
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     PEST_TOT     1.51    ng/g     .                  
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     SE           0.38    ug/g     .                  
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.029       CH-A    
+VA91-282 910812 Y LEIOSTOMUS XANTHURUS     ZN           5.60    ug/g     .                  
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.003       CH-A    
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     AL            .      ug/g    2.280       CH-A    
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     AS           0.79    ug/g     .                  
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     CR           0.02    ug/g     .                  
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     CU           0.36    ug/g     .                  
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     DDT_TOT      1.38    ng/g     .                  
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     FE           1.98    ug/g     .                  
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.015       CH-A    
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     PB           0.02    ug/g     .                  
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     PCB_TOT      8.96    ng/g     .                  
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     PEST_TOT     0.33    ng/g     .                  
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     SE           0.27    ug/g     .                  
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.030       CH-A    
+VA91-283 910823 N LEIOSTOMUS XANTHURUS     ZN           4.58    ug/g     .                  
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     AL           5.16    ug/g     .                  
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     AS           2.89    ug/g     .                  
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     CD            .      ug/g    0.002       CH-A    
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.037       CH-A    
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     CU           0.17    ug/g     .                  
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     DDT_TOT      1.93    ng/g     .                  
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     FE           4.79    ug/g     .                  
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     NI           0.21    ug/g     .                  
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.019       CH-A    
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     PCB_TOT     13.00    ng/g     .                  
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     PEST_TOT     1.45    ng/g     .                  
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     SE           0.45    ug/g     .                  
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.039       CH-A    
+VA91-283 910823 Y LEIOSTOMUS XANTHURUS     ZN           4.91    ug/g     .                  
+VA91-284 910812 Y PARALICHTHYS DENTATUS    AG            .      ug/g    0.004       CH-A    
+VA91-284 910812 Y PARALICHTHYS DENTATUS    AL           8.61    ug/g     .                  
+VA91-284 910812 Y PARALICHTHYS DENTATUS    AS           0.54    ug/g     .                  
+VA91-284 910812 Y PARALICHTHYS DENTATUS    CD           0.00    ug/g     .                  
+VA91-284 910812 Y PARALICHTHYS DENTATUS    CR           0.07    ug/g     .                  
+VA91-284 910812 Y PARALICHTHYS DENTATUS    CU           0.54    ug/g     .                  
+VA91-284 910812 Y PARALICHTHYS DENTATUS    DDT_TOT      5.68    ng/g     .                  
+VA91-284 910812 Y PARALICHTHYS DENTATUS    FE           3.99    ug/g     .                  
+VA91-284 910812 Y PARALICHTHYS DENTATUS    HG           0.03    ug/g     .                  
+VA91-284 910812 Y PARALICHTHYS DENTATUS    NI            .      ug/g    0.022       CH-A    
+VA91-284 910812 Y PARALICHTHYS DENTATUS    PB            .      ug/g    0.022       CH-A    
+VA91-284 910812 Y PARALICHTHYS DENTATUS    PCB_TOT     14.80    ng/g     .                  
+VA91-284 910812 Y PARALICHTHYS DENTATUS    PEST_TOT     2.37    ng/g     .                  
+VA91-284 910812 Y PARALICHTHYS DENTATUS    SE           0.67    ug/g     .                  
+VA91-284 910812 Y PARALICHTHYS DENTATUS    SN            .      ug/g    0.044       CH-A    
+VA91-284 910812 Y PARALICHTHYS DENTATUS    ZN           5.67    ug/g     .                  
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.006       CH-A    
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     AL            .      ug/g    4.630       CH-A    
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     AS           3.49    ug/g     .                  
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.025       CH-A    
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     CU           0.36    ug/g     .                  
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     DDT_TOT     12.80    ng/g     .                  
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     FE           3.12    ug/g     .                  
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.031       CH-A    
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     PB           0.06    ug/g     .                  
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     PCB_TOT     30.50    ng/g     .                  
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     PEST_TOT    16.00    ng/g     .                  
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     SE           0.43    ug/g     .                  
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.062       CH-A    
+VA91-285 910822 N LEIOSTOMUS XANTHURUS     ZN           3.77    ug/g     .                  
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     AL           8.35    ug/g     .                  
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     AS           2.81    ug/g     .                  
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.044       CH-A    
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     CU           0.58    ug/g     .                  
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     DDT_TOT      0.33    ng/g     .                  
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     FE           3.70    ug/g     .                  
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.021       CH-A    
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.021       CH-A    
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     PCB_TOT      0.69    ng/g     .                  
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     PEST_TOT     0.07    ng/g     .                  
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     SE           0.57    ug/g     .                  
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.042       CH-A    
+VA91-285 910822 Y LEIOSTOMUS XANTHURUS     ZN           7.11    ug/g     .                  
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     AL           9.07    ug/g     .                  
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     AS           0.85    ug/g     .                  
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     CD            .      ug/g    0.002       CH-A    
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.046       CH-A    
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     CU           0.33    ug/g     .                  
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     DDT_TOT      2.94    ng/g     .                  
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     FE           5.44    ug/g     .                  
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     NI           0.03    ug/g     .                  
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.021       CH-A    
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     PCB_TOT      6.34    ng/g     .                  
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     PEST_TOT     1.23    ng/g     .                  
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     SE           0.54    ug/g     .                  
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.043       CH-A    
+VA91-288 910810 Y LEIOSTOMUS XANTHURUS     ZN           7.49    ug/g     .                  
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     AL           4.88    ug/g     .                  
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     AS            .      ug/g    0.029       CH-A    
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.015       CH-A    
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     CU           0.65    ug/g     .                  
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     DDT_TOT      3.61    ng/g     .                  
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     FE           6.45    ug/g     .                  
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     HG           0.00    ug/g     .                  
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     NI           0.02    ug/g     .                  
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.019       CH-A    
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     PCB_TOT     17.30    ng/g     .                  
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     PEST_TOT     1.56    ng/g     .                  
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     SE            .      ug/g    0.057       CH-A    
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.038       CH-A    
+VA91-290 910811 Y LEIOSTOMUS XANTHURUS     ZN           6.06    ug/g     .                  
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  AG           0.00    ug/g     .                  
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  AL            .      ug/g    2.490       CH-A    
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  AS           0.28    ug/g     .                  
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  CD           0.01    ug/g     .                  
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  CR            .      ug/g    0.013       CH-A    
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  CU           1.34    ug/g     .                  
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  DDT_TOT      9.56    ng/g     .                  
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  FE           4.90    ug/g     .                  
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  NI           0.05    ug/g     .                  
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  PB           0.03    ug/g     .                  
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  PCB_TOT     24.40    ng/g     .                  
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  PEST_TOT     3.05    ng/g     .                  
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  SE           0.25    ug/g     .                  
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.033       CH-A    
+VA91-291 910811 N MICROPOGONIAS UNDULATUS  ZN           5.05    ug/g     .                  
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.005       CH-A    
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  AL           6.17    ug/g     .                  
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  AS           0.54    ug/g     .                  
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  CD            .      ug/g    0.002       CH-A    
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  CR            .      ug/g    0.048       CH-A    
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  CU           0.38    ug/g     .                  
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  DDT_TOT     13.60    ng/g     .                  
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  FE           4.63    ug/g     .                  
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  HG           0.01    ug/g     .                  
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  NI            .      ug/g    0.024       CH-A    
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  PB            .      ug/g    0.024       CH-A    
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  PCB_TOT     50.80    ng/g     .                  
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  PEST_TOT     7.76    ng/g     .                  
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  SE           0.58    ug/g     .                  
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.048       CH-A    
+VA91-291 910811 Y MICROPOGONIAS UNDULATUS  ZN           5.65    ug/g     .                  
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.003       CH-A    
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     AL            .      ug/g    2.390       CH-A    
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     AS           0.74    ug/g     .                  
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     CR           0.12    ug/g     .                  
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     CU           0.26    ug/g     .                  
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     DDT_TOT      2.44    ng/g     .                  
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     FE           4.33    ug/g     .                  
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.016       CH-A    
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.016       CH-A    
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     PCB_TOT      4.31    ng/g     .                  
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     PEST_TOT     0.75    ng/g     .                  
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     SE           0.42    ug/g     .                  
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.032       CH-A    
+VA91-292 910822 N LEIOSTOMUS XANTHURUS     ZN           7.05    ug/g     .                  
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     AL           5.00    ug/g     .                  
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     AS           1.53    ug/g     .                  
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     CR           0.22    ug/g     .                  
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     CU           0.29    ug/g     .                  
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     DDT_TOT      5.04    ng/g     .                  
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     FE           5.98    ug/g     .                  
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.019       CH-A    
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.019       CH-A    
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     PCB_TOT     14.60    ng/g     .                  
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     PEST_TOT     5.45    ng/g     .                  
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     SE           0.57    ug/g     .                  
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.039       CH-A    
+VA91-292 910822 Y LEIOSTOMUS XANTHURUS     ZN           6.77    ug/g     .                  
+VA91-294 910730 Y MORONE AMERICANA         AG            .      ug/g    0.003       CH-A    
+VA91-294 910730 Y MORONE AMERICANA         AL            .      ug/g    2.530       CH-A    
+VA91-294 910730 Y MORONE AMERICANA         AS           0.30    ug/g     .                  
+VA91-294 910730 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-294 910730 Y MORONE AMERICANA         CR            .      ug/g    0.042       CH-A    
+VA91-294 910730 Y MORONE AMERICANA         CU           0.18    ug/g     .                  
+VA91-294 910730 Y MORONE AMERICANA         DDT_TOT      9.85    ng/g     .                  
+VA91-294 910730 Y MORONE AMERICANA         FE           4.55    ug/g     .                  
+VA91-294 910730 Y MORONE AMERICANA         HG           0.02    ug/g     .                  
+VA91-294 910730 Y MORONE AMERICANA         NI            .      ug/g    0.017       CH-A    
+VA91-294 910730 Y MORONE AMERICANA         PB            .      ug/g    0.017       CH-A    
+VA91-294 910730 Y MORONE AMERICANA         PCB_TOT     25.40    ng/g     .                  
+VA91-294 910730 Y MORONE AMERICANA         PEST_TOT     2.86    ng/g     .                  
+VA91-294 910730 Y MORONE AMERICANA         SE           0.47    ug/g     .                  
+VA91-294 910730 Y MORONE AMERICANA         SN            .      ug/g    0.034       CH-A    
+VA91-294 910730 Y MORONE AMERICANA         ZN           5.23    ug/g     .                  
+VA91-295 910821 Y PARALICHTHYS DENTATUS    AG            .      ug/g    0.004       CH-A    
+VA91-295 910821 Y PARALICHTHYS DENTATUS    AL            .      ug/g    2.920       CH-A    
+VA91-295 910821 Y PARALICHTHYS DENTATUS    AS           1.23    ug/g     .                  
+VA91-295 910821 Y PARALICHTHYS DENTATUS    CD           0.00    ug/g     .                  
+VA91-295 910821 Y PARALICHTHYS DENTATUS    CR            .      ug/g    0.041       CH-A    
+VA91-295 910821 Y PARALICHTHYS DENTATUS    CU           0.56    ug/g     .                  
+VA91-295 910821 Y PARALICHTHYS DENTATUS    DDT_TOT      0.69    ng/g     .                  
+VA91-295 910821 Y PARALICHTHYS DENTATUS    FE           2.88    ug/g     .                  
+VA91-295 910821 Y PARALICHTHYS DENTATUS    HG           0.01    ug/g     .                  
+VA91-295 910821 Y PARALICHTHYS DENTATUS    NI           0.02    ug/g     .                  
+VA91-295 910821 Y PARALICHTHYS DENTATUS    PB           0.07    ug/g     .                  
+VA91-295 910821 Y PARALICHTHYS DENTATUS    PCB_TOT      4.73    ng/g     .                  
+VA91-295 910821 Y PARALICHTHYS DENTATUS    PEST_TOT     0.11    ng/g     .                  
+VA91-295 910821 Y PARALICHTHYS DENTATUS    SE           0.63    ug/g     .                  
+VA91-295 910821 Y PARALICHTHYS DENTATUS    SN            .      ug/g    0.039       CH-A    
+VA91-295 910821 Y PARALICHTHYS DENTATUS    ZN           6.45    ug/g     .                  
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     AL            .      ug/g    2.640       CH-A    
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     AS           1.26    ug/g     .                  
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     CD            .      ug/g    0.002       CH-A    
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.034       CH-A    
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     CU           0.33    ug/g     .                  
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     DDT_TOT      4.91    ng/g     .                  
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     FE           4.37    ug/g     .                  
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.018       CH-A    
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.018       CH-A    
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     PCB_TOT     14.10    ng/g     .                  
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     PEST_TOT     2.91    ng/g     .                  
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     SE           0.35    ug/g     .                  
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.035       CH-A    
+VA91-296 910821 Y LEIOSTOMUS XANTHURUS     ZN           4.36    ug/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.003       CH-A    
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     AL           4.37    ug/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     AS            .      ug/g    0.022       CH-A    
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     CR           0.01    ug/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     CU           0.47    ug/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     DDT_TOT      7.22    ng/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     FE           6.41    ug/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     HG           0.00    ug/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     NI           0.04    ug/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     PB           0.02    ug/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     PCB_TOT     19.90    ng/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     PEST_TOT     1.21    ng/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     SE           0.31    ug/g     .                  
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.029       CH-A    
+VA91-298 910730 Y LEIOSTOMUS XANTHURUS     ZN           5.76    ug/g     .                  
+VA91-300 910729 Y MORONE AMERICANA         AG            .      ug/g    0.004       CH-A    
+VA91-300 910729 Y MORONE AMERICANA         AL            .      ug/g    2.900       CH-A    
+VA91-300 910729 Y MORONE AMERICANA         AS           0.09    ug/g     .                  
+VA91-300 910729 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-300 910729 Y MORONE AMERICANA         CR           0.26    ug/g     .                  
+VA91-300 910729 Y MORONE AMERICANA         CU           0.35    ug/g     .                  
+VA91-300 910729 Y MORONE AMERICANA         DDT_TOT     16.60    ng/g     .                  
+VA91-300 910729 Y MORONE AMERICANA         FE           6.78    ug/g     .                  
+VA91-300 910729 Y MORONE AMERICANA         HG            .      ug/g    0.002       CH-A    
+VA91-300 910729 Y MORONE AMERICANA         NI           0.02    ug/g     .                  
+VA91-300 910729 Y MORONE AMERICANA         PB            .      ug/g    0.019       CH-A    
+VA91-300 910729 Y MORONE AMERICANA         PCB_TOT     36.40    ng/g     .                  
+VA91-300 910729 Y MORONE AMERICANA         PEST_TOT     6.42    ng/g     .                  
+VA91-300 910729 Y MORONE AMERICANA         SE           0.55    ug/g     .                  
+VA91-300 910729 Y MORONE AMERICANA         SN            .      ug/g    0.039       CH-A    
+VA91-300 910729 Y MORONE AMERICANA         ZN           7.20    ug/g     .                  
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.003       CH-A    
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  AL            .      ug/g    2.440       CH-A    
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  AS           0.09    ug/g     .                  
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  CD           0.02    ug/g     .                  
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  CR            .      ug/g    0.013       CH-A    
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  CU           0.43    ug/g     .                  
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  DDT_TOT     11.60    ng/g     .                  
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  FE           7.88    ug/g     .                  
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  NI           0.36    ug/g     .                  
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  PB           0.07    ug/g     .                  
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  PCB_TOT     40.20    ng/g     .                  
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  PEST_TOT     2.61    ng/g     .                  
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  SE           0.45    ug/g     .                  
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.033       CH-A    
+VA91-302 910731 N MICROPOGONIAS UNDULATUS  ZN           4.57    ug/g     .                  
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.004       CH-A    
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  AL            .      ug/g    3.260       CH-A    
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  AS           0.64    ug/g     .                  
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  CD            .      ug/g    0.002       CH-A    
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  CR           0.23    ug/g     .                  
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  CU           0.83    ug/g     .                  
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  DDT_TOT     14.40    ng/g     .                  
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  FE           4.84    ug/g     .                  
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  HG           0.01    ug/g     .                  
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  NI           0.04    ug/g     .                  
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  PB            .      ug/g    0.022       CH-A    
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  PCB_TOT     42.20    ng/g     .                  
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  PEST_TOT     7.51    ng/g     .                  
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  SE           0.53    ug/g     .                  
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.043       CH-A    
+VA91-302 910731 Y MICROPOGONIAS UNDULATUS  ZN           7.01    ug/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     AL           4.62    ug/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     AS           0.47    ug/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     CR           0.05    ug/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     CU           0.46    ug/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     DDT_TOT      2.05    ng/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     FE           3.50    ug/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.018       CH-A    
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     PB           0.02    ug/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     PCB_TOT      4.03    ng/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     PEST_TOT     1.18    ng/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     SE           0.42    ug/g     .                  
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.036       CH-A    
+VA91-303 910827 Y LEIOSTOMUS XANTHURUS     ZN           6.79    ug/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     AL           5.22    ug/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     AS           0.45    ug/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     CR           0.11    ug/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     CU           0.52    ug/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     DDT_TOT      0.94    ng/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     FE           4.28    ug/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     NI           0.02    ug/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.020       CH-A    
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     PCB_TOT      1.88    ng/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     PEST_TOT     0.31    ng/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     SE           0.65    ug/g     .                  
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.040       CH-A    
+VA91-307 910828 Y LEIOSTOMUS XANTHURUS     ZN           5.78    ug/g     .                  
+VA91-309 910729 Y MORONE AMERICANA         AG            .      ug/g    0.004       CH-A    
+VA91-309 910729 Y MORONE AMERICANA         AL           8.21    ug/g     .                  
+VA91-309 910729 Y MORONE AMERICANA         AS            .      ug/g    0.046       CH-A    
+VA91-309 910729 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-309 910729 Y MORONE AMERICANA         CR            .      ug/g    0.041       CH-A    
+VA91-309 910729 Y MORONE AMERICANA         CU           0.61    ug/g     .                  
+VA91-309 910729 Y MORONE AMERICANA         DDT_TOT     28.90    ng/g     .                  
+VA91-309 910729 Y MORONE AMERICANA         FE           6.95    ug/g     .                  
+VA91-309 910729 Y MORONE AMERICANA         HG           0.04    ug/g     .                  
+VA91-309 910729 Y MORONE AMERICANA         NI            .      ug/g    0.020       CH-A    
+VA91-309 910729 Y MORONE AMERICANA         PB           0.04    ug/g     .                  
+VA91-309 910729 Y MORONE AMERICANA         PCB_TOT     72.30    ng/g     .                  
+VA91-309 910729 Y MORONE AMERICANA         PEST_TOT    11.20    ng/g     .                  
+VA91-309 910729 Y MORONE AMERICANA         SE           0.34    ug/g     .                  
+VA91-309 910729 Y MORONE AMERICANA         SN            .      ug/g    0.040       CH-A    
+VA91-309 910729 Y MORONE AMERICANA         ZN           5.51    ug/g     .                  
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.002       CH-A    
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     AL            .      ug/g    1.840       CH-A    
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     AS           0.13    ug/g     .                  
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     CD           0.01    ug/g     .                  
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     CR           0.02    ug/g     .                  
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     CU           0.93    ug/g     .                  
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     DDT_TOT      0.88    ng/g     .                  
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     FE           2.68    ug/g     .                  
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.012       CH-A    
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     PB           0.02    ug/g     .                  
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     PCB_TOT      4.20    ng/g     .                  
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     PEST_TOT      .      ng/g     .                  
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     SE           0.21    ug/g     .                  
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.025       CH-A    
+VA91-314 910724 N LEIOSTOMUS XANTHURUS     ZN           4.06    ug/g     .                  
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     AL            .      ug/g    2.790       CH-A    
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     AS           0.35    ug/g     .                  
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     CD            .      ug/g    0.002       CH-A    
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     CR           0.12    ug/g     .                  
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     CU           0.33    ug/g     .                  
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     DDT_TOT      3.59    ng/g     .                  
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     FE           6.11    ug/g     .                  
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.019       CH-A    
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.019       CH-A    
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     PCB_TOT     16.00    ng/g     .                  
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     PEST_TOT     1.31    ng/g     .                  
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     SE           0.31    ug/g     .                  
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.037       CH-A    
+VA91-314 910724 Y LEIOSTOMUS XANTHURUS     ZN           7.34    ug/g     .                  
+VA91-315 910724 N MORONE AMERICANA         AG            .      ug/g    0.004       CH-A    
+VA91-315 910724 N MORONE AMERICANA         AL            .      ug/g    2.810       CH-A    
+VA91-315 910724 N MORONE AMERICANA         AS           0.22    ug/g     .                  
+VA91-315 910724 N MORONE AMERICANA         CD           0.01    ug/g     .                  
+VA91-315 910724 N MORONE AMERICANA         CR           0.05    ug/g     .                  
+VA91-315 910724 N MORONE AMERICANA         CU           0.50    ug/g     .                  
+VA91-315 910724 N MORONE AMERICANA         DDT_TOT     15.50    ng/g     .                  
+VA91-315 910724 N MORONE AMERICANA         FE           2.51    ug/g     .                  
+VA91-315 910724 N MORONE AMERICANA         NI           0.03    ug/g     .                  
+VA91-315 910724 N MORONE AMERICANA         PB           0.03    ug/g     .                  
+VA91-315 910724 N MORONE AMERICANA         PCB_TOT     41.10    ng/g     .                  
+VA91-315 910724 N MORONE AMERICANA         PEST_TOT     5.28    ng/g     .                  
+VA91-315 910724 N MORONE AMERICANA         SE           0.32    ug/g     .                  
+VA91-315 910724 N MORONE AMERICANA         SN            .      ug/g    0.037       CH-A    
+VA91-315 910724 N MORONE AMERICANA         ZN           6.84    ug/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         AG            .      ug/g    0.005       CH-A    
+VA91-315 910724 Y MORONE AMERICANA         AL           6.16    ug/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         AS           0.45    ug/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         CD           0.01    ug/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         CR           0.04    ug/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         CU           0.99    ug/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         DDT_TOT     31.00    ng/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         FE           4.82    ug/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         HG           0.12    ug/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         NI           0.06    ug/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         PB            .      ug/g    0.025       CH-A    
+VA91-315 910724 Y MORONE AMERICANA         PCB_TOT     82.80    ng/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         PEST_TOT    11.60    ng/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         SE           0.67    ug/g     .                  
+VA91-315 910724 Y MORONE AMERICANA         SN            .      ug/g    0.050       CH-A    
+VA91-315 910724 Y MORONE AMERICANA         ZN          12.70    ug/g     .                  
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.004       CH-A    
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  AL            .      ug/g    3.040       CH-A    
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  AS           0.40    ug/g     .                  
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  CD           0.00    ug/g     .                  
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  CR           0.02    ug/g     .                  
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  CU           0.52    ug/g     .                  
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  DDT_TOT     12.10    ng/g     .                  
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  FE           3.29    ug/g     .                  
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  NI            .      ug/g    0.020       CH-A    
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  PB           0.04    ug/g     .                  
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  PCB_TOT     51.10    ng/g     .                  
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  PEST_TOT     4.01    ng/g     .                  
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  SE           0.86    ug/g     .                  
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.041       CH-A    
+VA91-316 910828 N MICROPOGONIAS UNDULATUS  ZN           5.44    ug/g     .                  
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     AL            .      ug/g    2.670       CH-A    
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     AS           0.39    ug/g     .                  
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.041       CH-A    
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     CU           0.23    ug/g     .                  
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     DDT_TOT      0.72    ng/g     .                  
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     FE           4.72    ug/g     .                  
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     NI           0.02    ug/g     .                  
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     PB           0.02    ug/g     .                  
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     PCB_TOT      1.36    ng/g     .                  
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     PEST_TOT     0.19    ng/g     .                  
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     SE           0.80    ug/g     .                  
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.036       CH-A    
+VA91-316 910828 Y LEIOSTOMUS XANTHURUS     ZN          11.70    ug/g     .                  
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.004       CH-A    
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  AL            .      ug/g    3.200       CH-A    
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  AS           0.80    ug/g     .                  
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  CD            .      ug/g    0.002       CH-A    
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  CR           0.02    ug/g     .                  
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  CU           0.30    ug/g     .                  
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  DDT_TOT      8.37    ng/g     .                  
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  FE           2.13    ug/g     .                  
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  NI            .      ug/g    0.021       CH-A    
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  PB           0.03    ug/g     .                  
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  PCB_TOT      8.77    ng/g     .                  
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  PEST_TOT     3.61    ng/g     .                  
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  SE           0.70    ug/g     .                  
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.043       CH-A    
+VA91-317 910829 N MICROPOGONIAS UNDULATUS  ZN           3.90    ug/g     .                  
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.003       CH-A    
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     AL           3.80    ug/g     .                  
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     AS           0.64    ug/g     .                  
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.032       CH-A    
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     CU           0.27    ug/g     .                  
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     DDT_TOT      1.39    ng/g     .                  
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     FE           3.23    ug/g     .                  
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.014       CH-A    
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.014       CH-A    
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     PCB_TOT      1.95    ng/g     .                  
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     PEST_TOT     0.46    ng/g     .                  
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     SE           0.48    ug/g     .                  
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.029       CH-A    
+VA91-317 910829 Y LEIOSTOMUS XANTHURUS     ZN           4.05    ug/g     .                  
+VA91-319 910723 Y MORONE AMERICANA         AG            .      ug/g    0.004       CH-A    
+VA91-319 910723 Y MORONE AMERICANA         AL           4.77    ug/g     .                  
+VA91-319 910723 Y MORONE AMERICANA         AS           0.28    ug/g     .                  
+VA91-319 910723 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-319 910723 Y MORONE AMERICANA         CR           0.19    ug/g     .                  
+VA91-319 910723 Y MORONE AMERICANA         CU           0.64    ug/g     .                  
+VA91-319 910723 Y MORONE AMERICANA         DDT_TOT     49.40    ng/g     .                  
+VA91-319 910723 Y MORONE AMERICANA         FE           5.39    ug/g     .                  
+VA91-319 910723 Y MORONE AMERICANA         HG           0.07    ug/g     .                  
+VA91-319 910723 Y MORONE AMERICANA         NI            .      ug/g    0.018       CH-A    
+VA91-319 910723 Y MORONE AMERICANA         PB            .      ug/g    0.018       CH-A    
+VA91-319 910723 Y MORONE AMERICANA         PCB_TOT    155.00    ng/g     .                  
+VA91-319 910723 Y MORONE AMERICANA         PEST_TOT    13.10    ng/g     .                  
+VA91-319 910723 Y MORONE AMERICANA         SE           0.54    ug/g     .                  
+VA91-319 910723 Y MORONE AMERICANA         SN            .      ug/g    0.036       CH-A    
+VA91-319 910723 Y MORONE AMERICANA         ZN          10.20    ug/g     .                  
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.004       CH-A    
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  AL            .      ug/g    3.290       CH-A    
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  AS           0.25    ug/g     .                  
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  CD           0.01    ug/g     .                  
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  CR            .      ug/g    0.018       CH-A    
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  CU           0.60    ug/g     .                  
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  DDT_TOT      3.69    ng/g     .                  
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  FE           3.53    ug/g     .                  
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  NI           0.02    ug/g     .                  
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  PB            .      ug/g    0.022       CH-A    
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  PCB_TOT      5.24    ng/g     .                  
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  PEST_TOT     6.61    ng/g     .                  
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  SE           0.64    ug/g     .                  
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.044       CH-A    
+VA91-322 910818 N MICROPOGONIAS UNDULATUS  ZN           4.18    ug/g     .                  
+VA91-322 910818 Y MICROPOGONIAS UNDULATUS  DDT_TOT     10.20    ng/g     .                  
+VA91-322 910818 Y MICROPOGONIAS UNDULATUS  PCB_TOT     27.50    ng/g     .                  
+VA91-322 910818 Y MICROPOGONIAS UNDULATUS  PEST_TOT     9.51    ng/g     .                  
+VA91-326 910723 N ICTALURUS PUNCTATUS      AG            .      ug/g    0.004       CH-A    
+VA91-326 910723 N ICTALURUS PUNCTATUS      AL            .      ug/g    2.910       CH-A    
+VA91-326 910723 N ICTALURUS PUNCTATUS      AS           0.12    ug/g     .                  
+VA91-326 910723 N ICTALURUS PUNCTATUS      CD           0.01    ug/g     .                  
+VA91-326 910723 N ICTALURUS PUNCTATUS      CR           0.08    ug/g     .                  
+VA91-326 910723 N ICTALURUS PUNCTATUS      CU           0.50    ug/g     .                  
+VA91-326 910723 N ICTALURUS PUNCTATUS      DDT_TOT    125.00    ng/g     .                  
+VA91-326 910723 N ICTALURUS PUNCTATUS      FE           2.54    ug/g     .                  
+VA91-326 910723 N ICTALURUS PUNCTATUS      NI           0.02    ug/g     .                  
+VA91-326 910723 N ICTALURUS PUNCTATUS      PB            .      ug/g    0.019       CH-A    
+VA91-326 910723 N ICTALURUS PUNCTATUS      PCB_TOT    475.00    ng/g     .                  
+VA91-326 910723 N ICTALURUS PUNCTATUS      PEST_TOT    52.80    ng/g     .                  
+VA91-326 910723 N ICTALURUS PUNCTATUS      SE           0.12    ug/g     .                  
+VA91-326 910723 N ICTALURUS PUNCTATUS      SN            .      ug/g    0.039       CH-A    
+VA91-326 910723 N ICTALURUS PUNCTATUS      ZN           6.18    ug/g     .                  
+VA91-326 910723 Y ICTALURUS PUNCTATUS      AG            .      ug/g    0.004       CH-A    
+VA91-326 910723 Y ICTALURUS PUNCTATUS      AL            .      ug/g    3.060       CH-A    
+VA91-326 910723 Y ICTALURUS PUNCTATUS      AS           0.08    ug/g     .                  
+VA91-326 910723 Y ICTALURUS PUNCTATUS      CD           0.01    ug/g     .                  
+VA91-326 910723 Y ICTALURUS PUNCTATUS      CR           0.04    ug/g     .                  
+VA91-326 910723 Y ICTALURUS PUNCTATUS      CU           1.06    ug/g     .                  
+VA91-326 910723 Y ICTALURUS PUNCTATUS      DDT_TOT     67.60    ng/g     .                  
+VA91-326 910723 Y ICTALURUS PUNCTATUS      FE           4.61    ug/g     .                  
+VA91-326 910723 Y ICTALURUS PUNCTATUS      HG           0.02    ug/g     .                  
+VA91-326 910723 Y ICTALURUS PUNCTATUS      NI           0.09    ug/g     .                  
+VA91-326 910723 Y ICTALURUS PUNCTATUS      PB            .      ug/g    0.020       CH-A    
+VA91-326 910723 Y ICTALURUS PUNCTATUS      PCB_TOT    287.00    ng/g     .                  
+VA91-326 910723 Y ICTALURUS PUNCTATUS      PEST_TOT    31.70    ng/g     .                  
+VA91-326 910723 Y ICTALURUS PUNCTATUS      SE           0.23    ug/g     .                  
+VA91-326 910723 Y ICTALURUS PUNCTATUS      SN            .      ug/g    0.041       CH-A    
+VA91-326 910723 Y ICTALURUS PUNCTATUS      ZN           6.37    ug/g     .                  
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     AG           0.01    ug/g     .                  
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     AL            .      ug/g    2.510       CH-A    
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     AS           1.05    ug/g     .                  
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     CD           0.01    ug/g     .                  
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.013       CH-A    
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     CU           0.86    ug/g     .                  
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     DDT_TOT     10.10    ng/g     .                  
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     FE           4.88    ug/g     .                  
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     NI           0.03    ug/g     .                  
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.017       CH-A    
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     PCB_TOT     12.60    ng/g     .                  
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     PEST_TOT     1.17    ng/g     .                  
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     SE           0.18    ug/g     .                  
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.033       CH-A    
+VA91-328 910824 N LEIOSTOMUS XANTHURUS     ZN           4.33    ug/g     .                  
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.003       CH-A    
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     AL            .      ug/g    2.540       CH-A    
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     AS           1.66    ug/g     .                  
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     CD            .      ug/g    0.002       CH-A    
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     CR           0.06    ug/g     .                  
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     CU           0.30    ug/g     .                  
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     DDT_TOT     21.30    ng/g     .                  
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     FE           3.12    ug/g     .                  
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     HG           0.02    ug/g     .                  
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.017       CH-A    
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.017       CH-A    
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     PCB_TOT     15.30    ng/g     .                  
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     PEST_TOT     3.57    ng/g     .                  
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     SE           0.29    ug/g     .                  
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.034       CH-A    
+VA91-328 910824 Y LEIOSTOMUS XANTHURUS     ZN           6.09    ug/g     .                  
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     AL            .      ug/g    2.760       CH-A    
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     AS           0.41    ug/g     .                  
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     CD           0.00    ug/g     .                  
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.015       CH-A    
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     CU           0.43    ug/g     .                  
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     DDT_TOT      4.37    ng/g     .                  
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     FE           3.67    ug/g     .                  
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.018       CH-A    
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.018       CH-A    
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     PCB_TOT     14.00    ng/g     .                  
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     PEST_TOT     1.22    ng/g     .                  
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     SE           0.34    ug/g     .                  
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.037       CH-A    
+VA91-330 910817 N LEIOSTOMUS XANTHURUS     ZN           4.86    ug/g     .                  
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.005       CH-A    
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  AL           6.84    ug/g     .                  
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  AS           0.80    ug/g     .                  
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  CD           0.00    ug/g     .                  
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  CR           0.02    ug/g     .                  
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  CU           0.52    ug/g     .                  
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  DDT_TOT      9.28    ng/g     .                  
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  FE           3.04    ug/g     .                  
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  HG           0.01    ug/g     .                  
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  NI            .      ug/g    0.026       CH-A    
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  PB            .      ug/g    0.026       CH-A    
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  PCB_TOT     33.00    ng/g     .                  
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  PEST_TOT     7.85    ng/g     .                  
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  SE           0.61    ug/g     .                  
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.052       CH-A    
+VA91-330 910817 Y MICROPOGONIAS UNDULATUS  ZN           8.09    ug/g     .                  
+VA91-333 910722 N ICTALURUS PUNCTATUS      AG            .      ug/g    0.004       CH-A    
+VA91-333 910722 N ICTALURUS PUNCTATUS      AL            .      ug/g    3.060       CH-A    
+VA91-333 910722 N ICTALURUS PUNCTATUS      AS           0.10    ug/g     .                  
+VA91-333 910722 N ICTALURUS PUNCTATUS      CD           0.01    ug/g     .                  
+VA91-333 910722 N ICTALURUS PUNCTATUS      CR           0.03    ug/g     .                  
+VA91-333 910722 N ICTALURUS PUNCTATUS      CU           0.43    ug/g     .                  
+VA91-333 910722 N ICTALURUS PUNCTATUS      DDT_TOT    189.00    ng/g     .                  
+VA91-333 910722 N ICTALURUS PUNCTATUS      FE           4.55    ug/g     .                  
+VA91-333 910722 N ICTALURUS PUNCTATUS      NI           0.04    ug/g     .                  
+VA91-333 910722 N ICTALURUS PUNCTATUS      PB            .      ug/g    0.020       CH-A    
+VA91-333 910722 N ICTALURUS PUNCTATUS      PCB_TOT   1180.00    ng/g     .                  
+VA91-333 910722 N ICTALURUS PUNCTATUS      PEST_TOT   148.00    ng/g     .                  
+VA91-333 910722 N ICTALURUS PUNCTATUS      SE           0.18    ug/g     .                  
+VA91-333 910722 N ICTALURUS PUNCTATUS      SN            .      ug/g    0.041       CH-A    
+VA91-333 910722 N ICTALURUS PUNCTATUS      ZN           9.56    ug/g     .                  
+VA91-333 910722 Y ICTALURUS PUNCTATUS      AG            .      ug/g    0.003       CH-A    
+VA91-333 910722 Y ICTALURUS PUNCTATUS      AL            .      ug/g    2.320       CH-A    
+VA91-333 910722 Y ICTALURUS PUNCTATUS      AS           0.09    ug/g     .                  
+VA91-333 910722 Y ICTALURUS PUNCTATUS      CD           0.00    ug/g     .                  
+VA91-333 910722 Y ICTALURUS PUNCTATUS      CR           0.06    ug/g     .                  
+VA91-333 910722 Y ICTALURUS PUNCTATUS      CU           0.31    ug/g     .                  
+VA91-333 910722 Y ICTALURUS PUNCTATUS      DDT_TOT     66.80    ng/g     .                  
+VA91-333 910722 Y ICTALURUS PUNCTATUS      FE           4.51    ug/g     .                  
+VA91-333 910722 Y ICTALURUS PUNCTATUS      HG           0.04    ug/g     .                  
+VA91-333 910722 Y ICTALURUS PUNCTATUS      NI           0.03    ug/g     .                  
+VA91-333 910722 Y ICTALURUS PUNCTATUS      PB            .      ug/g    0.015       CH-A    
+VA91-333 910722 Y ICTALURUS PUNCTATUS      PCB_TOT    317.00    ng/g     .                  
+VA91-333 910722 Y ICTALURUS PUNCTATUS      PEST_TOT    71.80    ng/g     .                  
+VA91-333 910722 Y ICTALURUS PUNCTATUS      SE           0.16    ug/g     .                  
+VA91-333 910722 Y ICTALURUS PUNCTATUS      SN            .      ug/g    0.031       CH-A    
+VA91-333 910722 Y ICTALURUS PUNCTATUS      ZN           5.71    ug/g     .                  
+VA91-335 910906 Y CYNOSCION REGALIS        AG            .      ug/g    0.004       CH-A    
+VA91-335 910906 Y CYNOSCION REGALIS        AL            .      ug/g    2.980       CH-A    
+VA91-335 910906 Y CYNOSCION REGALIS        AS           0.68    ug/g     .                  
+VA91-335 910906 Y CYNOSCION REGALIS        CD            .      ug/g    0.002       CH-A    
+VA91-335 910906 Y CYNOSCION REGALIS        CR           0.06    ug/g     .                  
+VA91-335 910906 Y CYNOSCION REGALIS        CU           0.39    ug/g     .                  
+VA91-335 910906 Y CYNOSCION REGALIS        DDT_TOT     17.20    ng/g     .                  
+VA91-335 910906 Y CYNOSCION REGALIS        FE           5.90    ug/g     .                  
+VA91-335 910906 Y CYNOSCION REGALIS        HG           0.03    ug/g     .                  
+VA91-335 910906 Y CYNOSCION REGALIS        NI           0.02    ug/g     .                  
+VA91-335 910906 Y CYNOSCION REGALIS        PB            .      ug/g    0.020       CH-A    
+VA91-335 910906 Y CYNOSCION REGALIS        PCB_TOT     24.30    ng/g     .                  
+VA91-335 910906 Y CYNOSCION REGALIS        PEST_TOT     1.89    ng/g     .                  
+VA91-335 910906 Y CYNOSCION REGALIS        SE           0.43    ug/g     .                  
+VA91-335 910906 Y CYNOSCION REGALIS        SN            .      ug/g    0.040       CH-A    
+VA91-335 910906 Y CYNOSCION REGALIS        ZN           8.49    ug/g     .                  
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.004       CH-A    
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  AL            .      ug/g    3.300       CH-A    
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  AS           0.42    ug/g     .                  
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  CD           0.00    ug/g     .                  
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  CR           0.02    ug/g     .                  
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  CU           0.80    ug/g     .                  
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  DDT_TOT      8.60    ng/g     .                  
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  FE           3.56    ug/g     .                  
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  NI           0.03    ug/g     .                  
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  PB           0.03    ug/g     .                  
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  PCB_TOT     19.60    ng/g     .                  
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  PEST_TOT     5.37    ng/g     .                  
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  SE           0.26    ug/g     .                  
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.044       CH-A    
+VA91-336 910819 N MICROPOGONIAS UNDULATUS  ZN           4.44    ug/g     .                  
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.005       CH-A    
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     AL            .      ug/g    3.520       CH-A    
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     AS           0.74    ug/g     .                  
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     CD            .      ug/g     .          CH-A    
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     CR            .      ug/g    0.043       CH-A    
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     CU           0.26    ug/g     .                  
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     DDT_TOT     10.00    ng/g     .                  
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     FE           4.41    ug/g     .                  
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     HG           0.01    ug/g     .                  
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.024       CH-A    
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.024       CH-A    
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     PCB_TOT     19.40    ng/g     .                  
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     PEST_TOT     7.58    ng/g     .                  
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     SE           0.43    ug/g     .                  
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.047       CH-A    
+VA91-336 910819 Y LEIOSTOMUS XANTHURUS     ZN           7.42    ug/g     .                  
+VA91-337 910906 Y CYNOSCION REGALIS        AG            .      ug/g    0.003       CH-A    
+VA91-337 910906 Y CYNOSCION REGALIS        AL            .      ug/g    2.480       CH-A    
+VA91-337 910906 Y CYNOSCION REGALIS        AS           0.43    ug/g     .                  
+VA91-337 910906 Y CYNOSCION REGALIS        CD            .      ug/g    0.001       CH-A    
+VA91-337 910906 Y CYNOSCION REGALIS        CR           0.25    ug/g     .                  
+VA91-337 910906 Y CYNOSCION REGALIS        CU           0.54    ug/g     .                  
+VA91-337 910906 Y CYNOSCION REGALIS        DDT_TOT     11.40    ng/g     .                  
+VA91-337 910906 Y CYNOSCION REGALIS        FE           3.15    ug/g     .                  
+VA91-337 910906 Y CYNOSCION REGALIS        HG           0.01    ug/g     .                  
+VA91-337 910906 Y CYNOSCION REGALIS        NI            .      ug/g    0.017       CH-A    
+VA91-337 910906 Y CYNOSCION REGALIS        PB            .      ug/g    0.017       CH-A    
+VA91-337 910906 Y CYNOSCION REGALIS        PCB_TOT     29.80    ng/g     .                  
+VA91-337 910906 Y CYNOSCION REGALIS        PEST_TOT     1.20    ng/g     .                  
+VA91-337 910906 Y CYNOSCION REGALIS        SE           0.40    ug/g     .                  
+VA91-337 910906 Y CYNOSCION REGALIS        SN            .      ug/g    0.033       CH-A    
+VA91-337 910906 Y CYNOSCION REGALIS        ZN           5.20    ug/g     .                  
+VA91-338 910905 Y CYNOSCION REGALIS        AG            .      ug/g    0.003       CH-A    
+VA91-338 910905 Y CYNOSCION REGALIS        AL            .      ug/g    2.300       CH-A    
+VA91-338 910905 Y CYNOSCION REGALIS        AS           0.37    ug/g     .                  
+VA91-338 910905 Y CYNOSCION REGALIS        CD            .      ug/g    0.001       CH-A    
+VA91-338 910905 Y CYNOSCION REGALIS        CR           0.06    ug/g     .                  
+VA91-338 910905 Y CYNOSCION REGALIS        CU           0.21    ug/g     .                  
+VA91-338 910905 Y CYNOSCION REGALIS        DDT_TOT      4.48    ng/g     .                  
+VA91-338 910905 Y CYNOSCION REGALIS        FE           3.41    ug/g     .                  
+VA91-338 910905 Y CYNOSCION REGALIS        HG           0.02    ug/g     .                  
+VA91-338 910905 Y CYNOSCION REGALIS        NI            .      ug/g    0.015       CH-A    
+VA91-338 910905 Y CYNOSCION REGALIS        PB            .      ug/g    0.015       CH-A    
+VA91-338 910905 Y CYNOSCION REGALIS        PCB_TOT     15.10    ng/g     .                  
+VA91-338 910905 Y CYNOSCION REGALIS        PEST_TOT     0.21    ng/g     .                  
+VA91-338 910905 Y CYNOSCION REGALIS        SE           0.30    ug/g     .                  
+VA91-338 910905 Y CYNOSCION REGALIS        SN            .      ug/g    0.031       CH-A    
+VA91-338 910905 Y CYNOSCION REGALIS        ZN           4.67    ug/g     .                  
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.005       CH-A    
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  AL            .      ug/g    3.500       CH-A    
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  AS           0.41    ug/g     .                  
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  CD           0.00    ug/g     .                  
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  CR           0.17    ug/g     .                  
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  CU           0.56    ug/g     .                  
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  DDT_TOT     14.10    ng/g     .                  
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  FE           3.84    ug/g     .                  
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  NI            .      ug/g    0.023       CH-A    
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  PB            .      ug/g    0.023       CH-A    
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  PCB_TOT     51.30    ng/g     .                  
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  PEST_TOT     8.71    ng/g     .                  
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  SE           0.57    ug/g     .                  
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.047       CH-A    
+VA91-339 910728 N MICROPOGONIAS UNDULATUS  ZN           5.80    ug/g     .                  
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.005       CH-A    
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  AL            .      ug/g    3.720       CH-A    
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  AS           0.60    ug/g     .                  
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  CD            .      ug/g    0.002       CH-A    
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  CR           0.06    ug/g     .                  
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  CU           0.34    ug/g     .                  
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  DDT_TOT     14.50    ng/g     .                  
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  FE           3.94    ug/g     .                  
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  HG           0.01    ug/g     .                  
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  NI            .      ug/g    0.025       CH-A    
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  PB            .      ug/g    0.025       CH-A    
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  PCB_TOT     56.60    ng/g     .                  
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  PEST_TOT    13.00    ng/g     .                  
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  SE           0.69    ug/g     .                  
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.050       CH-A    
+VA91-339 910728 Y MICROPOGONIAS UNDULATUS  ZN           8.86    ug/g     .                  
+VA91-340 910907 Y CYNOSCION REGALIS        AG            .      ug/g    0.004       CH-A    
+VA91-340 910907 Y CYNOSCION REGALIS        AL            .      ug/g    3.270       CH-A    
+VA91-340 910907 Y CYNOSCION REGALIS        AS           0.50    ug/g     .                  
+VA91-340 910907 Y CYNOSCION REGALIS        CD            .      ug/g    0.002       CH-A    
+VA91-340 910907 Y CYNOSCION REGALIS        CR           0.06    ug/g     .                  
+VA91-340 910907 Y CYNOSCION REGALIS        CU           0.70    ug/g     .                  
+VA91-340 910907 Y CYNOSCION REGALIS        DDT_TOT     51.00    ng/g     .                  
+VA91-340 910907 Y CYNOSCION REGALIS        FE           3.71    ug/g     .                  
+VA91-340 910907 Y CYNOSCION REGALIS        HG           0.07    ug/g     .                  
+VA91-340 910907 Y CYNOSCION REGALIS        NI            .      ug/g    0.022       CH-A    
+VA91-340 910907 Y CYNOSCION REGALIS        PB            .      ug/g    0.022       CH-A    
+VA91-340 910907 Y CYNOSCION REGALIS        PCB_TOT     64.20    ng/g     .                  
+VA91-340 910907 Y CYNOSCION REGALIS        PEST_TOT     7.08    ng/g     .                  
+VA91-340 910907 Y CYNOSCION REGALIS        SE           0.42    ug/g     .                  
+VA91-340 910907 Y CYNOSCION REGALIS        SN            .      ug/g    0.044       CH-A    
+VA91-340 910907 Y CYNOSCION REGALIS        ZN           6.04    ug/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      AG            .      ug/g    0.005       CH-A    
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      AL           6.58    ug/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      AS           1.22    ug/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      CD           0.00    ug/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      CR           0.05    ug/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      CU           0.52    ug/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      DDT_TOT     25.20    ng/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      FE           2.90    ug/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      HG           0.05    ug/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      NI           0.05    ug/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      PB           0.03    ug/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      PCB_TOT     35.30    ng/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      PEST_TOT     5.13    ng/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      SE           0.64    ug/g     .                  
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      SN            .      ug/g    0.050       CH-A    
+VA91-341 910905 Y STENOTOMUS CHRYSOPS      ZN           6.15    ug/g     .                  
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.006       CH-A    
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     AL           7.79    ug/g     .                  
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     AS           1.30    ug/g     .                  
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     CD            .      ug/g    0.003       CH-A    
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     CR           0.03    ug/g     .                  
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     CU           1.11    ug/g     .                  
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     DDT_TOT     66.90    ng/g     .                  
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     FE           2.39    ug/g     .                  
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     HG           0.03    ug/g     .                  
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     NI            .      ug/g    0.029       CH-A    
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.029       CH-A    
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     PCB_TOT    117.00    ng/g     .                  
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     PEST_TOT    15.90    ng/g     .                  
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     SE           0.45    ug/g     .                  
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.058       CH-A    
+VA91-342 910905 Y LEIOSTOMUS XANTHURUS     ZN           4.14    ug/g     .                  
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  AG            .      ug/g    0.003       CH-A    
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  AL            .      ug/g    2.050       CH-A    
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  AS           0.25    ug/g     .                  
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  CD            .      ug/g     .          CH-A    
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  CR            .      ug/g    0.033       CH-A    
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  CU           0.24    ug/g     .                  
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  DDT_TOT     22.10    ng/g     .                  
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  FE           1.61    ug/g     .                  
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  HG           0.00    ug/g     .                  
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  NI            .      ug/g    0.014       CH-A    
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  PB            .      ug/g    0.014       CH-A    
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  PCB_TOT     90.30    ng/g     .                  
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  PEST_TOT    12.10    ng/g     .                  
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  SE           0.50    ug/g     .                  
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  SN            .      ug/g    0.027       CH-A    
+VA91-343 910731 Y MICROPOGONIAS UNDULATUS  ZN           4.02    ug/g     .                  
+VA91-346 910829 N ICTALURUS PUNCTATUS      AG            .      ug/g    0.003       CH-A    
+VA91-346 910829 N ICTALURUS PUNCTATUS      AL            .      ug/g    2.400       CH-A    
+VA91-346 910829 N ICTALURUS PUNCTATUS      AS           0.04    ug/g     .                  
+VA91-346 910829 N ICTALURUS PUNCTATUS      CD           0.00    ug/g     .                  
+VA91-346 910829 N ICTALURUS PUNCTATUS      CR            .      ug/g    0.013       CH-A    
+VA91-346 910829 N ICTALURUS PUNCTATUS      CU           0.16    ug/g     .                  
+VA91-346 910829 N ICTALURUS PUNCTATUS      DDT_TOT    170.00    ng/g     .                  
+VA91-346 910829 N ICTALURUS PUNCTATUS      FE            .      ug/g    1.280       CH-A    
+VA91-346 910829 N ICTALURUS PUNCTATUS      NI            .      ug/g    0.016       CH-A    
+VA91-346 910829 N ICTALURUS PUNCTATUS      PB           0.02    ug/g     .                  
+VA91-346 910829 N ICTALURUS PUNCTATUS      PCB_TOT    570.00    ng/g     .                  
+VA91-346 910829 N ICTALURUS PUNCTATUS      PEST_TOT    32.40    ng/g     .                  
+VA91-346 910829 N ICTALURUS PUNCTATUS      SE           0.22    ug/g     .                  
+VA91-346 910829 N ICTALURUS PUNCTATUS      SN            .      ug/g    0.032       CH-A    
+VA91-346 910829 N ICTALURUS PUNCTATUS      ZN           3.17    ug/g     .                  
+VA91-346 910829 Y ICTALURUS PUNCTATUS      AG            .      ug/g    0.004       CH-A    
+VA91-346 910829 Y ICTALURUS PUNCTATUS      AL           9.70    ug/g     .                  
+VA91-346 910829 Y ICTALURUS PUNCTATUS      AS            .      ug/g    0.050       CH-A    
+VA91-346 910829 Y ICTALURUS PUNCTATUS      CD           0.00    ug/g     .                  
+VA91-346 910829 Y ICTALURUS PUNCTATUS      CR           0.10    ug/g     .                  
+VA91-346 910829 Y ICTALURUS PUNCTATUS      CU           0.20    ug/g     .                  
+VA91-346 910829 Y ICTALURUS PUNCTATUS      DDT_TOT     97.60    ng/g     .                  
+VA91-346 910829 Y ICTALURUS PUNCTATUS      FE           8.92    ug/g     .                  
+VA91-346 910829 Y ICTALURUS PUNCTATUS      HG           0.01    ug/g     .                  
+VA91-346 910829 Y ICTALURUS PUNCTATUS      NI           0.04    ug/g     .                  
+VA91-346 910829 Y ICTALURUS PUNCTATUS      PB            .      ug/g    0.018       CH-A    
+VA91-346 910829 Y ICTALURUS PUNCTATUS      PCB_TOT    222.00    ng/g     .                  
+VA91-346 910829 Y ICTALURUS PUNCTATUS      PEST_TOT    13.80    ng/g     .                  
+VA91-346 910829 Y ICTALURUS PUNCTATUS      SE           0.37    ug/g     .                  
+VA91-346 910829 Y ICTALURUS PUNCTATUS      SN            .      ug/g    0.036       CH-A    
+VA91-346 910829 Y ICTALURUS PUNCTATUS      ZN           5.35    ug/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      AG           0.00    ug/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      AL           5.73    ug/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      AS           0.75    ug/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      CD           0.01    ug/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      CR           0.05    ug/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      CU           0.99    ug/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      DDT_TOT     12.80    ng/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      FE           6.02    ug/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      NI           0.08    ug/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      PB           0.04    ug/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      PCB_TOT     48.40    ng/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      PEST_TOT     3.46    ng/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      SE           0.29    ug/g     .                  
+VA91-349 910724 N STENOTOMUS CHRYSOPS      SN            .      ug/g    0.045       CH-A    
+VA91-349 910724 N STENOTOMUS CHRYSOPS      ZN           5.46    ug/g     .                  
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      AG            .      ug/g    0.005       CH-A    
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      AL          12.10    ug/g     .                  
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      AS           1.33    ug/g     .                  
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      CD            .      ug/g    0.002       CH-A    
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      CR           0.55    ug/g     .                  
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      CU           0.48    ug/g     .                  
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      DDT_TOT      8.13    ng/g     .                  
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      FE           8.65    ug/g     .                  
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      HG           0.05    ug/g     .                  
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      NI            .      ug/g    0.023       CH-A    
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      PB            .      ug/g    0.023       CH-A    
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      PCB_TOT     43.40    ng/g     .                  
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      PEST_TOT     2.83    ng/g     .                  
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      SE           0.40    ug/g     .                  
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      SN            .      ug/g    0.047       CH-A    
+VA91-349 910724 Y STENOTOMUS CHRYSOPS      ZN           6.12    ug/g     .                  
+VA91-352 910830 Y MORONE AMERICANA         AG            .      ug/g    0.004       CH-A    
+VA91-352 910830 Y MORONE AMERICANA         AL            .      ug/g    3.300       CH-A    
+VA91-352 910830 Y MORONE AMERICANA         AS           0.25    ug/g     .                  
+VA91-352 910830 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-352 910830 Y MORONE AMERICANA         CR           0.07    ug/g     .                  
+VA91-352 910830 Y MORONE AMERICANA         CU           0.26    ug/g     .                  
+VA91-352 910830 Y MORONE AMERICANA         DDT_TOT    518.00    ng/g     .                  
+VA91-352 910830 Y MORONE AMERICANA         FE           4.88    ug/g     .                  
+VA91-352 910830 Y MORONE AMERICANA         HG           0.11    ug/g     .                  
+VA91-352 910830 Y MORONE AMERICANA         NI            .      ug/g    0.022       CH-A    
+VA91-352 910830 Y MORONE AMERICANA         PB           0.04    ug/g     .                  
+VA91-352 910830 Y MORONE AMERICANA         PCB_TOT    572.00    ng/g     .                  
+VA91-352 910830 Y MORONE AMERICANA         PEST_TOT    76.80    ng/g     .                  
+VA91-352 910830 Y MORONE AMERICANA         SE           1.55    ug/g     .                  
+VA91-352 910830 Y MORONE AMERICANA         SN            .      ug/g    0.044       CH-A    
+VA91-352 910830 Y MORONE AMERICANA         ZN           9.37    ug/g     .                  
+VA91-353 910730 N ICTALURUS PUNCTATUS      AG           0.01    ug/g     .                  
+VA91-353 910730 N ICTALURUS PUNCTATUS      AL            .      ug/g    2.940       CH-A    
+VA91-353 910730 N ICTALURUS PUNCTATUS      AS            .      ug/g    0.029       CH-A    
+VA91-353 910730 N ICTALURUS PUNCTATUS      CD           0.00    ug/g     .                  
+VA91-353 910730 N ICTALURUS PUNCTATUS      CR           0.02    ug/g     .                  
+VA91-353 910730 N ICTALURUS PUNCTATUS      CU           0.60    ug/g     .                  
+VA91-353 910730 N ICTALURUS PUNCTATUS      DDT_TOT    149.00    ng/g     .                  
+VA91-353 910730 N ICTALURUS PUNCTATUS      FE           3.82    ug/g     .                  
+VA91-353 910730 N ICTALURUS PUNCTATUS      NI            .      ug/g    0.020       CH-A    
+VA91-353 910730 N ICTALURUS PUNCTATUS      PB           0.05    ug/g     .                  
+VA91-353 910730 N ICTALURUS PUNCTATUS      PCB_TOT    432.00    ng/g     .                  
+VA91-353 910730 N ICTALURUS PUNCTATUS      PEST_TOT    25.20    ng/g     .                  
+VA91-353 910730 N ICTALURUS PUNCTATUS      SE           0.27    ug/g     .                  
+VA91-353 910730 N ICTALURUS PUNCTATUS      SN            .      ug/g    0.039       CH-A    
+VA91-353 910730 N ICTALURUS PUNCTATUS      ZN           5.09    ug/g     .                  
+VA91-353 910730 Y MORONE AMERICANA         AG            .      ug/g    0.002       CH-A    
+VA91-353 910730 Y MORONE AMERICANA         AL            .      ug/g    1.460       CH-A    
+VA91-353 910730 Y MORONE AMERICANA         AS           0.07    ug/g     .                  
+VA91-353 910730 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-353 910730 Y MORONE AMERICANA         CR            .      ug/g    0.022       CH-A    
+VA91-353 910730 Y MORONE AMERICANA         CU           0.46    ug/g     .                  
+VA91-353 910730 Y MORONE AMERICANA         DDT_TOT     49.00    ng/g     .                  
+VA91-353 910730 Y MORONE AMERICANA         FE           2.47    ug/g     .                  
+VA91-353 910730 Y MORONE AMERICANA         HG           0.03    ug/g     .                  
+VA91-353 910730 Y MORONE AMERICANA         NI           0.03    ug/g     .                  
+VA91-353 910730 Y MORONE AMERICANA         PB            .      ug/g    0.010       CH-A    
+VA91-353 910730 Y MORONE AMERICANA         PCB_TOT    118.00    ng/g     .                  
+VA91-353 910730 Y MORONE AMERICANA         PEST_TOT    15.50    ng/g     .                  
+VA91-353 910730 Y MORONE AMERICANA         SE           0.44    ug/g     .                  
+VA91-353 910730 Y MORONE AMERICANA         SN            .      ug/g    0.020       CH-A    
+VA91-353 910730 Y MORONE AMERICANA         ZN           5.71    ug/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         AG            .      ug/g    0.003       CH-A    
+VA91-355 910809 Y MORONE AMERICANA         AL            .      ug/g    2.340       CH-A    
+VA91-355 910809 Y MORONE AMERICANA         AS           0.12    ug/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         CR           0.56    ug/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         CU           0.28    ug/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         DDT_TOT   1490.00    ng/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         FE           6.47    ug/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         HG           0.06    ug/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         NI           0.04    ug/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         PB           0.06    ug/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         PCB_TOT    972.00    ng/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         PEST_TOT   155.00    ng/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         SE           0.83    ug/g     .                  
+VA91-355 910809 Y MORONE AMERICANA         SN            .      ug/g    0.031       CH-A    
+VA91-355 910809 Y MORONE AMERICANA         ZN           4.27    ug/g     .                  
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     AG            .      ug/g    0.004       CH-A    
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     AL            .      ug/g    3.030       CH-A    
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     AS           0.11    ug/g     .                  
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     CD           0.01    ug/g     .                  
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     CR           0.04    ug/g     .                  
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     CU           1.37    ug/g     .                  
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     DDT_TOT    212.00    ng/g     .                  
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     FE           4.77    ug/g     .                  
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     NI           0.06    ug/g     .                  
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     PB            .      ug/g    0.020       CH-A    
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     PCB_TOT    590.00    ng/g     .                  
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     PEST_TOT    94.80    ng/g     .                  
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     SE           0.48    ug/g     .                  
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     SN            .      ug/g    0.040       CH-A    
+VA91-357 910812 N LEIOSTOMUS XANTHURUS     ZN           9.41    ug/g     .                  
+VA91-357 910812 Y MORONE AMERICANA         AG            .      ug/g    0.004       CH-A    
+VA91-357 910812 Y MORONE AMERICANA         AL            .      ug/g    3.220       CH-A    
+VA91-357 910812 Y MORONE AMERICANA         AS           0.14    ug/g     .                  
+VA91-357 910812 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-357 910812 Y MORONE AMERICANA         CR            .      ug/g    0.050       CH-A    
+VA91-357 910812 Y MORONE AMERICANA         CU           0.44    ug/g     .                  
+VA91-357 910812 Y MORONE AMERICANA         DDT_TOT    297.00    ng/g     .                  
+VA91-357 910812 Y MORONE AMERICANA         FE          10.80    ug/g     .                  
+VA91-357 910812 Y MORONE AMERICANA         HG           0.07    ug/g     .                  
+VA91-357 910812 Y MORONE AMERICANA         NI           0.86    ug/g     .                  
+VA91-357 910812 Y MORONE AMERICANA         PB            .      ug/g    0.021       CH-A    
+VA91-357 910812 Y MORONE AMERICANA         PCB_TOT    511.00    ng/g     .                  
+VA91-357 910812 Y MORONE AMERICANA         PEST_TOT    73.10    ng/g     .                  
+VA91-357 910812 Y MORONE AMERICANA         SE           1.21    ug/g     .                  
+VA91-357 910812 Y MORONE AMERICANA         SN            .      ug/g    0.043       CH-A    
+VA91-357 910812 Y MORONE AMERICANA         ZN           9.09    ug/g     .                  
+VA91-358 910810 Y MORONE AMERICANA         AG            .      ug/g    0.005       CH-A    
+VA91-358 910810 Y MORONE AMERICANA         AL            .      ug/g    3.540       CH-A    
+VA91-358 910810 Y MORONE AMERICANA         AS           0.28    ug/g     .                  
+VA91-358 910810 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-358 910810 Y MORONE AMERICANA         CR           0.08    ug/g     .                  
+VA91-358 910810 Y MORONE AMERICANA         CU           0.46    ug/g     .                  
+VA91-358 910810 Y MORONE AMERICANA         DDT_TOT   1010.00    ng/g     .                  
+VA91-358 910810 Y MORONE AMERICANA         FE          10.70    ug/g     .                  
+VA91-358 910810 Y MORONE AMERICANA         HG           0.15    ug/g     .                  
+VA91-358 910810 Y MORONE AMERICANA         NI            .      ug/g    0.024       CH-A    
+VA91-358 910810 Y MORONE AMERICANA         PB           0.02    ug/g     .                  
+VA91-358 910810 Y MORONE AMERICANA         PCB_TOT    804.00    ng/g     .                  
+VA91-358 910810 Y MORONE AMERICANA         PEST_TOT   156.00    ng/g     .                  
+VA91-358 910810 Y MORONE AMERICANA         SE           1.02    ug/g     .                  
+VA91-358 910810 Y MORONE AMERICANA         SN            .      ug/g    0.047       CH-A    
+VA91-358 910810 Y MORONE AMERICANA         ZN          12.70    ug/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         AG           0.00    ug/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         AL           2.99    ug/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         AS           0.14    ug/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         CR           0.05    ug/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         CU           1.64    ug/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         DDT_TOT    514.00    ng/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         FE           3.17    ug/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         HG           0.05    ug/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         NI           0.03    ug/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         PB           0.02    ug/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         PCB_TOT    457.00    ng/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         PEST_TOT    75.40    ng/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         SE           0.77    ug/g     .                  
+VA91-360 910810 Y MORONE AMERICANA         SN            .      ug/g    0.023       CH-A    
+VA91-360 910810 Y MORONE AMERICANA         ZN           4.10    ug/g     .                  
+VA91-362 910805 Y POMATOMUS SALTATRIX      AG            .      ug/g    0.004       CH-A    
+VA91-362 910805 Y POMATOMUS SALTATRIX      AL            .      ug/g    3.250       CH-A    
+VA91-362 910805 Y POMATOMUS SALTATRIX      AS           0.15    ug/g     .                  
+VA91-362 910805 Y POMATOMUS SALTATRIX      CD           0.00    ug/g     .                  
+VA91-362 910805 Y POMATOMUS SALTATRIX      CR            .      ug/g    0.049       CH-A    
+VA91-362 910805 Y POMATOMUS SALTATRIX      CU           1.15    ug/g     .                  
+VA91-362 910805 Y POMATOMUS SALTATRIX      DDT_TOT     37.80    ng/g     .                  
+VA91-362 910805 Y POMATOMUS SALTATRIX      FE           4.83    ug/g     .                  
+VA91-362 910805 Y POMATOMUS SALTATRIX      HG           0.05    ug/g     .                  
+VA91-362 910805 Y POMATOMUS SALTATRIX      NI            .      ug/g    0.022       CH-A    
+VA91-362 910805 Y POMATOMUS SALTATRIX      PB            .      ug/g    0.022       CH-A    
+VA91-362 910805 Y POMATOMUS SALTATRIX      PCB_TOT     91.50    ng/g     .                  
+VA91-362 910805 Y POMATOMUS SALTATRIX      PEST_TOT    13.40    ng/g     .                  
+VA91-362 910805 Y POMATOMUS SALTATRIX      SE           0.32    ug/g     .                  
+VA91-362 910805 Y POMATOMUS SALTATRIX      SN            .      ug/g    0.043       CH-A    
+VA91-362 910805 Y POMATOMUS SALTATRIX      ZN           7.88    ug/g     .                  
+VA91-365 910811 Y MORONE AMERICANA         AG            .      ug/g    0.002       CH-A    
+VA91-365 910811 Y MORONE AMERICANA         AL            .      ug/g    1.810       CH-A    
+VA91-365 910811 Y MORONE AMERICANA         AS           0.10    ug/g     .                  
+VA91-365 910811 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-365 910811 Y MORONE AMERICANA         CR           1.22    ug/g     .                  
+VA91-365 910811 Y MORONE AMERICANA         CU           0.18    ug/g     .                  
+VA91-365 910811 Y MORONE AMERICANA         DDT_TOT    441.00    ng/g     .                  
+VA91-365 910811 Y MORONE AMERICANA         FE          10.10    ug/g     .                  
+VA91-365 910811 Y MORONE AMERICANA         HG           0.07    ug/g     .                  
+VA91-365 910811 Y MORONE AMERICANA         NI            .      ug/g    0.012       CH-A    
+VA91-365 910811 Y MORONE AMERICANA         PB            .      ug/g    0.012       CH-A    
+VA91-365 910811 Y MORONE AMERICANA         PCB_TOT    462.00    ng/g     .                  
+VA91-365 910811 Y MORONE AMERICANA         PEST_TOT    82.50    ng/g     .                  
+VA91-365 910811 Y MORONE AMERICANA         SE           0.48    ug/g     .                  
+VA91-365 910811 Y MORONE AMERICANA         SN            .      ug/g    0.024       CH-A    
+VA91-365 910811 Y MORONE AMERICANA         ZN           4.11    ug/g     .                  
+VA91-369 910807 N PARALICHTHYS DENTATUS    AG            .      ug/g    0.004       CH-A    
+VA91-369 910807 N PARALICHTHYS DENTATUS    AL            .      ug/g    3.240       CH-A    
+VA91-369 910807 N PARALICHTHYS DENTATUS    AS           0.54    ug/g     .                  
+VA91-369 910807 N PARALICHTHYS DENTATUS    CD           0.00    ug/g     .                  
+VA91-369 910807 N PARALICHTHYS DENTATUS    CR            .      ug/g    0.017       CH-A    
+VA91-369 910807 N PARALICHTHYS DENTATUS    CU           0.17    ug/g     .                  
+VA91-369 910807 N PARALICHTHYS DENTATUS    DDT_TOT    138.00    ng/g     .                  
+VA91-369 910807 N PARALICHTHYS DENTATUS    FE            .      ug/g    1.730       CH-A    
+VA91-369 910807 N PARALICHTHYS DENTATUS    NI            .      ug/g    0.022       CH-A    
+VA91-369 910807 N PARALICHTHYS DENTATUS    PB            .      ug/g    0.022       CH-A    
+VA91-369 910807 N PARALICHTHYS DENTATUS    PCB_TOT    335.00    ng/g     .                  
+VA91-369 910807 N PARALICHTHYS DENTATUS    PEST_TOT    29.00    ng/g     .                  
+VA91-369 910807 N PARALICHTHYS DENTATUS    SE           0.60    ug/g     .                  
+VA91-369 910807 N PARALICHTHYS DENTATUS    SN            .      ug/g    0.043       CH-A    
+VA91-369 910807 N PARALICHTHYS DENTATUS    ZN           5.29    ug/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        AG           0.00    ug/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        AL          15.60    ug/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        AS           0.28    ug/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        CD           0.00    ug/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        CR            .      ug/g    0.045       CH-A    
+VA91-369 910807 Y CYNOSCION REGALIS        CU           1.14    ug/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        DDT_TOT     28.10    ng/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        FE           6.91    ug/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        HG           0.04    ug/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        NI           0.02    ug/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        PB           0.04    ug/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        PCB_TOT     92.30    ng/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        PEST_TOT     6.18    ng/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        SE           0.76    ug/g     .                  
+VA91-369 910807 Y CYNOSCION REGALIS        SN            .      ug/g    0.038       CH-A    
+VA91-369 910807 Y CYNOSCION REGALIS        ZN          37.70    ug/g     .                  
+VA91-371 910803 N                          AG           0.00    ug/g     .                  
+VA91-371 910803 N                          AL            .      ug/g    3.330       CH-A    
+VA91-371 910803 N                          AS           0.72    ug/g     .                  
+VA91-371 910803 N                          CD           0.01    ug/g     .                  
+VA91-371 910803 N                          CR            .      ug/g    0.018       CH-A    
+VA91-371 910803 N                          CU           0.60    ug/g     .                  
+VA91-371 910803 N                          DDT_TOT     34.90    ng/g     .                  
+VA91-371 910803 N                          FE           2.82    ug/g     .                  
+VA91-371 910803 N                          NI            .      ug/g    0.022       CH-A    
+VA91-371 910803 N                          PB           0.03    ug/g     .                  
+VA91-371 910803 N                          PCB_TOT    118.00    ng/g     .                  
+VA91-371 910803 N                          PEST_TOT    26.90    ng/g     .                  
+VA91-371 910803 N                          SE           0.18    ug/g     .                  
+VA91-371 910803 N                          SN            .      ug/g    0.044       CH-A    
+VA91-371 910803 N                          ZN           6.84    ug/g     .                  
+VA91-371 910803 Y CYNOSCION REGALIS        AG            .      ug/g    0.004       CH-A    
+VA91-371 910803 Y CYNOSCION REGALIS        AL            .      ug/g    3.100       CH-A    
+VA91-371 910803 Y CYNOSCION REGALIS        AS           0.48    ug/g     .                  
+VA91-371 910803 Y CYNOSCION REGALIS        CD           0.00    ug/g     .                  
+VA91-371 910803 Y CYNOSCION REGALIS        CR           1.95    ug/g     .                  
+VA91-371 910803 Y CYNOSCION REGALIS        CU           0.70    ug/g     .                  
+VA91-371 910803 Y CYNOSCION REGALIS        DDT_TOT      9.07    ng/g     .                  
+VA91-371 910803 Y CYNOSCION REGALIS        FE          20.30    ug/g     .                  
+VA91-371 910803 Y CYNOSCION REGALIS        HG           0.06    ug/g     .                  
+VA91-371 910803 Y CYNOSCION REGALIS        NI           0.02    ug/g     .                  
+VA91-371 910803 Y CYNOSCION REGALIS        PB            .      ug/g    0.021       CH-A    
+VA91-371 910803 Y CYNOSCION REGALIS        PCB_TOT     46.70    ng/g     .                  
+VA91-371 910803 Y CYNOSCION REGALIS        PEST_TOT     3.93    ng/g     .                  
+VA91-371 910803 Y CYNOSCION REGALIS        SE           0.17    ug/g     .                  
+VA91-371 910803 Y CYNOSCION REGALIS        SN            .      ug/g    0.041       CH-A    
+VA91-371 910803 Y CYNOSCION REGALIS        ZN           6.73    ug/g     .                  
+VA91-375 910807 Y CYNOSCION REGALIS        AG            .      ug/g    0.005       CH-A    
+VA91-375 910807 Y CYNOSCION REGALIS        AL            .      ug/g    3.700       CH-A    
+VA91-375 910807 Y CYNOSCION REGALIS        AS           0.61    ug/g     .                  
+VA91-375 910807 Y CYNOSCION REGALIS        CD            .      ug/g    0.002       CH-A    
+VA91-375 910807 Y CYNOSCION REGALIS        CR            .      ug/g    0.045       CH-A    
+VA91-375 910807 Y CYNOSCION REGALIS        CU           0.33    ug/g     .                  
+VA91-375 910807 Y CYNOSCION REGALIS        DDT_TOT     13.30    ng/g     .                  
+VA91-375 910807 Y CYNOSCION REGALIS        FE           2.37    ug/g     .                  
+VA91-375 910807 Y CYNOSCION REGALIS        HG           0.01    ug/g     .                  
+VA91-375 910807 Y CYNOSCION REGALIS        NI            .      ug/g    0.025       CH-A    
+VA91-375 910807 Y CYNOSCION REGALIS        PB            .      ug/g    0.025       CH-A    
+VA91-375 910807 Y CYNOSCION REGALIS        PCB_TOT     74.50    ng/g     .                  
+VA91-375 910807 Y CYNOSCION REGALIS        PEST_TOT     6.74    ng/g     .                  
+VA91-375 910807 Y CYNOSCION REGALIS        SE           0.82    ug/g     .                  
+VA91-375 910807 Y CYNOSCION REGALIS        SN            .      ug/g    0.049       CH-A    
+VA91-375 910807 Y CYNOSCION REGALIS        ZN           5.45    ug/g     .                  
+VA91-382 910815 N                          AG            .      ug/g    0.004       CH-A    
+VA91-382 910815 N                          AL           4.74    ug/g     .                  
+VA91-382 910815 N                          AS           3.27    ug/g     .                  
+VA91-382 910815 N                          CD           0.01    ug/g     .                  
+VA91-382 910815 N                          CR           0.02    ug/g     .                  
+VA91-382 910815 N                          CU           0.60    ug/g     .                  
+VA91-382 910815 N                          DDT_TOT     14.50    ng/g     .                  
+VA91-382 910815 N                          FE           1.88    ug/g     .                  
+VA91-382 910815 N                          NI           0.24    ug/g     .                  
+VA91-382 910815 N                          PB            .      ug/g    0.019       CH-A    
+VA91-382 910815 N                          PCB_TOT     14.30    ng/g     .                  
+VA91-382 910815 N                          PEST_TOT     2.01    ng/g     .                  
+VA91-382 910815 N                          SE           0.22    ug/g     .                  
+VA91-382 910815 N                          SN            .      ug/g    0.039       CH-A    
+VA91-382 910815 N                          ZN           9.31    ug/g     .                  
+VA91-382 910815 Y                          AG            .      ug/g    0.001       CH-A    
+VA91-382 910815 Y                          AL           2.66    ug/g     .                  
+VA91-382 910815 Y                          AS           2.09    ug/g     .                  
+VA91-382 910815 Y                          CD           0.00    ug/g     .                  
+VA91-382 910815 Y                          CR           0.03    ug/g     .                  
+VA91-382 910815 Y                          CU           1.45    ug/g     .                  
+VA91-382 910815 Y                          DDT_TOT      5.69    ng/g     .                  
+VA91-382 910815 Y                          FE           1.49    ug/g     .                  
+VA91-382 910815 Y                          HG           0.01    ug/g     .                  
+VA91-382 910815 Y                          NI           0.03    ug/g     .                  
+VA91-382 910815 Y                          PB           0.01    ug/g     .                  
+VA91-382 910815 Y                          PCB_TOT     10.40    ng/g     .                  
+VA91-382 910815 Y                          PEST_TOT     1.62    ng/g     .                  
+VA91-382 910815 Y                          SE           0.16    ug/g     .                  
+VA91-382 910815 Y                          SN            .      ug/g    0.013       CH-A    
+VA91-382 910815 Y                          ZN           3.75    ug/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        AG            .      ug/g    0.002       CH-A    
+VA91-384 910827 Y CYNOSCION REGALIS        AL            .      ug/g    1.810       CH-A    
+VA91-384 910827 Y CYNOSCION REGALIS        AS           0.21    ug/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        CD           0.00    ug/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        CR           0.17    ug/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        CU           0.20    ug/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        DDT_TOT     18.00    ng/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        FE           3.55    ug/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        HG           0.02    ug/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        NI           0.05    ug/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        PB           0.02    ug/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        PCB_TOT    204.00    ng/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        PEST_TOT     2.06    ng/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        SE           0.24    ug/g     .                  
+VA91-384 910827 Y CYNOSCION REGALIS        SN            .      ug/g    0.024       CH-A    
+VA91-384 910827 Y CYNOSCION REGALIS        ZN           6.49    ug/g     .                  
+VA91-385 910822 Y                          AG            .      ug/g    0.003       CH-A    
+VA91-385 910822 Y                          AL            .      ug/g    2.010       CH-A    
+VA91-385 910822 Y                          AS           3.02    ug/g     .                  
+VA91-385 910822 Y                          CD           0.00    ug/g     .                  
+VA91-385 910822 Y                          CR           0.07    ug/g     .                  
+VA91-385 910822 Y                          CU           0.32    ug/g     .                  
+VA91-385 910822 Y                          DDT_TOT     12.90    ng/g     .                  
+VA91-385 910822 Y                          FE           3.74    ug/g     .                  
+VA91-385 910822 Y                          HG           0.01    ug/g     .                  
+VA91-385 910822 Y                          NI            .      ug/g    0.013       CH-A    
+VA91-385 910822 Y                          PB            .      ug/g    0.013       CH-A    
+VA91-385 910822 Y                          PCB_TOT     66.10    ng/g     .                  
+VA91-385 910822 Y                          PEST_TOT     4.60    ng/g     .                  
+VA91-385 910822 Y                          SE           0.22    ug/g     .                  
+VA91-385 910822 Y                          SN            .      ug/g    0.027       CH-A    
+VA91-385 910822 Y                          ZN           5.44    ug/g     .                  
+VA91-386 910806 Y                          AG            .      ug/g    0.004       CH-A    
+VA91-386 910806 Y                          AL           7.87    ug/g     .                  
+VA91-386 910806 Y                          AS           5.52    ug/g     .                  
+VA91-386 910806 Y                          CD           0.00    ug/g     .                  
+VA91-386 910806 Y                          CR            .      ug/g    0.049       CH-A    
+VA91-386 910806 Y                          CU           0.84    ug/g     .                  
+VA91-386 910806 Y                          DDT_TOT      3.11    ng/g     .                  
+VA91-386 910806 Y                          FE           2.62    ug/g     .                  
+VA91-386 910806 Y                          HG           0.01    ug/g     .                  
+VA91-386 910806 Y                          NI           0.04    ug/g     .                  
+VA91-386 910806 Y                          PB           0.03    ug/g     .                  
+VA91-386 910806 Y                          PCB_TOT     33.10    ng/g     .                  
+VA91-386 910806 Y                          PEST_TOT     1.46    ng/g     .                  
+VA91-386 910806 Y                          SE           0.36    ug/g     .                  
+VA91-386 910806 Y                          SN            .      ug/g    0.039       CH-A    
+VA91-386 910806 Y                          ZN          10.50    ug/g     .                  
+VA91-387 910805 Y                          AG            .      ug/g    0.004       CH-A    
+VA91-387 910805 Y                          AL           8.18    ug/g     .                  
+VA91-387 910805 Y                          AS           5.14    ug/g     .                  
+VA91-387 910805 Y                          CD            .      ug/g    0.002       CH-A    
+VA91-387 910805 Y                          CR           0.14    ug/g     .                  
+VA91-387 910805 Y                          CU            .      ug/g    0.126       CH-A    
+VA91-387 910805 Y                          DDT_TOT      4.48    ng/g     .                  
+VA91-387 910805 Y                          FE           3.96    ug/g     .                  
+VA91-387 910805 Y                          HG           0.01    ug/g     .                  
+VA91-387 910805 Y                          NI            .      ug/g    0.021       CH-A    
+VA91-387 910805 Y                          PB            .      ug/g    0.021       CH-A    
+VA91-387 910805 Y                          PCB_TOT     34.40    ng/g     .                  
+VA91-387 910805 Y                          PEST_TOT     1.54    ng/g     .                  
+VA91-387 910805 Y                          SE           0.41    ug/g     .                  
+VA91-387 910805 Y                          SN            .      ug/g    0.042       CH-A    
+VA91-387 910805 Y                          ZN           7.48    ug/g     .                  
+VA91-388 910805 Y                          AG            .      ug/g    0.003       CH-A    
+VA91-388 910805 Y                          AL            .      ug/g    2.310       CH-A    
+VA91-388 910805 Y                          AS           3.42    ug/g     .                  
+VA91-388 910805 Y                          CD            .      ug/g    0.001       CH-A    
+VA91-388 910805 Y                          CR           0.04    ug/g     .                  
+VA91-388 910805 Y                          CU           0.20    ug/g     .                  
+VA91-388 910805 Y                          DDT_TOT      6.86    ng/g     .                  
+VA91-388 910805 Y                          FE           1.96    ug/g     .                  
+VA91-388 910805 Y                          HG           0.01    ug/g     .                  
+VA91-388 910805 Y                          NI            .      ug/g    0.015       CH-A    
+VA91-388 910805 Y                          PB            .      ug/g    0.015       CH-A    
+VA91-388 910805 Y                          PCB_TOT     45.30    ng/g     .                  
+VA91-388 910805 Y                          PEST_TOT     3.16    ng/g     .                  
+VA91-388 910805 Y                          SE           0.30    ug/g     .                  
+VA91-388 910805 Y                          SN            .      ug/g    0.031       CH-A    
+VA91-388 910805 Y                          ZN           5.98    ug/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      AG            .      ug/g    0.004       CH-A    
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      AL            .      ug/g    2.630       CH-A    
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      AS           1.84    ug/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      CD           0.00    ug/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      CR           0.30    ug/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      CU           0.87    ug/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      DDT_TOT      5.76    ng/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      FE           4.85    ug/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      HG           0.01    ug/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      NI           0.04    ug/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      PB           0.02    ug/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      PCB_TOT     20.00    ng/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      PEST_TOT     0.88    ng/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      SE           0.28    ug/g     .                  
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      SN            .      ug/g    0.035       CH-A    
+VA91-390 910905 Y STENOTOMUS CHRYSOPS      ZN           7.58    ug/g     .                  
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      AG            .      ug/g    0.002       CH-A    
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      AL            .      ug/g    1.450       CH-A    
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      AS           0.78    ug/g     .                  
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      CD           0.01    ug/g     .                  
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      CR            .      ug/g    0.032       CH-A    
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      CU           0.22    ug/g     .                  
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      DDT_TOT      5.28    ng/g     .                  
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      FE           4.57    ug/g     .                  
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      HG           0.01    ug/g     .                  
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      NI            .      ug/g    0.010       CH-A    
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      PB           0.03    ug/g     .                  
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      PCB_TOT     33.70    ng/g     .                  
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      PEST_TOT     2.41    ng/g     .                  
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      SE           0.20    ug/g     .                  
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      SN            .      ug/g    0.019       CH-A    
+VA91-391 910905 Y STENOTOMUS CHRYSOPS      ZN           3.98    ug/g     .                  
+VA91-392 910823 N STENOTOMUS CHRYSOPS      AG            .      ug/g    0.002       CH-A    
+VA91-392 910823 N STENOTOMUS CHRYSOPS      AL            .      ug/g    1.440       CH-A    
+VA91-392 910823 N STENOTOMUS CHRYSOPS      AS           0.77    ug/g     .                  
+VA91-392 910823 N STENOTOMUS CHRYSOPS      CD           0.00    ug/g     .                  
+VA91-392 910823 N STENOTOMUS CHRYSOPS      CR           0.02    ug/g     .                  
+VA91-392 910823 N STENOTOMUS CHRYSOPS      CU           0.47    ug/g     .                  
+VA91-392 910823 N STENOTOMUS CHRYSOPS      DDT_TOT      5.62    ng/g     .                  
+VA91-392 910823 N STENOTOMUS CHRYSOPS      FE           2.22    ug/g     .                  
+VA91-392 910823 N STENOTOMUS CHRYSOPS      NI            .      ug/g    0.010       CH-A    
+VA91-392 910823 N STENOTOMUS CHRYSOPS      PB           0.02    ug/g     .                  
+VA91-392 910823 N STENOTOMUS CHRYSOPS      PCB_TOT     34.40    ng/g     .                  
+VA91-392 910823 N STENOTOMUS CHRYSOPS      PEST_TOT     1.56    ng/g     .                  
+VA91-392 910823 N STENOTOMUS CHRYSOPS      SE           0.19    ug/g     .                  
+VA91-392 910823 N STENOTOMUS CHRYSOPS      SN            .      ug/g    0.019       CH-A    
+VA91-392 910823 N STENOTOMUS CHRYSOPS      ZN           1.93    ug/g     .                  
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      AG            .      ug/g    0.004       CH-A    
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      AL            .      ug/g    2.860       CH-A    
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      AS           1.11    ug/g     .                  
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      CD           0.00    ug/g     .                  
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      CR            .      ug/g    0.051       CH-A    
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      CU           0.64    ug/g     .                  
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      DDT_TOT     11.70    ng/g     .                  
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      FE           7.08    ug/g     .                  
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      HG           0.02    ug/g     .                  
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      NI            .      ug/g    0.019       CH-A    
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      PB           0.02    ug/g     .                  
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      PCB_TOT     73.20    ng/g     .                  
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      PEST_TOT     3.61    ng/g     .                  
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      SE           0.20    ug/g     .                  
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      SN            .      ug/g    0.038       CH-A    
+VA91-392 910823 Y STENOTOMUS CHRYSOPS      ZN           9.85    ug/g     .                  
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      AG            .      ug/g    0.003       CH-A    
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      AL           4.30    ug/g     .                  
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      AS           1.49    ug/g     .                  
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      CD           0.00    ug/g     .                  
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      CR           0.10    ug/g     .                  
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      CU           0.33    ug/g     .                  
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      DDT_TOT      3.79    ng/g     .                  
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      FE           3.10    ug/g     .                  
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      HG           0.01    ug/g     .                  
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      NI            .      ug/g    0.016       CH-A    
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      PB            .      ug/g    0.016       CH-A    
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      PCB_TOT     27.90    ng/g     .                  
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      PEST_TOT     0.70    ng/g     .                  
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      SE           0.25    ug/g     .                  
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      SN            .      ug/g    0.032       CH-A    
+VA91-394 910907 Y STENOTOMUS CHRYSOPS      ZN           5.32    ug/g     .                  
+VA91-397 910827 Y MORONE AMERICANA         AG            .      ug/g    0.005       CH-A    
+VA91-397 910827 Y MORONE AMERICANA         AL           5.92    ug/g     .                  
+VA91-397 910827 Y MORONE AMERICANA         AS           0.18    ug/g     .                  
+VA91-397 910827 Y MORONE AMERICANA         CD           0.01    ug/g     .                  
+VA91-397 910827 Y MORONE AMERICANA         CR           0.19    ug/g     .                  
+VA91-397 910827 Y MORONE AMERICANA         CU           0.29    ug/g     .                  
+VA91-397 910827 Y MORONE AMERICANA         DDT_TOT     97.90    ng/g     .                  
+VA91-397 910827 Y MORONE AMERICANA         FE           4.13    ug/g     .                  
+VA91-397 910827 Y MORONE AMERICANA         HG           0.26    ug/g     .                  
+VA91-397 910827 Y MORONE AMERICANA         NI            .      ug/g    0.023       CH-A    
+VA91-397 910827 Y MORONE AMERICANA         PB            .      ug/g    0.023       CH-A    
+VA91-397 910827 Y MORONE AMERICANA         PCB_TOT   1080.00    ng/g     .                  
+VA91-397 910827 Y MORONE AMERICANA         PEST_TOT    12.50    ng/g     .                  
+VA91-397 910827 Y MORONE AMERICANA         SE           0.73    ug/g     .                  
+VA91-397 910827 Y MORONE AMERICANA         SN            .      ug/g    0.046       CH-A    
+VA91-397 910827 Y MORONE AMERICANA         ZN           7.21    ug/g     .                  
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      AG            .      ug/g    0.004       CH-A    
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      AL            .      ug/g    2.770       CH-A    
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      AS           1.20    ug/g     .                  
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      CD           0.00    ug/g     .                  
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      CR            .      ug/g    0.048       CH-A    
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      CU           0.38    ug/g     .                  
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      DDT_TOT      2.54    ng/g     .                  
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      FE           3.68    ug/g     .                  
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      HG           0.03    ug/g     .                  
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      NI            .      ug/g    0.019       CH-A    
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      PB            .      ug/g    0.019       CH-A    
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      PCB_TOT     15.40    ng/g     .                  
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      PEST_TOT     0.93    ng/g     .                  
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      SE           0.47    ug/g     .                  
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      SN            .      ug/g    0.037       CH-A    
+VA91-402 910723 Y STENOTOMUS CHRYSOPS      ZN           8.93    ug/g     .                  
+VA91-403 910821 N MORONE AMERICANA         AG            .      ug/g    0.004       CH-A    
+VA91-403 910821 N MORONE AMERICANA         AL            .      ug/g    3.190       CH-A    
+VA91-403 910821 N MORONE AMERICANA         AS           0.22    ug/g     .                  
+VA91-403 910821 N MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-403 910821 N MORONE AMERICANA         CR            .      ug/g    0.017       CH-A    
+VA91-403 910821 N MORONE AMERICANA         CU           0.30    ug/g     .                  
+VA91-403 910821 N MORONE AMERICANA         DDT_TOT     43.00    ng/g     .                  
+VA91-403 910821 N MORONE AMERICANA         FE           3.61    ug/g     .                  
+VA91-403 910821 N MORONE AMERICANA         NI            .      ug/g    0.021       CH-A    
+VA91-403 910821 N MORONE AMERICANA         PB            .      ug/g    0.021       CH-A    
+VA91-403 910821 N MORONE AMERICANA         PCB_TOT    209.00    ng/g     .                  
+VA91-403 910821 N MORONE AMERICANA         PEST_TOT    17.60    ng/g     .                  
+VA91-403 910821 N MORONE AMERICANA         SE           0.30    ug/g     .                  
+VA91-403 910821 N MORONE AMERICANA         SN            .      ug/g    0.043       CH-A    
+VA91-403 910821 N MORONE AMERICANA         ZN           4.72    ug/g     .                  
+VA91-403 910821 Y MORONE AMERICANA         AG            .      ug/g    0.004       CH-A    
+VA91-403 910821 Y MORONE AMERICANA         AL            .      ug/g    3.360       CH-A    
+VA91-403 910821 Y MORONE AMERICANA         AS           0.23    ug/g     .                  
+VA91-403 910821 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-403 910821 Y MORONE AMERICANA         CR            .      ug/g    0.046       CH-A    
+VA91-403 910821 Y MORONE AMERICANA         CU           0.39    ug/g     .                  
+VA91-403 910821 Y MORONE AMERICANA         DDT_TOT     49.00    ng/g     .                  
+VA91-403 910821 Y MORONE AMERICANA         FE           4.23    ug/g     .                  
+VA91-403 910821 Y MORONE AMERICANA         HG           0.18    ug/g     .                  
+VA91-403 910821 Y MORONE AMERICANA         NI           0.02    ug/g     .                  
+VA91-403 910821 Y MORONE AMERICANA         PB            .      ug/g    0.022       CH-A    
+VA91-403 910821 Y MORONE AMERICANA         PCB_TOT    263.00    ng/g     .                  
+VA91-403 910821 Y MORONE AMERICANA         PEST_TOT    20.70    ng/g     .                  
+VA91-403 910821 Y MORONE AMERICANA         SE           0.48    ug/g     .                  
+VA91-403 910821 Y MORONE AMERICANA         SN            .      ug/g    0.045       CH-A    
+VA91-403 910821 Y MORONE AMERICANA         ZN           6.07    ug/g     .                  
+VA91-404 910724 N STENOTOMUS CHRYSOPS      AG            .      ug/g    0.004       CH-A    
+VA91-404 910724 N STENOTOMUS CHRYSOPS      AL            .      ug/g    3.170       CH-A    
+VA91-404 910724 N STENOTOMUS CHRYSOPS      AS           0.77    ug/g     .                  
+VA91-404 910724 N STENOTOMUS CHRYSOPS      CD            .      ug/g    0.002       CH-A    
+VA91-404 910724 N STENOTOMUS CHRYSOPS      CR           0.04    ug/g     .                  
+VA91-404 910724 N STENOTOMUS CHRYSOPS      CU           0.54    ug/g     .                  
+VA91-404 910724 N STENOTOMUS CHRYSOPS      DDT_TOT      9.33    ng/g     .                  
+VA91-404 910724 N STENOTOMUS CHRYSOPS      FE           5.75    ug/g     .                  
+VA91-404 910724 N STENOTOMUS CHRYSOPS      NI            .      ug/g    0.021       CH-A    
+VA91-404 910724 N STENOTOMUS CHRYSOPS      PB           0.03    ug/g     .                  
+VA91-404 910724 N STENOTOMUS CHRYSOPS      PCB_TOT    157.00    ng/g     .                  
+VA91-404 910724 N STENOTOMUS CHRYSOPS      PEST_TOT     2.68    ng/g     .                  
+VA91-404 910724 N STENOTOMUS CHRYSOPS      SE           0.42    ug/g     .                  
+VA91-404 910724 N STENOTOMUS CHRYSOPS      SN            .      ug/g    0.042       CH-A    
+VA91-404 910724 N STENOTOMUS CHRYSOPS      ZN           3.42    ug/g     .                  
+VA91-404 910724 Y STENOTOMUS CHRYSOPS      DDT_TOT      2.60    ng/g     .                  
+VA91-404 910724 Y STENOTOMUS CHRYSOPS      PCB_TOT      7.65    ng/g     .                  
+VA91-404 910724 Y STENOTOMUS CHRYSOPS      PEST_TOT     0.40    ng/g     .                  
+VA91-405 910904 N PARALICHTHYS DENTATUS    AG            .      ug/g    0.004       CH-A    
+VA91-405 910904 N PARALICHTHYS DENTATUS    AL           4.55    ug/g     .                  
+VA91-405 910904 N PARALICHTHYS DENTATUS    AS           0.59    ug/g     .                  
+VA91-405 910904 N PARALICHTHYS DENTATUS    CD            .      ug/g    0.002       CH-A    
+VA91-405 910904 N PARALICHTHYS DENTATUS    CR            .      ug/g    0.015       CH-A    
+VA91-405 910904 N PARALICHTHYS DENTATUS    CU           0.22    ug/g     .                  
+VA91-405 910904 N PARALICHTHYS DENTATUS    DDT_TOT      9.36    ng/g     .                  
+VA91-405 910904 N PARALICHTHYS DENTATUS    FE            .      ug/g    1.470       CH-A    
+VA91-405 910904 N PARALICHTHYS DENTATUS    NI           0.12    ug/g     .                  
+VA91-405 910904 N PARALICHTHYS DENTATUS    PB            .      ug/g    0.018       CH-A    
+VA91-405 910904 N PARALICHTHYS DENTATUS    PCB_TOT     42.20    ng/g     .                  
+VA91-405 910904 N PARALICHTHYS DENTATUS    PEST_TOT     3.78    ng/g     .                  
+VA91-405 910904 N PARALICHTHYS DENTATUS    SE           0.20    ug/g     .                  
+VA91-405 910904 N PARALICHTHYS DENTATUS    SN            .      ug/g    0.037       CH-A    
+VA91-405 910904 N PARALICHTHYS DENTATUS    ZN           4.68    ug/g     .                  
+VA91-405 910904 Y PARALICHTHYS DENTATUS    AG            .      ug/g    0.004       CH-A    
+VA91-405 910904 Y PARALICHTHYS DENTATUS    AL           8.02    ug/g     .                  
+VA91-405 910904 Y PARALICHTHYS DENTATUS    AS           0.83    ug/g     .                  
+VA91-405 910904 Y PARALICHTHYS DENTATUS    CD            .      ug/g    0.002       CH-A    
+VA91-405 910904 Y PARALICHTHYS DENTATUS    CR           0.24    ug/g     .                  
+VA91-405 910904 Y PARALICHTHYS DENTATUS    CU           0.15    ug/g     .                  
+VA91-405 910904 Y PARALICHTHYS DENTATUS    DDT_TOT      9.25    ng/g     .                  
+VA91-405 910904 Y PARALICHTHYS DENTATUS    FE           3.57    ug/g     .                  
+VA91-405 910904 Y PARALICHTHYS DENTATUS    HG           0.00    ug/g     .                  
+VA91-405 910904 Y PARALICHTHYS DENTATUS    NI            .      ug/g    0.022       CH-A    
+VA91-405 910904 Y PARALICHTHYS DENTATUS    PB            .      ug/g    0.022       CH-A    
+VA91-405 910904 Y PARALICHTHYS DENTATUS    PCB_TOT     32.80    ng/g     .                  
+VA91-405 910904 Y PARALICHTHYS DENTATUS    PEST_TOT     1.99    ng/g     .                  
+VA91-405 910904 Y PARALICHTHYS DENTATUS    SE           0.35    ug/g     .                  
+VA91-405 910904 Y PARALICHTHYS DENTATUS    SN            .      ug/g    0.043       CH-A    
+VA91-405 910904 Y PARALICHTHYS DENTATUS    ZN           5.71    ug/g     .                  
+VA91-406 910729 Y                          AG           0.01    ug/g     .                  
+VA91-406 910729 Y                          AL            .      ug/g    3.240       CH-A    
+VA91-406 910729 Y                          AS           4.98    ug/g     .                  
+VA91-406 910729 Y                          CD            .      ug/g     .          CH-A    
+VA91-406 910729 Y                          CR           0.05    ug/g     .                  
+VA91-406 910729 Y                          CU           0.34    ug/g     .                  
+VA91-406 910729 Y                          DDT_TOT      1.56    ng/g     .                  
+VA91-406 910729 Y                          FE           2.63    ug/g     .                  
+VA91-406 910729 Y                          HG           0.01    ug/g     .                  
+VA91-406 910729 Y                          NI           0.02    ug/g     .                  
+VA91-406 910729 Y                          PB           0.03    ug/g     .                  
+VA91-406 910729 Y                          PCB_TOT     40.10    ng/g     .                  
+VA91-406 910729 Y                          PEST_TOT     0.31    ng/g     .                  
+VA91-406 910729 Y                          SE           0.34    ug/g     .                  
+VA91-406 910729 Y                          SN            .      ug/g    0.043       CH-A    
+VA91-406 910729 Y                          ZN           9.99    ug/g     .                  
+VA91-411 910828 Y MORONE AMERICANA         AG            .      ug/g    0.004       CH-A    
+VA91-411 910828 Y MORONE AMERICANA         AL           5.63    ug/g     .                  
+VA91-411 910828 Y MORONE AMERICANA         AS            .      ug/g    0.099       CH-A    
+VA91-411 910828 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-411 910828 Y MORONE AMERICANA         CR           0.02    ug/g     .                  
+VA91-411 910828 Y MORONE AMERICANA         CU           0.48    ug/g     .                  
+VA91-411 910828 Y MORONE AMERICANA         DDT_TOT    101.00    ng/g     .                  
+VA91-411 910828 Y MORONE AMERICANA         FE           4.31    ug/g     .                  
+VA91-411 910828 Y MORONE AMERICANA         HG           0.21    ug/g     .                  
+VA91-411 910828 Y MORONE AMERICANA         NI            .      ug/g    0.022       CH-A    
+VA91-411 910828 Y MORONE AMERICANA         PB            .      ug/g    0.022       CH-A    
+VA91-411 910828 Y MORONE AMERICANA         PCB_TOT   1160.00    ng/g     .                  
+VA91-411 910828 Y MORONE AMERICANA         PEST_TOT    10.80    ng/g     .                  
+VA91-411 910828 Y MORONE AMERICANA         SE           0.46    ug/g     .                  
+VA91-411 910828 Y MORONE AMERICANA         SN            .      ug/g    0.044       CH-A    
+VA91-411 910828 Y MORONE AMERICANA         ZN           5.78    ug/g     .                  
+VA91-413 910809 N PARALICHTHYS DENTATUS    AG            .      ug/g    0.004       CH-A    
+VA91-413 910809 N PARALICHTHYS DENTATUS    AL           5.58    ug/g     .                  
+VA91-413 910809 N PARALICHTHYS DENTATUS    AS           1.73    ug/g     .                  
+VA91-413 910809 N PARALICHTHYS DENTATUS    CD           0.00    ug/g     .                  
+VA91-413 910809 N PARALICHTHYS DENTATUS    CR           0.04    ug/g     .                  
+VA91-413 910809 N PARALICHTHYS DENTATUS    CU           1.19    ug/g     .                  
+VA91-413 910809 N PARALICHTHYS DENTATUS    DDT_TOT      7.64    ng/g     .                  
+VA91-413 910809 N PARALICHTHYS DENTATUS    FE            .      ug/g    1.780       CH-A    
+VA91-413 910809 N PARALICHTHYS DENTATUS    NI           0.03    ug/g     .                  
+VA91-413 910809 N PARALICHTHYS DENTATUS    PB            .      ug/g    0.022       CH-A    
+VA91-413 910809 N PARALICHTHYS DENTATUS    PCB_TOT    104.00    ng/g     .                  
+VA91-413 910809 N PARALICHTHYS DENTATUS    PEST_TOT     2.29    ng/g     .                  
+VA91-413 910809 N PARALICHTHYS DENTATUS    SE           0.36    ug/g     .                  
+VA91-413 910809 N PARALICHTHYS DENTATUS    SN            .      ug/g    0.045       CH-A    
+VA91-413 910809 N PARALICHTHYS DENTATUS    ZN           5.85    ug/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    AG            .      ug/g    0.004       CH-A    
+VA91-413 910809 Y PARALICHTHYS DENTATUS    AL           5.29    ug/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    AS           1.27    ug/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    CD           0.00    ug/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    CR           0.22    ug/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    CU           0.46    ug/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    DDT_TOT      4.43    ng/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    FE           4.33    ug/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    HG           0.03    ug/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    NI           0.08    ug/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    PB           0.02    ug/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    PCB_TOT     72.10    ng/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    PEST_TOT     1.05    ng/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    SE           0.29    ug/g     .                  
+VA91-413 910809 Y PARALICHTHYS DENTATUS    SN            .      ug/g    0.041       CH-A    
+VA91-413 910809 Y PARALICHTHYS DENTATUS    ZN           9.87    ug/g     .                  
+VA91-414 910728 N STENOTOMUS CHRYSOPS      AG            .      ug/g    0.005       CH-A    
+VA91-414 910728 N STENOTOMUS CHRYSOPS      AL            .      ug/g    3.390       CH-A    
+VA91-414 910728 N STENOTOMUS CHRYSOPS      AS           2.04    ug/g     .                  
+VA91-414 910728 N STENOTOMUS CHRYSOPS      CD            .      ug/g     .          CH-A    
+VA91-414 910728 N STENOTOMUS CHRYSOPS      CR           0.12    ug/g     .                  
+VA91-414 910728 N STENOTOMUS CHRYSOPS      CU           0.37    ug/g     .                  
+VA91-414 910728 N STENOTOMUS CHRYSOPS      DDT_TOT     11.20    ng/g     .                  
+VA91-414 910728 N STENOTOMUS CHRYSOPS      FE           3.02    ug/g     .                  
+VA91-414 910728 N STENOTOMUS CHRYSOPS      NI           0.04    ug/g     .                  
+VA91-414 910728 N STENOTOMUS CHRYSOPS      PB            .      ug/g    0.023       CH-A    
+VA91-414 910728 N STENOTOMUS CHRYSOPS      PCB_TOT     18.70    ng/g     .                  
+VA91-414 910728 N STENOTOMUS CHRYSOPS      PEST_TOT     7.16    ng/g     .                  
+VA91-414 910728 N STENOTOMUS CHRYSOPS      SE           0.40    ug/g     .                  
+VA91-414 910728 N STENOTOMUS CHRYSOPS      SN            .      ug/g    0.045       CH-A    
+VA91-414 910728 N STENOTOMUS CHRYSOPS      ZN           3.50    ug/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      AG            .      ug/g    0.004       CH-A    
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      AL           7.79    ug/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      AS           3.31    ug/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      CD           0.01    ug/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      CR           0.54    ug/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      CU           2.26    ug/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      DDT_TOT      5.69    ng/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      FE           8.58    ug/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      HG           0.03    ug/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      NI           0.05    ug/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      PB           0.03    ug/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      PCB_TOT    150.00    ng/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      PEST_TOT     1.82    ng/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      SE           0.43    ug/g     .                  
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      SN            .      ug/g    0.042       CH-A    
+VA91-414 910728 Y STENOTOMUS CHRYSOPS      ZN           6.82    ug/g     .                  
+VA91-418 910811 N STENOTOMUS CHRYSOPS      AG           0.00    ug/g     .                  
+VA91-418 910811 N STENOTOMUS CHRYSOPS      AL            .      ug/g    1.770       CH-A    
+VA91-418 910811 N STENOTOMUS CHRYSOPS      AS           1.61    ug/g     .                  
+VA91-418 910811 N STENOTOMUS CHRYSOPS      CD           0.00    ug/g     .                  
+VA91-418 910811 N STENOTOMUS CHRYSOPS      CR           0.01    ug/g     .                  
+VA91-418 910811 N STENOTOMUS CHRYSOPS      CU           0.20    ug/g     .                  
+VA91-418 910811 N STENOTOMUS CHRYSOPS      DDT_TOT     14.00    ng/g     .                  
+VA91-418 910811 N STENOTOMUS CHRYSOPS      FE           2.33    ug/g     .                  
+VA91-418 910811 N STENOTOMUS CHRYSOPS      NI            .      ug/g    0.012       CH-A    
+VA91-418 910811 N STENOTOMUS CHRYSOPS      PB            .      ug/g    0.012       CH-A    
+VA91-418 910811 N STENOTOMUS CHRYSOPS      PCB_TOT     62.00    ng/g     .                  
+VA91-418 910811 N STENOTOMUS CHRYSOPS      PEST_TOT     4.95    ng/g     .                  
+VA91-418 910811 N STENOTOMUS CHRYSOPS      SE           0.09    ug/g     .                  
+VA91-418 910811 N STENOTOMUS CHRYSOPS      SN            .      ug/g    0.024       CH-A    
+VA91-418 910811 N STENOTOMUS CHRYSOPS      ZN           2.76    ug/g     .                  
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      AG            .      ug/g    0.005       CH-A    
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      AL           6.54    ug/g     .                  
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      AS           5.07    ug/g     .                  
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      CD           0.00    ug/g     .                  
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      CR           0.10    ug/g     .                  
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      CU           1.61    ug/g     .                  
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      DDT_TOT     18.00    ng/g     .                  
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      FE           4.87    ug/g     .                  
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      HG           0.07    ug/g     .                  
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      NI            .      ug/g    0.024       CH-A    
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      PB            .      ug/g    0.024       CH-A    
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      PCB_TOT     91.40    ng/g     .                  
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      PEST_TOT     7.77    ng/g     .                  
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      SE           0.40    ug/g     .                  
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      SN            .      ug/g    0.048       CH-A    
+VA91-418 910811 Y STENOTOMUS CHRYSOPS      ZN           6.37    ug/g     .                  
+VA91-421 910810 N STENOTOMUS CHRYSOPS      AG            .      ug/g    0.004       CH-A    
+VA91-421 910810 N STENOTOMUS CHRYSOPS      AL            .      ug/g    3.080       CH-A    
+VA91-421 910810 N STENOTOMUS CHRYSOPS      AS           2.05    ug/g     .                  
+VA91-421 910810 N STENOTOMUS CHRYSOPS      CD           0.00    ug/g     .                  
+VA91-421 910810 N STENOTOMUS CHRYSOPS      CR           0.02    ug/g     .                  
+VA91-421 910810 N STENOTOMUS CHRYSOPS      CU            .      ug/g    0.123       CH-A    
+VA91-421 910810 N STENOTOMUS CHRYSOPS      DDT_TOT     38.10    ng/g     .                  
+VA91-421 910810 N STENOTOMUS CHRYSOPS      FE           6.12    ug/g     .                  
+VA91-421 910810 N STENOTOMUS CHRYSOPS      NI            .      ug/g    0.021       CH-A    
+VA91-421 910810 N STENOTOMUS CHRYSOPS      PB           0.03    ug/g     .                  
+VA91-421 910810 N STENOTOMUS CHRYSOPS      PCB_TOT    156.00    ng/g     .                  
+VA91-421 910810 N STENOTOMUS CHRYSOPS      PEST_TOT    15.00    ng/g     .                  
+VA91-421 910810 N STENOTOMUS CHRYSOPS      SE           0.23    ug/g     .                  
+VA91-421 910810 N STENOTOMUS CHRYSOPS      SN            .      ug/g    0.041       CH-A    
+VA91-421 910810 N STENOTOMUS CHRYSOPS      ZN           4.23    ug/g     .                  
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      AG            .      ug/g    0.005       CH-A    
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      AL            .      ug/g    3.400       CH-A    
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      AS           2.19    ug/g     .                  
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      CD           0.00    ug/g     .                  
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      CR            .      ug/g    0.048       CH-A    
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      CU           0.75    ug/g     .                  
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      DDT_TOT     19.20    ng/g     .                  
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      FE           3.22    ug/g     .                  
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      HG           0.06    ug/g     .                  
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      NI            .      ug/g    0.023       CH-A    
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      PB           0.03    ug/g     .                  
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      PCB_TOT     73.80    ng/g     .                  
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      PEST_TOT     7.34    ng/g     .                  
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      SE           0.43    ug/g     .                  
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      SN            .      ug/g    0.045       CH-A    
+VA91-421 910810 Y STENOTOMUS CHRYSOPS      ZN           5.46    ug/g     .                  
+VA91-422 910829 Y MORONE AMERICANA         AG            .      ug/g    0.004       CH-A    
+VA91-422 910829 Y MORONE AMERICANA         AL           6.68    ug/g     .                  
+VA91-422 910829 Y MORONE AMERICANA         AS            .      ug/g    0.105       CH-A    
+VA91-422 910829 Y MORONE AMERICANA         CD            .      ug/g    0.002       CH-A    
+VA91-422 910829 Y MORONE AMERICANA         CR           0.08    ug/g     .                  
+VA91-422 910829 Y MORONE AMERICANA         CU           0.72    ug/g     .                  
+VA91-422 910829 Y MORONE AMERICANA         DDT_TOT     93.70    ng/g     .                  
+VA91-422 910829 Y MORONE AMERICANA         FE           4.62    ug/g     .                  
+VA91-422 910829 Y MORONE AMERICANA         HG           0.22    ug/g     .                  
+VA91-422 910829 Y MORONE AMERICANA         NI            .      ug/g    0.021       CH-A    
+VA91-422 910829 Y MORONE AMERICANA         PB            .      ug/g    0.021       CH-A    
+VA91-422 910829 Y MORONE AMERICANA         PCB_TOT   1050.00    ng/g     .                  
+VA91-422 910829 Y MORONE AMERICANA         PEST_TOT    13.70    ng/g     .                  
+VA91-422 910829 Y MORONE AMERICANA         SE           0.46    ug/g     .                  
+VA91-422 910829 Y MORONE AMERICANA         SN            .      ug/g    0.042       CH-A    
+VA91-422 910829 Y MORONE AMERICANA         ZN           8.14    ug/g     .                  
+VA91-424 910829 Y MORONE AMERICANA         AG            .      ug/g    0.004       CH-A    
+VA91-424 910829 Y MORONE AMERICANA         AL            .      ug/g    2.750       CH-A    
+VA91-424 910829 Y MORONE AMERICANA         AS            .      ug/g    0.094       CH-A    
+VA91-424 910829 Y MORONE AMERICANA         CD           0.00    ug/g     .                  
+VA91-424 910829 Y MORONE AMERICANA         CR           0.08    ug/g     .                  
+VA91-424 910829 Y MORONE AMERICANA         CU           0.36    ug/g     .                  
+VA91-424 910829 Y MORONE AMERICANA         DDT_TOT     51.00    ng/g     .                  
+VA91-424 910829 Y MORONE AMERICANA         FE           4.74    ug/g     .                  
+VA91-424 910829 Y MORONE AMERICANA         HG           0.09    ug/g     .                  
+VA91-424 910829 Y MORONE AMERICANA         NI            .      ug/g    0.018       CH-A    
+VA91-424 910829 Y MORONE AMERICANA         PB           0.02    ug/g     .                  
+VA91-424 910829 Y MORONE AMERICANA         PCB_TOT    580.00    ng/g     .                  
+VA91-424 910829 Y MORONE AMERICANA         PEST_TOT     9.88    ng/g     .                  
+VA91-424 910829 Y MORONE AMERICANA         SE           0.38    ug/g     .                  
+VA91-424 910829 Y MORONE AMERICANA         SN            .      ug/g    0.037       CH-A    
+VA91-424 910829 Y MORONE AMERICANA         ZN           7.22    ug/g     .                  

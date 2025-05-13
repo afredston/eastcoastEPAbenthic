@@ -1,0 +1,118 @@
+Dataset:              Station Information Data
+File Name:            va92_1_3.txt
+Date Created:         02/23/96
+# Variables:          5
+# Header Records:     15
+# Data Records:       103
+Missing Value Symbol: .
+
+Variables:    STA_NAME     Station name
+              CLASCODE     Station class
+              STRATA       Strata (L: Large, TR: Tidal River, O: Other/Small)
+              STA_AREA     Station area (km2)
+              ESTUARY      Estuary name
+
+STA_NAME  CLASCODE        STRATA     STA_AREA  ESTUARY
+VA92-451  BASE                O         27.51  NANSEMOND RIVER               
+VA92-452  BASE                O          7.57  BROAD/LINKHORN BAY            
+VA92-453  BASE                TR        43.19  JAMES RIVER                   
+VA92-454  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-455  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-457  BASE                TR        66.16  JAMES RIVER                   
+VA92-460  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-461  BASE                TR        35.94  JAMES RIVER                   
+VA92-462  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-464  BASE                TR        17.03  JAMES RIVER                   
+VA92-466  BASE                O        148.87  MOBJACK BAY                   
+VA92-467  BASE                O          6.36  APPOMATOX RIVER               
+VA92-468  BASE                O         26.25  CHICKAHOMINY RIVER            
+VA92-469  BASE                TR         4.95  JAMES RIVER                   
+VA92-470  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-471  BASE                O         27.78  PAMUNKEY RIVER                
+VA92-472  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-473  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-474  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-475  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-477  BASE                TR        54.44  RAPPAHANNOCK RIVER            
+VA92-478  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-481  BASE                TR         9.77  RAPPAHANNOCK RIVER            
+VA92-482  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-483  BASE                O         28.19  BIG ANNEMESSEX RIVER          
+VA92-484  BASE                TR         2.93  RAPPAHANNOCK RIVER            
+VA92-485  BASE                TR        91.17  POTOMAC RIVER                 
+VA92-486  BASE                O         36.54  ST MARYS RIVER                
+VA92-487  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-488  BASE                O          7.79  MONIE BAY                     
+VA92-490  BASE                TR        99.64  POTOMAC RIVER                 
+VA92-491  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-492  BASE                O         47.40  WICOMICO RIVER (POT)          
+VA92-493  BASE                TR        28.54  POTOMAC RIVER                 
+VA92-494  BASE                O          7.26  AQUIA CREEK                   
+VA92-495  BASE                O         52.94  ASSAWOMAN BAY/ISLE OF WIGHT BA
+VA92-497  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-499  BASE                TR        68.18  POTOMAC RIVER                 
+VA92-500  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-501  BASE                O         15.98  HARRIS CREEK                  
+VA92-502  BASE                TR        12.95  POTOMAC RIVER                 
+VA92-503  BASE                L         70.00  DELAWARE BAY                  
+VA92-504  BASE                O         23.44  SOUTH RIVER                   
+VA92-505  BASE                L         70.00  DELAWARE BAY                  
+VA92-506  BASE                O         24.69  SEVERN RIVER                  
+VA92-507  BASE                O         21.92  MAGOTHY RIVER                 
+VA92-508  BASE                L         70.00  DELAWARE BAY                  
+VA92-509  BASE                O         44.89  GREAT SOUND                   
+VA92-510  BASE                L         70.00  DELAWARE BAY                  
+VA92-511  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-512  BASE                O          9.75  LUDLAM BAY                    
+VA92-513  BASE                L         70.00  DELAWARE BAY                  
+VA92-514  BASE                L         70.00  CHESAPEAKE BAY                
+VA92-515  BASE                O         51.72  GREAT EGG HARBOR              
+VA92-517  BASE                L         70.00  DELAWARE BAY                  
+VA92-518  BASE                O          5.35  COHANSEY RIVER                
+VA92-519  BASE                O         29.78  BUSH RIVER                    
+VA92-521  BASE                O         12.45  BOHEMIA RIVER                 
+VA92-522  BASE                TR        10.26  DELAWARE RIVER                
+VA92-524  BASE                TR        17.45  DELAWARE RIVER                
+VA92-525  BASE                TR         7.71  DELAWARE RIVER                
+VA92-526  BASE                TR         3.75  DELAWARE RIVER                
+VA92-527  BASE                O          4.60  MANASQUAN RIVER               
+VA92-529  BASE                O         51.30  RARITAN BAY                   
+VA92-530  BASE                O         15.29  NEWARK BAY                    
+VA92-532  BASE                O         40.60  MORICHES BAY                  
+VA92-533  BASE                O          8.48  MANHASSET BAY                 
+VA92-534  BASE                O          6.51  HEMPSTEAD HARBOR              
+VA92-535  BASE                O         22.04  NORTHPORT BAY                 
+VA92-536  BASE                O          6.30  PORT JEFFERSON HARBOR         
+VA92-537  BASE                TR        14.89  HUDSON RIVER                  
+VA92-538  BASE                L         70.00  LONG ISLAND SOUND             
+VA92-539  BASE                L         70.00  LONG ISLAND SOUND             
+VA92-540  BASE                O          4.10  THREEMILE HARBOR              
+VA92-541  BASE                L         70.00  LONG ISLAND SOUND             
+VA92-542  BASE                L         70.00  LONG ISLAND SOUND             
+VA92-543  BASE                O         68.57  SHELTER SOUND                 
+VA92-544  BASE                L         70.00  LONG ISLAND SOUND             
+VA92-545  BASE                O          4.32  LAKE MONTAUK                  
+VA92-547  BASE                L         70.00  LONG ISLAND SOUND             
+VA92-548  BASE                L         70.00  LONG ISLAND SOUND             
+VA92-549  BASE                L         70.00  LONG ISLAND SOUND             
+VA92-550  BASE                L         70.00  LONG ISLAND SOUND             
+VA92-551  BASE                L         70.00  LONG ISLAND SOUND             
+VA92-553  BASE                L         70.00  BLOCK ISLAND SOUND            
+VA92-554  BASE                L         70.00  BLOCK ISLAND SOUND            
+VA92-555  BASE                TR        35.26  HUDSON RIVER                  
+VA92-556  BASE                O          8.01  NINIGRET POND                 
+VA92-557  BASE                L         70.00  NANTUCKET SOUND               
+VA92-558  BASE                L         70.00  NANTUCKET SOUND               
+VA92-559  BASE                O          7.82  POINT JUDITH POND             
+VA92-560  BASE                TR        15.71  HUDSON RIVER                  
+VA92-561  BASE                L         70.00  BUZZARDS BAY                  
+VA92-562  BASE                L         70.00  NANTUCKET SOUND               
+VA92-563  BASE                L         70.00  NANTUCKET SOUND               
+VA92-564  BASE                L         70.00  VINEYARD SOUND                
+VA92-565  BASE                O          3.78  WAQUOIT BAY                   
+VA92-566  BASE                O         53.02  SAKONNET RIVER                
+VA92-567  BASE                O          5.12  LEWIS BAY                     
+VA92-568  BASE                L         70.00  BUZZARDS BAY                  
+VA92-569  BASE                O         31.19  CHATHAM HARBOR                
+VA92-570  BASE                TR         7.72  HUDSON RIVER                  
+VA92-571  BASE                TR        10.24  HUDSON RIVER                  

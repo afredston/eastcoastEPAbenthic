@@ -1,0 +1,6 @@
+
+QA Code	QA Code Description
+NC-A	Trawl was marginally acceptable because its duration was less than the planned 10 min.  These observations may not truly represent the demersal community at a station, and may result in underestimation of abundance or diversity for that trawl.  Data from these trawls should be used with discretion.
+NC-B	Trawl was unacceptable due to reasons such as: trawl filled with algae, trawl twisted or not properly opened, large object caught in trawl, or trawl fouled on bottom.  These situations generally resulted in the trawl being aborted well before its planned duration.  Any observations flagged with the 'NC-B' QC code should not be used in data analyses.
+NC-C	Trawl or other capture mechanism used to collect tissue sample only.
+NC-D	Trawl outside target duration range.

@@ -1,0 +1,368 @@
+Dataset:              Station Location and Information Data
+File Name:            CP_STAT.txt
+Date Created:         02Dec1998
+# Variables:          12
+# Header Records:     22
+# Data Records:       343
+Missing Value Symbol: .
+
+Variables:    STA_NAME     Carolinian Province Office Station Name
+              CLASCODE     Carolinian Province Office Station Type
+              STRATA       Estuary Class Code
+              STA_AREA     Statistical Area of Station (sq. km)
+              ESTUARY      Estuary Name
+              LATDEG       Latitude (decimal degrees)
+              LNGDEG       Longitude (-decimal degrees)
+              DEPTH        Depth (m) at Time of WQ Profile
+              STATE        State of Estuary (2 Letter Postal Code)
+              EMAPSTAT     EMAP Station Name
+              SEGMENT      EMAP River Segment Number (SPUNIT)
+              MAIASTAT     MAIA Station Code
+
+STA_NAME;CLASCODE;STRATA;STA_AREA;ESTUARY;LATDEG;LNGDEG;DEPTH;STATE;EMAPSTAT;SEGMENT;MAIASTAT
+CP93BKY;Supplement; ;.;Brickyard Creek;32.8348;-80.0035;.;SC; ; ; 
+CP93BRU;Supplement; ;.;Brunswick River;31.1893;-81.5218;.;GA; ; ; 
+CP93CFT;Supplement; ;.;Clubfoot Creek;34.9050;-76.7583;.;NC; ; ; 
+CP93DET;Supplement; ;.;Detyens -Wando River;32.9223;-79.8265;.;SC; ; ; 
+CP93DYT;Supplement; ;.;Drayton -Ashley River;32.8500;-80.0493;.;SC; ; ; 
+CP93EAU;Supplement; ;.;Eau Gallie -Indian River;28.1265;-80.6170;.;FL; ; ; 
+CP93FTJ;Supplement; ;.;Fort Johnson;32.7523;-79.9028;.;SC; ; ; 
+CP93INL;Supplement; ;.;Breech Inlet;32.7758;-79.8142;.;SC; ; ; 
+CP93KOP;Supplement; ;.;Koppers -Ashley River;32.8172;-79.9573;.;SC; ; ; 
+CP93LTH;Supplement; ;.;Lighthouse Creek;32.6967;-79.8942;.;SC; ; ; 
+CP93MAS;Supplement; ;.;Masonborough Inlet;34.1555;-77.8500;.;NC; ; ; 
+CP93NAS;Supplement; ;.;Nassau River;30.5792;-81.6418;.;FL; ; ; 
+CP93OGE;Supplement; ;.;Ogeechee River;31.9268;-81.2555;.;GA; ; ; 
+CP93ORT;Supplement; ;.;Ortega River;30.2680;-81.7230;.;FL; ; ; 
+CP93PLM;Supplement; ;.;Plum Island;32.7637;-79.9420;.;SC; ; ; 
+CP93SAM;Supplement; ;.;Sampit River;33.3552;-79.2852;.;SC; ; ; 
+CP93SAN;Supplement; ;.;South Santee River;33.1537;-79.3270;.;SC; ; ; 
+CP93SAP;Supplement; ;.;Sapelo Island;31.4167;-81.2923;.;GA; ; ; 
+CP93SAV;Supplement; ;.;Savannah River;32.1345;-81.1347;.;GA; ; ; 
+CP93SED;Supplement; ;.;South Edisto River;32.6202;-80.4228;.;SC; ; ; 
+CP93SLO;Supplement; ;.;Slocum Creek;34.9033;-76.9133;.;NC; ; ; 
+CP93SPY;Supplement; ;.;Shipyard Creek;32.8360;-79.9395;.;SC; ; ; 
+CP93TIV;Supplement; ;.;Titusville -Indian River;28.6937;-80.8132;.;FL; ; ; 
+CP93WKY;Supplement; ;.;Whiskey Creek;34.1567;-77.8500;.;NC; ; ; 
+CP94001;Random-Base;RR;34.1;Indian River Lagoon;27.2012;-80.1758;1.2;FL;CA94RR09;301; 
+CP94002;Random-Base;SR;25.1;Saint Lucie River;27.2137;-80.2198;3.0;FL;CA94SR50; ; 
+CP94003;Random-Base;RR;33.7;Indian River Lagoon;27.4050;-80.2882;1.7;FL;CA94RR10;302; 
+CP94004;Random-Base;RR;33.3;Indian River Lagoon;27.5350;-80.3300;1.0;FL;CA94RR11;303; 
+CP94005;Random-Base;RR;32.9;Indian River Lagoon;27.6785;-80.3860;0.5;FL;CA94RR12;304; 
+CP94006;Random-Base;RR;32.6;Indian River Lagoon;27.8972;-80.5030;1.4;FL;CA94RR13;305; 
+CP94007;Random-Base;RP;36.3;Indian River Lagoon;27.9172;-80.5068;1.4;FL;CA94RP14;306; 
+CP94008;Random-Base;RR;36.3;Indian River Lagoon;27.9950;-80.5525;1.5;FL;CA94RR14;306; 
+CP94009;Random-Base;RR;40.4;Indian River Lagoon;28.1607;-80.6187;2.7;FL;CA94RR15;307; 
+CP94010;Random-Base;RR;37.7;Indian River Lagoon;28.2567;-80.6750;4.0;FL;CA94RR16;308; 
+CP94011;Random-Base;RR;37.4;Indian River Lagoon;28.5025;-80.7477;1.3;FL;CA94RR17;309; 
+CP94012;Random-Base;RP;44.4;Indian River Lagoon;28.7128;-80.7938;1.5;FL;CA94RP18;310; 
+CP94013;Random-Base;RR;44.4;Indian River Lagoon;28.7218;-80.8030;1.5;FL;CA94RR18;310; 
+CP94014;Random-Base;SR;105.8;Mosquito Lagoon;28.8518;-80.7910;1.7;FL;CA94SR49; ; 
+CP94015;Random-Base;SR;5.7;Guana River;30.0362;-81.3317;.;FL;CA94SR47; ; 
+CP94016;Random-Base;SR;3.1;Julington Creek;30.1337;-81.6255;1.5;FL;CA94SR46; ; 
+CP94017;Random-Base;SR;6.2;Trout River;30.3975;-81.6453;1.0;FL;CA94SR45; ; 
+CP94018;Random-Base;SR;9.3;Nassau Sound;30.5155;-81.4435;7.0;FL;CA94SR44; ; 
+CP94019;Random-Base;SR;12.6;Saint Marys River;30.7107;-81.4703;8.4;GA;CA94SR43; ; 
+CP94020;Random-Base;SR;29.8;Saint Andrews Sound;30.9817;-81.4278;8.6;GA;CA94SR42; ; 
+CP94021;Random-Base;SR;16.3;Saint Simons Sound;31.1065;-81.4513;8.5;GA;CA94SR41; ; 
+CP94022;Random-Base;SR;41.1;Doboy Sound;31.3907;-81.2930;4.4;GA;CA94SR40; ; 
+CP94023;Random-Base;SR;27.0;Sapelo Sound;31.5470;-81.1898;5.5;GA;CA94SR39; ; 
+CP94024;Random-Base;SR;18.9;Saint Catherines Sound;31.7215;-81.1638;4.2;GA;CA94SR38; ; 
+CP94025;Random-Base;SR;36.4;Ossabaw Sound;31.8618;-81.0390;5.5;GA;CA94SR37; ; 
+CP94026;Random-Base;SR;31.2;Wassaw Sound;31.9302;-80.9680;7.6;GA;CA94SR36; ; 
+CP94027;Random-Base;SR;4.6;Wright River;32.0697;-80.9185;4.5;SC;CA94SR35; ; 
+CP94028;Random-Base;SR;4.6;Lockwoods Folly River;33.9302;-78.2175;0.5;NC;CA94SR22; ; 
+CP94029;Random-Base;SR;9.2;Topsail Sound;34.3798;-77.6182;0.5;NC;CA94SR21; ; 
+CP94030;Random-Base;SR;5.8;Alligator Bay;34.5055;-77.4070;0.5;NC;CA94SR20; ; 
+CP94031;Random-Base;SR;3.5;Queens Creek;34.6692;-77.1515;0.9;NC;CA94SR19; ; 
+CP94032;Random-Base;SR;50.8;Back Sound;34.6835;-76.5565;1.3;NC;CA94SR18; ; 
+CP94033;Random-Base;SR;222.5;Core Sound;34.7732;-76.4532;2.0;NC;CA94SR17; ; 
+CP94034;Random-Base;RR;144.3;Neuse River;34.9728;-76.6962;4.0;NC;CA94RR04;202; 
+CP94035;Random-Base;SR;93.7;West Bay;35.0057;-76.4078;3.3;NC;CA94SR16; ; 
+CP94036;Random-Base;RR;268.1;Neuse River;35.0730;-76.5513;5.6;NC;CA94RR03;201; 
+CP94037;Random-Base;LR;280.0;Pamlico Sound;35.0833;-76.1897;4.6;NC;CA94LR10; ; 
+CP94038;Random-Base;SR;7.0;Broad Creek;35.0957;-76.6000;2.0;NC;CA94SR14; ; 
+CP94039;Random-Base;LR;280.0;Pamlico Sound;35.1198;-76.0280;2.4;NC;CA94LR11; ; 
+CP94040;Random-Base;LR;280.0;Pamlico Sound;35.1402;-76.4702;6.1;NC;CA94LR12; ; 
+CP94041;Random-Base;LR;280.0;Pamlico Sound;35.1508;-76.2202;5.9;NC;CA94LR13; ; 
+CP94042;Random-Base;LR;280.0;Pamlico Sound;35.1600;-75.9843;3.8;NC;CA94LR14; ; 
+CP94043;Random-Base;SR;13.9;Jones Bay;35.2308;-76.5603;2.5;NC;CA94SR13; ; 
+CP94044;Random-Base;LR;280.0;Pamlico Sound;35.2570;-75.7520;2.5;NC;CA94LR15; ; 
+CP94045;Random-Base;LR;280.0;Pamlico Sound;35.3057;-75.5672;2.3;NC;CA94LR16; ; 
+CP94046;Random-Base;SR;5.0;West Bluff Bay;35.3427;-76.1755;2.5;NC;CA94SR08; ; 
+CP94047;Random-Base;SR;14.9;South Creek;35.3545;-76.6937;3.2;NC;CA94SR12; ; 
+CP94048;Random-Base;RR;208.7;Pamlico River;35.3573;-76.4773;5.7;NC;CA94RR01;101; 
+CP94049;Random-Base;SR;20.1;Swanquarter Bay;35.3673;-76.3415;1.7;NC;CA94SR09; ; 
+CP94050;Random-Base;LR;280.0;Pamlico Sound;35.3788;-75.8760;5.4;NC;CA94LR17; ; 
+CP94051;Random-Base;RP;150.1;Pamlico River;35.3962;-76.6747;4.6;NC;CA94RP02;102; 
+CP94052;Random-Base;RR;150.1;Pamlico River;35.3975;-76.6923;4.8;NC;CA94RR02;102; 
+CP94053;Random-Base;SR;4.2;Bath Creek;35.4575;-76.8172;2.7;NC;CA94SR11; ; 
+CP94054;Random-Base;SR;5.8;Slade Creek;35.4757;-76.5387;1.9;NC;CA94SR10; ; 
+CP94055;Random-Base;LR;280.0;Pamlico Sound;35.5410;-75.7160;4.1;NC;CA94LR18; ; 
+CP94056;Random-Base;LR;280.0;Pamlico Sound;35.5575;-75.5792;4.3;NC;CA94LR19; ; 
+CP94057;Random-Base;SR;21.4;Long Shoal River;35.5797;-75.8500;1.3;NC;CA94SR07; ; 
+CP94058;Random-Base;LR;280.0;Pamlico Sound;35.6567;-75.6023;3.9;NC;CA94LR20; ; 
+CP94059;Random-Base;LR;280.0;Pamlico Sound;35.7183;-75.5637;1.0;NC;CA94LR21; ; 
+CP94060;Random-Base;SR;88.0;Croatan Sound;35.8572;-75.6678;3.2;NC;CA94SR06; ; 
+CP94061;Random-Base;SR;38.7;Bull Bay;35.9612;-76.3520;4.0;NC;CA94SR05; ; 
+CP94062;Random-Base;LR;280.0;Albemarle Sound;35.9910;-76.5225;6.0;NC;CA94LR05; ; 
+CP94063;Random-Base;LR;280.0;Albemarle Sound;36.0060;-76.5358;1.2;NC;CA94LR06; ; 
+CP94064;Random-Base;LR;280.0;Albemarle Sound;36.0198;-75.9262;5.7;NC;CA94LR07; ; 
+CP94065;Random-Base;SR;10.2;Edenton Bay;36.0453;-76.6190;2.5;NC;CA94SR04; ; 
+CP94066;Random-Base;LR;280.0;Albemarle Sound;36.0525;-76.3088;6.1;NC;CA94LR08; ; 
+CP94067;Random-Base;SR;8.5;Yeopim River;36.0835;-76.4555;2.0;NC;CA94SR03; ; 
+CP94068;Random-Base;LR;280.0;Currituck Sound;36.0983;-75.7797;1.7;NC;CA94LR01; ; 
+CP94069;Random-Base;LR;280.0;Albemarle Sound;36.1215;-75.9385;5.5;NC;CA94LR09; ; 
+CP94070;Random-Base;LR;280.0;Currituck Sound;36.1447;-75.7477;0.5;NC;CA94LR02; ; 
+CP94071;Random-Base;LR;280.0;Currituck Sound;36.3858;-75.8550;0.8;NC;CA94LR03; ; 
+CP94072;Random-Base;SR;8.8;Northwest River;36.5143;-76.0410;1.5;NC;CA94SR02; ; 
+CP94073;Random-Base;SR;27.7;Calibogue Sound;32.1703;-80.7957;12.9;SC;CA94SR34; ; 
+CP94074;Random-Base;SR;11.9;Trenchards Inlet;32.2797;-80.5933;4.1;SC;CA94SR32; ; 
+CP94075;Random-Base;SR;28.3;Chechessee River;32.2852;-80.7490;10.9;SC;CA94SR33; ; 
+CP94076;Random-Base;SR;3.5;Saint Pierre Creek;32.5393;-80.3497;7.9;SC;CA94SR30; ; 
+CP94077;Random-Base;SR;17.4;Combahee River;32.5592;-80.5472;7.5;SC;CA94SR31; ; 
+CP94078;Random-Base;SR;6.9;Bohicket Creek;32.6143;-80.1663;6.1;SC;CA94SR29; ; 
+CP94079;Random-Base;SR;25.9;Charleston Harbor;32.7645;-79.8867;10.9;SC;CA94SR27; ; 
+CP94080;Random-Base;SR;20.5;Dewees Creek;32.8280;-79.7387;3.7;SC;CA94SR26; ; 
+CP94081;Random-Base;SR;70.6;Bulls Bay;32.9930;-79.5593;1.2;SC;CA94SR25; ; 
+CP94082;Random-Base;SR;5.8;Sampit River;33.3585;-79.2918;4.7;SC;CA94SR24; ; 
+CP94083;Random-Base;SR;4.4;Little River;33.8550;-78.5653;5.5;SC;CA94SR23; ; 
+CP94084;Random-Base;SR;10.8;Albemarle-Chesapeake Canal;36.7238;-76.1877;0.7;VA;CA94SR01; ; 
+CP94CF_;Supplement; ;.;Cape Fear River;34.1242;-77.9273;2.5;NC; ; ; 
+CP94DSL;Supplement; ;.;Diesel Creek;32.8158;-79.9625;1.2;SC; ; ; 
+CP94ES4;Supplement; ;.;Currituck Banks;36.3932;-75.8490;1.0;NC; ; ; 
+CP94JAC;Supplement; ;.;Jacksonville;30.3828;-81.4498;12.9;FL; ; ; 
+CP94KOP;Supplement; ;.;Kopper's Site;32.8187;-79.9638;.;SC; ; ; 
+CP94LTH;Supplement; ;.;Lighthouse Creek;32.7025;-79.9203;2.0;SC; ; ; 
+CP94MI_;Supplement; ;.;Masonboro Island;34.1553;-77.8495;2.2;NC; ; ; 
+CP94NMK;Supplement; ;.;Newmarket Creek;32.8068;-79.9352;1.7;SC; ; ; 
+CP94NOI;Supplement; ;.;Noisette Creek;32.8722;-79.9713;.;SC; ; ; 
+CP94PLM;Supplement; ;.;Plum Island;32.7630;-79.9477;1.8;SC; ; ; 
+CP94RC_;Supplement; ;.;Rachel Carson;34.7032;-76.6212;1.6;NC; ; ; 
+CP94SPY;Supplement; ;.;Shipyard Creek;32.8395;-79.9445;.;SC; ; ; 
+CP94ZI_;Supplement; ;.;Zeke's Island;33.9530;-77.9378;1.2;NC; ; ; 
+CP95101;Random-Base;SR;104.9;Back Bay;36.6212;-75.9592;1.4;VA;CA95SR01; ; 
+CP95102;Random-Base;SR;13.7;Coinjock Bay;36.4212;-75.9855;1.1;NC;CA95SR02; ; 
+CP95103;Random-Base;SR;129.3;Chowan River;36.2737;-76.6893;3.6;NC;CA95SR04; ; 
+CP95104;Random-Base;SR;26.8;Little River;36.1670;-76.2488;2.0;NC;CA95SR03; ; 
+CP95105;Random-Base;LR;280.0;Currituck Sound;36.0758;-75.7730;2.2;NC;CA95LR01; ; 
+CP95106;Random-Base;SR;13.0;Kitty Hawk Bay;36.0413;-75.7152;1.7;NC;CA95SR07; ; 
+CP95107;Random-Base;LR;280.0;Albemarle Sound;36.0388;-76.2692;6.3;NC;CA95LR02; ; 
+CP95108;Random-Base;LR;280.0;Albemarle Sound;35.9403;-76.6182;1.0;NC;CA95LR04; ; 
+CP95109;Random-Base;SR;17.1;Little Alligator River;35.9368;-76.1015;2.2;NC;CA95SR05; ; 
+CP95110;Random-Base;SP;17.1;Little Alligator River;35.9168;-76.0758;1.3;NC;CA95SP05; ; 
+CP95111;Random-Base;SR;7.4;South Lake;35.8932;-75.8797;1.5;NC;CA95SR06; ; 
+CP95112;Random-Base;LR;280.0;Pamlico Sound;35.8307;-75.6695;1.0;NC;CA95LR17; ; 
+CP95113;Random-Base;LR;280.0;Pamlico Sound;35.7308;-75.6803;3.8;NC;CA95LR16; ; 
+CP95114;Random-Base;SR;7.8;Pungo Creek;35.5143;-76.6397;2.0;NC;CA95SR11; ; 
+CP95115;Random-Base;LR;280.0;Pamlico Sound;35.4645;-75.5753;4.4;NC;CA95LR15; ; 
+CP95116;Random-Base;SR;108.3;Pongo River;35.4493;-76.5890;3.6;NC;CA95SR10; ; 
+CP95117;Random-Base;LR;280.0;Pamlico Sound;35.4312;-75.7908;6.0;NC;CA95LR14; ; 
+CP95118;Random-Base;SR;16.3;Wysocking Bay;35.4217;-76.0403;1.5;NC;CA95SR08; ; 
+CP95119;Random-Base;LR;280.0;Pamlico Sound;35.4043;-75.9433;5.0;NC;CA95LR13; ; 
+CP95120;Random-Base;SR;3.5;Durham Creek;35.3788;-76.8252;1.5;NC;CA95SR12; ; 
+CP95121;Random-Base;RR;150.1;Pamlico River;35.3747;-76.6892;3.8;NC;CA95RR02;102; 
+CP95122;Random-Base;RP;150.1;Pamlico River;35.3720;-76.6705;4.0;NC;CA95RP02;102; 
+CP95123;Random-Base;LR;280.0;Pamlico Sound;35.3672;-75.6105;4.5;NC;CA95LR12; ; 
+CP95124;Random-Base;RR;208.7;Pamlico River;35.3578;-76.5450;5.0;NC;CA95RR01;101; 
+CP95125;Random-Base;LR;280.0;Pamlico Sound;35.3507;-76.0888;2.5;NC;CA95LR11; ; 
+CP95126;Random-Base;SR;8.7;Juniper Bay;35.3400;-76.2522;1.6;NC;CA95SR09; ; 
+CP95127;Random-Base;LR;280.0;Pamlico Sound;35.3335;-76.3052;2.4;NC;CA95LR10; ; 
+CP95128;Random-Base;SP;6.5;Mouse Harbor;35.2987;-76.4903;2.0;NC;CA95SP13; ; 
+CP95129;Random-Base;SR;6.5;Mouse Harbor;35.2788;-76.4907;1.0;NC;CA95SR13; ; 
+CP95130;Random-Base;LR;280.0;Pamlico Sound;35.2727;-75.8868;5.3;NC;CA95LR09; ; 
+CP95131;Random-Base;LR;280.0;Pamlico Sound;35.2248;-76.1518;6.3;NC;CA95LR08; ; 
+CP95132;Random-Base;LR;280.0;Pamlico Sound;35.2200;-75.8525;4.0;NC;CA95LR07; ; 
+CP95133;Random-Base;LR;280.0;Pamlico Sound;35.1933;-75.7788;2.3;NC;CA95LR06; ; 
+CP95134;Random-Base;SR;4.7;Bonner Bay;35.1483;-76.5903;1.0;NC;CA95SR14; ; 
+CP95135;Random-Base;LR;280.0;Pamlico Sound;35.0823;-76.0025;0.9;NC;CA95LR05; ; 
+CP95136;Random-Base;RR;268.1;Neuse River;35.0553;-76.5050;6.4;NC;CA95RR03;201; 
+CP95137;Random-Base;SR;5.0;Rattan Bay;35.0463;-76.4815;.;NC;CA95SR16; ; 
+CP95138;Random-Base;SP;4.7;Bonner Bay;35.1543;-76.5995;0.8;NC;CA95SP14; ; 
+CP95139;Random-Base;RR;144.3;Neuse River;35.0087;-76.6745;6.6;NC;CA95RR04;202; 
+CP95140;Random-Base;SR;8.9;Adams Creek;34.9218;-76.6605;1.9;NC;CA95SR15; ; 
+CP95141;Random-Base;SR;9.9;Thorofare Bay;34.9160;-76.3360;1.7;NC;CA95SR17; ; 
+CP95142;Random-Base;SR;36.2;Newport River;34.7703;-76.6852;1.3;NC;CA95SR19; ; 
+CP95143;Random-Base;SR;13.2;Jarrett Bay;34.7542;-76.4958;1.5;NC;CA95SR18; ; 
+CP95144;Random-Base;SR;19.7;White Oak River;34.6922;-77.1062;0.5;NC;CA95SR20; ; 
+CP95145;Random-Base;SR;10.7;Stump Sound;34.4793;-77.4725;0.5;NC;CA95SR21; ; 
+CP95146;Random-Base;SR;88.2;Cape Fear River;33.9375;-77.9808;13.0;NC;CA95SR22; ; 
+CP95147;Random-Base;SP;88.2;Cape Fear River;34.0335;-77.9385;6.1;NC;CA95SP22; ; 
+CP95148;Random-Base;SR;4.2;Shallotte River;33.9185;-78.3718;2.7;NC;CA95SR23; ; 
+CP95149;Random-Base;SR;60.9;Winyah Bay;33.3412;-79.2742;6.0;SC;CA95SR24; ; 
+CP95150;Random-Base;SR;9.0;South Santee River;33.1548;-79.3543;4.2;SC;CA95SR25; ; 
+CP95151;Random-Base;SP;13.4;Ashley River;32.7847;-79.9657;7.4;SC;CA95SP27; ; 
+CP95152;Random-Base;SR;13.4;Ashley River;32.7838;-79.9617;9.0;SC;CA95SR27; ; 
+CP95153;Random-Base;SR;3.5;Hamlin Creek;32.7827;-79.8043;3.2;SC;CA95SR26; ; 
+CP95154;Random-Base;SR;7.5;Parrot Point Creek;32.7315;-79.8815;1.2;SC;CA95SR28; ; 
+CP95155;Random-Base;SR;39.7;North Edisto River;32.6018;-80.2367;11.4;SC;CA95SR29; ; 
+CP95156;Random-Base;SR;27.1;South Edisto River;32.5908;-80.3983;6.7;SC;CA95SR30; ; 
+CP95157;Random-Base;SR;11.2;Bull River;32.5325;-80.5715;10.6;SC;CA95SR32; ; 
+CP95158;Random-Base;SR;42.0;Coosaw River;32.5115;-80.6057;4.8;SC;CA95SR31; ; 
+CP95159;Random-Base;SR;40.1;Port Royal Sound;32.2657;-80.6943;11.1;SC;CA95SR33; ; 
+CP95160;Random-Base;SR;3.6;Skull Creek;32.2482;-80.7525;2.1;SC;CA95SR34; ; 
+CP95161;Random-Base;SR;48.0;Tybee Roads;32.0803;-80.8798;5.3;GA;CA95SR35; ; 
+CP95162;Random-Base;SR;6.3;South Channel;32.0257;-80.9117;3.6;GA;CA95SR36; ; 
+CP95163;Random-Base;SR;8.5;Bull River;31.9862;-80.9290;8.4;GA;CA95SR37; ; 
+CP95164;Random-Base;SR;29.2;Ogeechee River;31.8607;-81.1085;6.6;GA;CA95SR38; ; 
+CP95165;Random-Base;SR;28.1;North Newport River;31.6893;-81.1915;8.0;GA;CA95SR39; ; 
+CP95166;Random-Base;SR;10.4;Mud River;31.4935;-81.2935;2.1;GA;CA95SR40; ; 
+CP95167;Random-Base;SR;12.5;Hampton River;31.2573;-81.3260;3.5;GA;CA95SR41; ; 
+CP95168;Random-Base;SR;25.5;Jointer Creek;31.0720;-81.4950;7.1;GA;CA95SR42; ; 
+CP95169;Random-Base;SR;27.3;Cumberland River;30.9265;-81.4620;6.1;GA;CA95SR43; ; 
+CP95170;Random-Base;SR;9.9;South Amelia River;30.5592;-81.4698;5.0;FL;CA95SR44; ; 
+CP95171;Random-Base;SR;188.0;Saint Johns River;30.3928;-81.5537;11.0;FL;CA95SR45; ; 
+CP95172;Random-Base;SR;14.3;Doctors Lake;30.1352;-81.7305;3.0;FL;CA95SR46; ; 
+CP95173;Random-Base;SR;7.0;ICW-Northern;29.5643;-81.1848;5.0;FL;CA95SR47; ; 
+CP95174;Random-Base;SR;28.5;Halifax River;29.2397;-81.0265;1.5;FL;CA95SR48; ; 
+CP95175;Random-Base;RR;44.4;Indian River Lagoon;28.7397;-80.7962;1.6;FL;CA95RR18;310; 
+CP95176;Random-Base;RP;37.4;Indian River Lagoon;28.5018;-80.7487;1.5;FL;CA95RP17;309; 
+CP95177;Random-Base;RR;37.4;Indian River Lagoon;28.4637;-80.7393;1.7;FL;CA95RR17;309; 
+CP95178;Random-Base;SP;12.3;Newfound Harbor;28.3677;-80.6810;1.3;FL;CA95SP49; ; 
+CP95179;Random-Base;SR;12.3;Newfound Harbor;28.3528;-80.6738;0.9;FL;CA95SR49; ; 
+CP95180;Random-Base;RR;37.7;Indian River Lagoon;28.2933;-80.6852;2.2;FL;CA95RR16;308; 
+CP95181;Random-Base;RR;40.4;Indian River Lagoon;28.1417;-80.6180;3.4;FL;CA95RR15;307; 
+CP95182;Random-Base;RR;36.3;Indian River Lagoon;27.9935;-80.5350;2.0;FL;CA95RR14;306; 
+CP95183;Random-Base;RR;32.6;Indian River Lagoon;27.8273;-80.4507;1.6;FL;CA95RR13;305; 
+CP95184;Random-Base;RR;32.9;Indian River Lagoon;27.7142;-80.3995;0.6;FL;CA95RR12;304; 
+CP95185;Random-Base;RR;33.3;Indian River Lagoon;27.5778;-80.3568;1.3;FL;CA95RR11;303; 
+CP95186;Random-Base;RR;33.7;Indian River Lagoon;27.3652;-80.2655;1.6;FL;CA95RR10;302; 
+CP95187;Random-Base;RP;33.7;Indian River Lagoon;27.3457;-80.2682;2.0;FL;CA95RP10;302; 
+CP95188;Random-Base;RR;34.1;Indian River Lagoon;27.2707;-80.2220;2.3;FL;CA95RR09;301; 
+CP95ASM;Supplement; ;.;Ashley Marina -Ashley River;32.7802;-79.9547;0.8;SC; ; ; 
+CP95CB_;Supplement; ;.;Currituck Bank (NERRS Site);36.4000;-75.8445;1.0;NC; ; ; 
+CP95CF_;Supplement; ;.;Cape Fear River;34.1242;-77.9273;1.4;NC; ; ; 
+CP95DIE;Supplement; ;.;Diesel Site -Ashley River;32.8043;-79.9660;1.2;SC; ; ; 
+CP95FOS;Supplement; ;.;Fosters Creek -Wando River;32.8600;-79.8545;2.5;SC; ; ; 
+CP95KIA;Supplement; ;.;Kiawah River;32.6032;-80.1320;.;SC; ; ; 
+CP95KOP;Supplement; ;.;Kopper's Site -Ashley River;32.8285;-79.9652;1.7;SC; ; ; 
+CP95LON;Supplement; ;.;Long Creek and Bohicket Creek;32.6847;-80.1230;.;SC; ; ; 
+CP95LTH;Supplement; ;.;Lighthouse Creek;32.7023;-79.9203;2.4;SC; ; ; 
+CP95MI_;Supplement; ;.;Masonboro Island (NERRS Site);34.1555;-77.8500;0.9;NC; ; ; 
+CP95NMK;Supplement; ;.;Newmarket Creek -Cooper River;32.8072;-79.9407;1.7;SC; ; ; 
+CP95NV1;Supplement; ;.;Navy Base(North) -Cooper River;32.8672;-79.9640;8.1;SC; ; ; 
+CP95NV2;Supplement; ;.;Navy Base(South) -Cooper River;32.8458;-79.9332;3.0;SC; ; ; 
+CP95PR1;Supplement; ;.;Pamlico River;35.3542;-76.6525;2.9;NC; ; ; 
+CP95PR2;Supplement; ;.;Pamlico River;35.3678;-76.6168;4.8;NC; ; ; 
+CP95PR3;Supplement; ;.;Pamlico River;35.4005;-76.7513;4.6;NC; ; ; 
+CP95PR4;Supplement; ;.;Pamlico River;35.4083;-76.7747;4.0;NC; ; ; 
+CP95PR5;Supplement; ;.;Pamlico River;35.4338;-76.8255;4.3;NC; ; ; 
+CP95RC_;Supplement; ;.;Rachel Carson Reserve (NERRS);34.7112;-76.6472;0.5;NC; ; ; 
+CP95SPY;Supplement; ;.;Shipyard Creek -Cooper River;32.8388;-79.9448;2.5;SC; ; ; 
+CP95ZI_;Supplement; ;.;Zeke's Island (NERRS Site);33.9555;-77.9388;1.0;NC; ; ; 
+CP96201;Random-Base;SR;13.5;North Landing River;36.4953;-76.0048;2.1;NC; ; ; 
+CP96202;Random-Base;SR;90.7;Pasquotank River;36.2805;-76.1512;3.6;NC; ; ; 
+CP96203;Random-Base;LR;280.0;Currituck Sound;36.2365;-75.8103;1.0;NC; ; ; 
+CP96204;Random-Base;LR;280.0;Currituck Sound;36.1552;-75.7955;3.0;NC; ; ; 
+CP96205;Random-Base;SR;49.2;Perquimans River;36.1298;-76.3327;3.5;NC; ; ; 
+CP96206;Random-Base;LR;280.0;Albemarle Sound;36.1037;-75.9537;5.6;NC; ; ; 
+CP96207;Random-Base;LR;280.0;Albemarle Sound;36.0685;-76.2735;6.2;NC; ; ; 
+CP96208;Random-Base;SR;66.1;Roanoke Sound;35.9515;-75.6607;2.7;NC; ; ; 
+CP96209;Random-Base;SR;23.6;East Lake;35.9438;-75.8852;2.3;NC; ; ; 
+CP96210;Random-Base;SR;7.9;Scuppernong River;35.9363;-76.3022;3.1;NC; ; ; 
+CP96211;Random-Base;SR;6.3;Cashie River;35.9298;-76.7362;2.7;NC; ; ; 
+CP96212;Random-Base;LR;280.0;Pamlico Sound;35.8277;-75.6835;3.5;NC; ; ; 
+CP96213;Random-Base;LR;280.0;Pamlico Sound;35.7330;-75.6417;4.4;NC; ; ; 
+CP96214;Random-Base;SR;5.5;Pantego Creek;35.5418;-76.6320;1.4;NC; ; ; 
+CP96215;Random-Base;SR;2.8;Far Creek;35.5113;-75.9672;1.8;NC; ; ; 
+CP96216;Random-Base;LR;280.0;Pamlico Sound;35.4595;-75.5787;4.8;NC; ; ; 
+CP96217;Random-Base;SR;3.2;North Creek;35.4297;-76.6667;0.9;NC; ; ; 
+CP96218;Random-Base;LR;280.0;Pamlico Sound;35.4167;-75.7882;6.4;NC; ; ; 
+CP96219;Random-Base;LR;280.0;Pamlico Sound;35.4037;-75.9448;5.2;NC; ; ; 
+CP96220;Random-Base;SR;42.7;Rose Bay;35.3953;-76.4162;2.6;NC; ; ; 
+CP96221;Random-Base;RR;150.1;Pamlico River;35.3888;-76.6688;4.2;NC; ;102; 
+CP96222;Random-Base;LR;280.0;Pamlico Sound;35.3715;-75.6085;5.0;NC; ; ; 
+CP96223;Random-Base;LR;280.0;Pamlico Sound;35.3402;-76.2868;1.6;NC; ; ; 
+CP96224;Random-Base;LR;280.0;Pamlico Sound;35.3388;-76.0883;2.3;NC; ; ; 
+CP96225;Random-Base;RR;208.7;Pamlico River;35.3345;-76.5002;4.5;NC; ;101; 
+CP96226;Random-Base;SR;13.1;Goose Creek;35.3322;-76.6115;1.5;NC; ; ; 
+CP96227;Random-Base;LR;280.0;Pamlico Sound;35.2752;-75.8893;6.1;NC; ; ; 
+CP96228;Random-Base;SR;2.7;Big Porpoise Bay;35.2627;-76.4763;0.9;NC; ; ; 
+CP96229;Random-Base;LR;280.0;Pamlico Sound;35.2350;-75.8500;4.6;NC; ; ; 
+CP96230;Random-Base;LR;280.0;Pamlico Sound;35.2348;-76.1515;6.2;NC; ; ; 
+CP96231;Random-Base;LR;280.0;Pamlico Sound;35.1917;-75.7797;0.6;NC; ; ; 
+CP96232;Random-Base;SR;51.7;Bay River;35.1678;-76.6670;3.5;NC; ; ; 
+CP96233;Random-Base;RR;268.1;Neuse River;35.0852;-76.5188;6.8;NC; ;201; 
+CP96234;Random-Base;LR;280.0;Pamlico Sound;35.0807;-76.0242;1.4;NC; ; ; 
+CP96235;Random-Base;RR;144.3;Neuse River;35.0022;-76.6892;5.7;NC; ;202; 
+CP96236;Random-Base;SR;7.8;Turnagain Bay;34.9905;-76.4995;1.4;NC; ; ; 
+CP96237;Random-Base;SR;7.6;Nelson Bay;34.8623;-76.4027;2.6;NC; ; ; 
+CP96238;Random-Base;SR;114.8;Bogue Sound;34.7050;-76.9118;1.0;NC; ; ; 
+CP96239;Random-Base;SR;4.1;Lookout Bight;34.6248;-76.5368;3.6;NC; ; ; 
+CP96240;Random-Base;SR;88.8;New River;34.5660;-77.3647;1.2;NC; ; ; 
+CP96241;Random-Base;SR;6.3;Masonboro Sound;34.1333;-77.8648;1.2;NC; ; ; 
+CP96242;Random-Base;SR;17.0;Myrtle Grove Sound;34.1087;-77.8668;0.1;NC; ; ; 
+CP97022;Revisit; ;.;Doboy Sound;31.3907;-81.2930;3.8;GA; ; ; 
+CP97036;Revisit; ;.;Neuse River;35.0730;-76.5513;5.2;NC; ; ; 
+CP97052;Revisit; ;.;Pamlico River;35.3975;-76.6923;4.4;NC; ; ; 
+CP97071;Revisit; ;.;Currituck Sound;36.3858;-75.8550;1.0;NC; ; ; 
+CP97075;Revisit; ;.;Chechessee River;32.2852;-80.7490;9.9;SC; ; ; 
+CP97082;Revisit; ;.;Sampit River;33.3585;-79.2918;4.6;SC; ; ; 
+CP97109;Revisit; ;.;Little Alligator River;35.9368;-76.1015;2.6;NC; ; ; 
+CP97114;Revisit; ;.;Pungo Creek;35.5143;-76.6397;2.0;NC; ; ; 
+CP97120;Revisit; ;.;Durham Creek;35.3788;-76.8252;1.4;NC; ; ; 
+CP97141;Revisit; ;.;Thorofare Bay;34.9160;-76.3360;2.0;NC; ; ; 
+CP97149;Revisit; ;.;Winyah Bay;33.3412;-79.2742;4.7;SC; ; ; 
+CP97156;Revisit; ;.;South Edisto River;32.5908;-80.3983;8.2;SC; ; ; 
+CP97164;Revisit; ;.;Ogeechee River;31.8607;-81.1085;6.7;GA; ; ; 
+CP97172;Revisit; ;.;Doctors Lake;30.1352;-81.7305;3.1;FL; ; ; 
+CP97183;Revisit; ;.;Indian River Lagoon;27.8273;-80.4507;.;FL; ; ; 
+CP97184;Revisit; ;.;Indian River Lagoon;27.7142;-80.3995;.;FL; ; ; 
+CP97301;Random-Base;SR;6.5;Back Creek;36.5180;-75.9802;1.2;NC; ; ;CA-MAIA-01
+CP97302;Random-Base;LR;280.0;Currituck Sound;36.4127;-75.8995;1.0;NC; ; ;CA-MAIA-19
+CP97303;Random-Base;SR;66.2;North River;36.2352;-75.9338;3.7;NC; ; ;CA-MAIA-02
+CP97304;Random-Base;LR;280.0;Currituck Sound;36.2295;-75.8162;1.2;NC; ; ;CA-MAIA-18
+CP97305;Random-Base;LR;280.0;Currituck Sound;36.1493;-75.7813;2.3;NC; ; ;CA-MAIA-17
+CP97306;Random-Base;SR;4.4;Big Flatty River;36.1365;-76.1312;1.0;NC; ; ;CA-MAIA-03
+CP97307;Random-Base;LR;280.0;Albemarle Sound;36.0873;-75.9637;5.3;NC; ; ;CA-MAIA-21
+CP97308;Random-Base;LR;280.0;Albemarle Sound;36.0718;-76.2748;5.1;NC; ; ;CA-MAIA-20
+CP97309;Random-Base;SR;35.8;Batchelor Bay;35.9523;-76.7143;1.7;NC; ; ;CA-MAIA-04
+CP97310;Random-Base;SR;239.7;Alligator River;35.9195;-75.9818;3.6;NC; ; ;CA-MAIA-06
+CP97311;Random-Base;SR;24.0;Roanoke River;35.9167;-76.7207;4.6;NC; ; ;CA-MAIA-05
+CP97312;Random-Base;LR;280.0;Pamlico Sound;35.8238;-75.6765;4.4;NC; ; ;CA-MAIA-34
+CP97313;Random-Base;LR;280.0;Pamlico Sound;35.7387;-75.6362;3.4;NC; ; ;CA-MAIA-33
+CP97314;Random-Base;SR;20.2;Stumpy Point Bay;35.6977;-75.7570;1.2;NC; ; ;CA-MAIA-07
+CP97315;Random-Base;SR;3.9;Chocowinity Bay;35.5000;-77.0297;1.4;NC; ; ;CA-MAIA-11
+CP97316;Random-Base;LR;280.0;Pamlico Sound;35.4480;-75.5870;5.1;NC; ; ;CA-MAIA-32
+CP97317;Random-Base;SR;5.3;Fortescue Creek;35.4287;-76.5320;2.1;NC; ; ;CA-MAIA-10
+CP97318;Random-Base;LR;280.0;Pamlico Sound;35.4117;-75.7788;6.0;NC; ; ;CA-MAIA-31
+CP97319;Random-Base;LR;280.0;Pamlico Sound;35.4055;-75.9668;4.4;NC; ; ;CA-MAIA-30
+CP97320;Random-Base;RR;150.1;Pamlico River;35.4055;-76.7522;4.6;NC; ;102;CA-MAIA-36
+CP97321;Random-Base;SR;8.1;Spenser Bay;35.3882;-76.4597;2.7;NC; ; ;CA-MAIA-09
+CP97322;Random-Base;RR;208.7;Pamlico River;35.3762;-76.6502;4.6;NC; ;101;CA-MAIA-35
+CP97323;Random-Base;SR;4.2;East Bluff Bay;35.3590;-76.1313;0.7;NC; ; ;CA-MAIA-08
+CP97324;Random-Base;LR;280.0;Pamlico Sound;35.3697;-75.5828;4.0;NC; ; ;CA-MAIA-29
+CP97325;Random-Base;LR;280.0;Pamlico Sound;35.3393;-76.2882;2.0;NC; ; ;CA-MAIA-27
+CP97326;Random-Base;LR;280.0;Pamlico Sound;35.3222;-76.0550;3.4;NC; ; ;CA-MAIA-28
+CP97327;Random-Base;SR;5.6;Oyster Creek;35.3207;-76.5575;1.5;NC; ; ;CA-MAIA-12
+CP97328;Random-Base;LR;280.0;Pamlico Sound;35.2747;-75.8795;5.3;NC; ; ;CA-MAIA-26
+CP97329;Random-Base;SR;6.2;Middle Bay;35.2365;-76.5138;0.8;NC; ; ;CA-MAIA-13
+CP97330;Random-Base;LR;280.0;Pamlico Sound;35.2357;-76.1482;5.4;NC; ; ;CA-MAIA-25
+CP97331;Random-Base;LR;280.0;Pamlico Sound;35.2330;-75.8492;4.3;NC; ; ;CA-MAIA-24
+CP97332;Random-Base;LR;280.0;Pamlico Sound;35.1920;-75.7652;3.6;NC; ; ;CA-MAIA-23
+CP97333;Random-Base;SR;7.3;Trent River;35.0707;-77.0763;2.0;NC; ; ;CA-MAIA-14
+CP97334;Random-Base;RR;268.1;Neuse River;35.0887;-76.5138;6.6;NC; ;201;CA-MAIA-37
+CP97335;Random-Base;LR;280.0;Pamlico Sound;35.0773;-76.0138;0.9;NC; ; ;CA-MAIA-22
+CP97336;Random-Base;RR;144.3;Neuse River;35.0003;-76.6840;5.6;NC; ;202;CA-MAIA-38
+CP97337;Random-Base;SR;11.7;Cedar Island Bay;34.9745;-76.2782;2.5;NC; ; ;CA-MAIA-16
+CP97338;Random-Base;SR;12.7;South River;34.9670;-76.5832;2.9;NC; ; ;CA-MAIA-15
+CP97339;Random-Base;SR;32.8;North River;34.7605;-76.6037;1.2;NC; ; ; 
+CP97340;Random-Base;SR;9.9;The Straits;34.7170;-76.5618;3.2;NC; ; ; 
+CP97341;Random-Base;SR;13.6;Shackleford Channel;34.7000;-76.6708;6.0;NC; ; ; 
+CP97342;Random-Base;SR;7.6;Middle Sound;34.2663;-77.7695;1.3;NC; ; ; 
+CP97343;Random-Base;SR;4.2;Elizabeth River;33.8995;-78.0282;2.3;NC; ; ; 
+CP97344;Random-Base;SR;3.8;Slocum Creek;.;.;.;NC; ; ; 
+CP97345;Intensive; ;.;Chowan River;36.4610;-76.9960;9.3;NC; ; ;CA-MAIA-39
+CP97346;Intensive; ;.;Chowan River;36.3960;-76.9200;6.8;NC; ; ;CA-MAIA-47
+CP97347;Intensive; ;.;Chowan River;36.3750;-76.8460;6.4;NC; ; ;CA-MAIA-48
+CP97348;Intensive; ;.;Chowan River;36.3630;-76.7900;2.0;NC; ; ;CA-MAIA-40
+CP97349;Intensive; ;.;Chowan River;36.2920;-76.6980;3.7;NC; ; ;CA-MAIA-41
+CP97350;Intensive; ;.;Chowan River;36.2180;-76.7180;7.0;NC; ; ;CA-MAIA-42
+CP97351;Intensive; ;.;Chowan River;36.1740;-76.7450;4.5;NC; ; ;CA-MAIA-43
+CP97352;Intensive; ;.;Chowan River;36.1170;-76.7370;6.1;NC; ; ;CA-MAIA-44
+CP97353;Intensive; ;.;Chowan River;36.0830;-76.7180;5.4;NC; ; ;CA-MAIA-45
+CP97354;Intensive; ;.;Chowan River;36.0260;-76.6660;4.0;NC; ; ;CA-MAIA-46
+CP97HOB;Reference; ;.;Hobcaw Creek;32.8257;-79.8728;.;SC; ; ; 
+CP97JIY;Reference; ;.;James Island Yacht Club;32.7557;-79.9178;.;SC; ; ; 
+CP97SPY;Reference; ;.;Shipyard Creek;32.8375;-79.9458;.;SC; ; ; 
+CP97WAN;Reference; ;.;Wando River Mouth;32.8108;-79.9090;.;SC; ; ; 
