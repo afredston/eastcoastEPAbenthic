@@ -1,0 +1,30 @@
+---
+title: "Data Prep"
+output: html_notebook
+---
+
+```{r}
+library("tidyverse")
+library("here")
+```
+
+
+```{r}
+getwd()
+file1<-read_csv(here("current work", "raw data", "NCCA0506_Benthic Macroinvertebrates.csv"))
+file2<-read_csv(here("current work", "raw data", "NCCA2010_Benthic Macroinvertebrates.csv"))
+file3<-read_csv(here("current work", "raw data", "NCCA2015_Benthic Macroinvertebrate Count.csv"))
+#didn't find 2020 in the data downloader
+```
+```{r}
+file1
+```
+
+```{r}
+file2
+```
+
+```{r}
+file3
+```
+
