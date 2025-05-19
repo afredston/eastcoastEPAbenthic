@@ -103,7 +103,7 @@ BC2000cor #columns we care about:
 #D) LAT_DD 
 #E) SAMPYEAR 
 #F) WORMS_APHIAID 
-BC2000cor<-BC2000cor %>% select(SITE_ID, tot_num_m2, LON_DD, LAT_DD, SAMPYEAR, WORMS_APHIAID)
+BC2000cor.sub<-BC2000cor %>% select(SITE_ID, tot_num_m2, LON_DD, LAT_DD, SAMPYEAR, WORMS_APHIAID)
 
 BC2010a #coloumns we care about: 
 #A) SITE_ID = SITE_ID.x 
@@ -116,7 +116,7 @@ BC2010a #coloumns we care about:
 #H) ***VISIT_NO*** need to decide whether to use repeat visits or not -> filter for 1st visit
 BC2010a<-BC2010a %>% filter(VISIT_NO == 1)
 colnames(BC2010a)<-c(colnames(BC2010a[,1:34]), "FINAL_GRAB_AREA_m2", colnames(BC2010a[,36:length(colnames(BC2010a))]))
-BC2010a<-BC2010a %>% mutate(SITE_ID = SITE_ID.x,
+BC2010a.sub<-BC2010a %>% mutate(SITE_ID = SITE_ID.x,
                    tot_num_m2 = TOTAL/FINAL_GRAB_AREA_m2,
                    LON_DD = ALON_DD,
                    LAT_DD = ALAT_DD,
@@ -143,7 +143,7 @@ BC2015
 #F) WORMS_APHAID = APHIA_ID
 #H) ***VISIT_NO*** need to decide whether to use repeat visits or not -> filter for 1st visit
 BC2015<-BC2015 %>% filter(VISIT_NO == 1)
-BC2015<-BC2015 %>% mutate(tot_num_m2 = TOTAL/as.numeric(FINAL_GRAB_AREA),
+BC2015.sub<-BC2015 %>% mutate(tot_num_m2 = TOTAL/as.numeric(FINAL_GRAB_AREA),
                    SAMPYEAR = YEAR,
                    WORMS_APHIAID = APHIA_ID) %>%
   select(SITE_ID, tot_num_m2, LON_DD, LAT_DD, SAMPYEAR, WORMS_APHIAID)
@@ -157,12 +157,12 @@ BC2020
 #F) WORMS_APHAID = APHIA_ID
 #H) ***VISIT_NO*** need to decide whether to use repeat visits or not -> filter for 1st visit
 BC2020<-BC2020 %>% filter(VISIT_NO == 1)
-BC2020<-BC2020 %>% mutate(tot_num_m2 = DENSITY,
+BC2020.sub<-BC2020 %>% mutate(tot_num_m2 = DENSITY,
                    SAMPYEAR = 2020, 
                    WORMS_APHIAID = APHIA_ID) %>%
   select(SITE_ID, tot_num_m2, LON_DD, LAT_DD, SAMPYEAR, WORMS_APHIAID)
 
-all.data<-rbind(BC2000cor, BC2010a, BC2015, BC2020)
+all.data<-rbind(BC2000cor.sub, BC2010a.sub, BC2015.sub, BC2020.sub)
 all.data
 ```
 
@@ -181,37 +181,6 @@ wormsIDs2000<-BC2000cor %>% select(WORMS_APHIAID) %>% unique() #extracting the I
 wormsIDs2000
 worms_downstream(id=wormsIDs2000[,1], downto="species") #...and searching for them in WoRMS also is giving me nothing
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ```{r}
