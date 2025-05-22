@@ -1,0 +1,553 @@
+EPA DATA METADATA
+EARLY YEARS:
+nca_benthicdata.csv
+Field Name	Description
+region	NCCR Region
+site_id	NCA Site ID
+taxon	Taxon name
+abund	Taxon Abundance (#/sample)
+lpil	Lowest Practical Identification Level
+phylum	Phylum
+class	Class
+order	Order
+family	Family
+genus	Genus
+grabarea_m2	Surface area of grab (m2)
+num_m2	Taxon Abundance (#/m2)
+tot_abund	Total Abundance in Sample
+tot_num_m2	Total Abundance per m2
+LON_DD	Longitude (decimal degrees)
+LAT_DD	Latitude (decimal degrees)
+PSTL_CODE	State (postal code)
+NCA_REGION	NCA Region
+SAMPYEAR	Sample Year
+ESTUARY	Estuary Name
+status	Sample status 
+
+nca_siteinformationdata.csv
+SITE_ID	Unique site identification for National Coastal Assessment sites
+LON_DD	Latitude in decimal degrees
+LAT_DD	Longitude in decimal degrees
+ALBERS_X	x-coordinate for USGS Albers national projection
+ALBERS_Y	y-coordinate for USGS Albers national projection
+PSTL_CODE	State two letter abbreviation
+EPA_REG	US EPA Region in which site is located
+NCA_REGION	National Coastal Assessment Region in which site is located
+SAMPYEAR	Year sampling took place
+ESTUARY	Estuary name in which site is located
+STATUS_ALL	"Status: indicates that all sites with weights were determined to be target and were sampled. Target population from the 99-01 time period and the 05-06 time period (which also includes a few 2004 Puget Sound sites), were matched to the target population used for the National Coastal Condition Assessment 2010. "
+WGT_56_CAT	"Indicates the categories used to determine the weights. In this case, the two digit state abbreviation for sites that are in the 2005-2006 assessment period"
+WGT_NCA_56	Use these weights to obtain the best status estimate for the 2005-2006 time period.
+WGT_91_CAT	"Indicates the categories used to determine the weights. In this case, the the two digit state abbreviation for sites that are in the 1999-2001 assessment period"
+WGT_NCA_91	Use these weights to obtain the best status estimate for the 1991-2001 time period.
+CHG_PERIOD	Identifies the change period the site belongs in.
+CH9156_USE	Identifies whether to use this site in a change analysis between the two time periods 1991-2001 and 2005-2006.
+CH9156_WGT	Use these weights when you compare 1999/01 to 2005/06 data?
+	
+"Note -- these sites constitute a subset of all National Coastal Assessment sites sampled between 1999 and 2006.   These sites represent two time periods -- 1999-201; and 2005-2006 (with a few 2004 Puget Sound sites to round out coverage) that equate to the same target population as used in the National Coastal Condition Assessment 2010.  Once the 2010 data are available, this subset of sites will be used for change analysis between all three time periods."
+
+2010:
+assessed_ncca2010_benthic_data.csv
+not_assessed_ncca2010_benthic_data.csv
+
+NCCA 2010 Benthic Metadata for Assessed and Not_Assessed files.		
+		
+"“’Assessed’ data were used to develop the Good, Fair and Poor ratings in the report. ‘Not_Assessed’ data were not used to develop the ratings.”"		
+		
+"For questions about these data, please contact Hugh Sullivan at sullivan.hugh@epa.gov or use the Contact Us link on the webpage: http://www.epa.gov/national-aquatic-resource-surveys/forms/national-aquatic-resource-surveys-contact-us"		
+"It is the responsibility of the end data user to become familiar with the QA codes used in the NCCA 2010 assessment (NCCA_QA_Codes.csv) and review the ""QA_CODES"" column in each dataset to determine whether the data meet quality objectives for specific uses."		
+Location information for each site is contained in the SITEINFO File. Use UID as key column for merging data.		
+		
+Benthic Metadata		
+		
+Variable		Definition	
+UID		Unique Identifier for site and visit number
+SITE_ID		Unique NCCA site dentifier
+STATE		State in which sample collection site s located
+VISIT_NO		"Sequential visit number in sampling season. ALL ASSESSED visits are Visit 1, so the VISIT_NO column is removed from the ASSESSED file."
+DATE_COL		Date sample was collected at field site
+WTBDY_NM		Name of waterbody from which the sample was taken
+SCREENSIZE		Size of openings in screen through which benthic samples was sieved in the field before shipment to taxonomic laboratory
+TAXON_ORIGINAL		Taxon name prior to reconciliation
+TAXON_CORRECTED		File taxon name after reconciliation
+TOTAL		Total number of organisms of the taxon in the sample
+ADULT		Number of adult organisms of the taxon in the sample
+CONDITION		Specimens in poor condition or fragments. Legal values are Y or N.
+DISTINCT		Denotes whether the taxon is distinct within the sample. Legal values are Y or N.
+FLAGGED		Sample was flagged by lab
+IMMATURE		Were specimens immature? Legal values are Y and N
+INDETERMINATE		Are the specimens indeterminate? Legal Values are Y and N
+LAB_TIN		Internal Laboratory Taxa ID number
+LARVAE		Number of larval organisms of the taxa in the sample
+NUM_AGGREGATED		Number of individual aggregated in sample
+PUPAE		Number of pupal organisms of taxa in sample
+QA_CODE		Qualifier code entered during NCCA QA process
+QA_COMMENTS		Comment to accompany QA Code if necessary
+SAMPLE_ID		NCCA Sample ID number
+WORMS_STATUS		Status in World Register of Marine Species database
+WORMS_APHIAID		Unique and permanent number for every species name within WoRMS 
+ITIS_STATUS		Interagency Taxonomic Information System. Legal values are valid/accepted or invalid/not accepted
+ITIS_TSN		ITIS Taxonomic Serial Number
+LPIL		Lowest Practical Identification Level
+PHYLUM		Phylum of Specimen
+CLASS		Class of Specimen
+ORDER		Order of Specimen
+FAMILY		Family of Specimen
+GENUS		Genus of Specimen
+GRAB_TYPE		Type of sediment grab apparatus used to collect sample
+Grab_Area(m^2)		Surface area of grab apparatus
+Number of grabs		Number of grabs composited to make up sample
+Final_Grab_Area(m^2)		"Surface area of grab apparatus. When grabs are composited, surface area consists of sum of grab areas from each grab in composite."
+Grab_Depth(cm)		Depth grab penetrated into substrate
+Sieve_Size(mm^2)		Size of openings in screen through which benthic samples was sieved in the field before shipment to taxonomic laboratory
+Grab_QA		QA codes associated with grab used to obtain sample
+Grab_Comment		Comment to accompany QA Code if necessary
+
+NCCA 2010 Benthic Indicator Status Metadata		
+		
+"For questions about these data, please contact Hugh Sullivan at sullivan.hugh@epa.gov or use the Contact Us link on the webpage: http://www.epa.gov/national-aquatic-resource-surveys/forms/national-aquatic-resource-surveys-contact-us"		
+"It is the responsibility of the end data user to become familiar with the QA codes used in the NCCA 2010 assessment (NCCA_QA_Codes.csv) and review the ""QA_CODES"" column in each dataset to determine whether the data meet quality objectives for specific uses."		
+Location information for each site is contained in the SITEINFO File. Use UID as key column for merging data.		
+			
+VARIABLE		DESCRIPTION
+UID		Unique Identifier for site and visit number
+SITE_ID		Unique NCCA site dentifier
+LON_DD		Actual Longitude sampled (decimal degrees)
+LAT_DD		Actual Latitude sampled (decimal degrees)
+ALBERS_X		X-coordinate on Albers projection
+ALBERS_Y		Y-coordinate on Albers projection
+PSTL_CODE		State in which sample collection site s located
+WTBDY_NM		Waterbody name
+RSRC_CLASS		Resource classification
+NCCA_REG		Reporting region designations used in the National Coastal Condition Assessment Reports 
+GREAT_LAKE		Name of Great Lake within which the site is located (if applicable)
+NPSPARK		Name of National Park within which site is located (if applicable)
+NEP_NM		Name of National Estuary Program study area within which site is located area (if applicable)
+EPA_REG		Identifies EPA Region within which the site is located
+STATUS_ALL		Status of sampling at that site.
+TNT_ALL		Target or not Target for sampling
+WGT_CATALL		Category used to derive weight for assesment of all parameters except Great Lakes Human Health Fish Tissue Analysis
+WGT_SQMI10		Adjusted site weight. USE for all population estimates with the exception of Great Lakes Human Helath Fish Tissue estimates. Units are Square miles.
+STATUS_FT		Status of Great Lakes Human Health Fish Tissue sampling at that site.
+TNT_FT		Target or not Target for Great Lakes Human Health Fish Tissue sampling
+WGT_CAT_FT		Category used to derive weight for assesment of Great Lakes Human Health Fish Tissue Analysis ONLY
+WGT_SQMIFT		Adjusted site weight for population estimates of Great Lakes Human Health Fish Tissue estimates ONLY. Units are Square miles.
+NCA_BI		NCA Benthic Index Value (estuarine)
+NCA_BI_STATUS		NCA Benthic Index Status
+OTI		Oligochaete Trophic Index (Great Lakes)
+OTI_STATUS		OTI Class
+NCCA_BI_STATUS		NCCA Benthic Index Condition Status
+NCCA_BI_TYPE		Benthic Index used for NCCA (NCA_BI for estuarine; OTI for GL)
+
+assessed_ncca2010_siteinfo.revised.06212016.csv
+not_assessed_ncca2010_siteinfo.revised.06212016.csv
+
+NCCA 2010 SITEINFO Metadata for Assessed and Not_Assessed files.		
+		
+Revised 06.21.2016		
+		
+"“’Assessed’ data were used to develop the Good, Fair and Poor ratings in the report. ‘Not_Assessed’ data were not used to develop the ratings.”"		
+		
+"For questions about these data, please contact Hugh Sullivan at sullivan.hugh@epa.gov or use the Contact Us link on the webpage: http://www.epa.gov/national-aquatic-resource-surveys/forms/national-aquatic-resource-surveys-contact-us"		
+"It is the responsibility of the end data user to become familiar with the QA codes used in the NCCA 2010 assessment (NCCA_QA_Codes.csv) and review the ""QA_CODES"" column in each dataset to determine whether the data meet quality objectives for specific uses."		
+		
+Files	Contents	
+Assessed SITEINFO	Contains information about sites used to develop the 2010 National Coastal Condition Assessment (i.e. Index sites) whether they were sampled or not.	
+Not_Assessed SITEINFO	Contains information about sites that were NOT used to develop the 2010 National Coastal Condition Assessment. Sites may have been supplemental study sites or sites that were dropped and replaced with oversample sites.	
+Location information for each site is contained in the SITEINFO Files. Use UID as key column for merging data into the data files.		
+		
+Variable		Definition	
+UID		Unique Identifier for site and visit number
+SITE_ID		Unique NCCA site dentifier
+STATE		State in which sample collection site s located
+VISIT_NO		"Sequential visit number in sampling season. ALL ASSESSED visits are Visit 1, so the VISIT_NO column is removed from the ASSESSED file."
+DATE_COL		Date sample was collected at field site
+WTBDY_NM		Waterbody name
+SITESAMP		Identifies sites sampled (Y) vs sites not sampled (N)
+INDEX_VISIT		Identifies visit used for analysis (Y) vs. not used (N) of 2010 Sample data
+EPA_REG		Identifies EPA Region within which the site is located
+NCCR_REG		Reporting region designations used in the National Coastal Condition Assessment Reports 
+NCA_REGION		Alternate reporting region designations used for design purposes only
+COUNTRY		Identifies the country within which the site is located
+PROVINCE		Biogeographic province
+STATION_DEPTH		Depth of water at station
+STATION_DEPTH_UNITS		Units for depth of water
+ALAT_DD		Actual Latitude sampled (decimal degrees)
+ALON_DD		Actual Longitude sampled (decimal degrees)
+MAP_DATUM		"Reference system used in identifying location with GPS. Legal values are ""WGS84"", ""NAD83"" or ""not reported."""
+TLAT_DD		Target Latitude for site (included in NONAssessment SITEINFO file only)
+TLON_DD		Target Longitude for site (included in NONAssessment SITEINFO file only)
+DSNTYPE		Identifies site as part of NCCA draw or Supplemental draw
+MDCATY		Probability survey design categories used to assign unequal probability of selection
+NEP_NM		Name of National Estuary Program study area within which site is located area (if applicable)
+NPSPARK		Name of National Park within which site is located (if applicable)
+PANEL		Probability survey design categories
+STATUS10		"Status of sampling at that site.  Status10 of index visit in """"Assessment SITEINFO"""" tab are either """"Target_sampled"""" (if site was sampled) or """"Target_presumed"""" (if site was not sampled).  In """"NonAssessment SITEINFO"""" tab Other values indicate reason target was not sampled."
+STRATUM		Probability survey design stratum used to identify assessment region
+TNT		Target or not Target
+WGT_CAT		Category used to derive weight
+WGT_NCCA10		Adjusted site weight. USE for population estimates. Units are Square miles.
+RSRC_CLASS		Resource classification
+QA_CODES		Qualifier codes entered during NCCA QA process
+COMMENT		Comment to accompany QA Code if necessary
+			
+** Change LOG **		
+		
+"Date: June 21, 2016: Change to Filename ""assessed_ncca2010_sinteinfo.revised.06212016.csv"": Site weights (Column ""WGT_NCCA10"") corrected."		
+		
+"Date: June 21, 2016: Change to Filename ""not_assessed_ncca2010_siteinfo.revised.06212016.csv"": Site Weights removed from file because sites were not used in the assessment."		
+
+2015:
+ncca_2015_benthic_count_estuarine-data.csv
+
+SAMPLE_TYPE	VARIABLE	LEGAL_VALUES	DESCRIPTION
+EVALVIS	INDEX_AP	Y|N|NA	Index visit for Albemarle-Pamlico Study
+EVALVIS	INDEX_NCCA15		Index visit for NCCA 2015 survey - applies to both estuary and Great Lakes sites that are part of NCCA
+SHAB	HABITAT	|EMBAYMENT|INTER_TIDAL|MARSH_WETLAND|OPEN_WATER|RIVERMOUTH|TIDAL|OTHER	Habitat type
+BENT	IS_DISTINCT		Taxon is unique within sample: Y/N
+BENT	TARGET_TAXON		Name of taxon at target taxon level
+BENT	TOTAL		Total number of individuals in sample
+DESIGN	PSTL_CODE		State (US) or Province (Canada) abbreviation
+DESIGN	STUDY		Study name
+INVERTEBRATES	APHIA_ID		Taxon ID from World Register of Marine Species (WoRMS)
+INVERTEBRATES	CLASS		Class of taxon
+INVERTEBRATES	FAMILY		Family of taxon
+INVERTEBRATES	ITISTSN		ITIS Taxonomic Serial Number
+INVERTEBRATES	ORDER		Order of taxon
+INVERTEBRATES	PHYLUM		Phylum of taxon
+VERIF	DATE_COL	|01|02|03|04|05|06|07|08|09|10|11|12	Date collected
+VERIF	SITE_ID		Site id
+VERIF	VISIT_NO	|1|2	Visit: 1/2
+VERIF	YEAR		Year site visited
+DESIGN	NCCA_REG	Northeast|Southeast|Gulf|West|Great Lakes|	"National Coastal Condition Assessment Region.  Northeast includes states ME, NH, MA, RI, CT, NY, NJ, MD, DE, and VA.  Southeast includes NC, SC, GA, and east coast of FL.  No missing values allowed."
+	PUBLICATION_DATE		Date the dataset was published to the NARS site
+	UID		Unique identifier for the site/visit
+	TAXA_ID		NARS IM-assigned taxonomic ID number
+
+ncca_2015_benthic_taxa_list-data.csv
+
+“SAMPLE_TYPE"	"VARIABLE"	"LEGAL_VALUES"	"DESCRIPTION"
+"SHAB"	"HABITAT"	"|EMBAYMENT|INTER_TIDAL|MARSH_WETLAND|OPEN_WATER|RIVERMOUTH|TIDAL|OTHER"	"Habitat type"
+"BENT"	"TARGET_TAXON"		"Name of taxon at target taxon level"
+"INVERTEBRATES"	"APHIA_ID"		"Taxon ID from World Register of Marine Species (WoRMS)"
+"INVERTEBRATES"	"CLASS"		"Class of taxon"
+"INVERTEBRATES"	"FAMILY"		"Family of taxon"
+"INVERTEBRATES"	"ITISTSN"		"ITIS Taxonomic Serial Number"
+"INVERTEBRATES"	"ORDER"		"Order of taxon"
+"INVERTEBRATES"	"PHYLUM"		"Phylum of taxon"
+	"PUBLICATION_DATE"		"Date the dataset was published to the NARS site"
+	"TAXA_ID"		"NARS IM-assigned taxonomic ID number"
+
+ncca_2015_benthic_grab_estuarine-data.csv
+
+VARIABLE	DESCRIPTION	LEGAL_VALUES
+INDEX_AP	Index visit for Albemarle-Pamlico Study	Y|N|NA
+INDEX_NCCA15	Index visit for NCCA 2015 survey - applies to both estuary and Great Lakes sites that are part of NCCA	
+SALINITY	Salinity	
+TARGET_TAXON	Name of taxon at target taxon level	
+TOTAL	Total number of individuals in sample	
+DEPTH	Depth of grab(s)	
+FINAL_GRAB_AREA	Adjusted grab area	
+GRAB_AREA	Size of the grab area (m2)	
+GRAB_TYPE	Type of grab tool for benthic infauna collection	|STANDARD_PONAR|VAN_VEEN|OTHER
+GRABS	Number of grabs taken	|1|2
+SAMPLE_ID	Sample ID	
+SIEVE_SIZE	Sieve size	|0.5|1.0
+PSTL_CODE	State (US) or Province (Canada) abbreviation	
+STUDY	Study name	
+DATE_COL	Date collected	|01|02|03|04|05|06|07|08|09|10|11|12
+SITE_ID	Site id	
+VISIT_NO	Visit: 1/2	|1|2
+YEAR	Year site visited	
+FEAT_NM	"Most detailed name available and may identify different portions of an estuary. \blank"" if missing"""	
+NCCA_REG	"National Coastal Condition Assessment Region.  Northeast includes states ME, NH, MA, RI, CT, NY, NJ, MD, DE, and VA.  Southeast includes NC, SC, GA, and east coast of FL.  No missing values allowed."	Northeast|Southeast|Gulf|West|Great Lakes|
+PUBLICATION_DATE	Date the dataset was published to the NARS site	
+UID	Unique identifier for the site/visit	
+COMMENT	Additional comments	
+QA_FLAG	Laboratory QA flags (not necessarily translatedto NCCA_FLAG)	
+CONDITION_CODE	Condition code of sample upon arrival in the lab	
+
+ncca_2015_site_information_estuarine-data.csv
+
+VARIABLE	DESCRIPTION	LEGAL_VALUES
+INDEX_AP	Index visit for Albemarle-Pamlico Study	Y|N|NA
+INDEX_FPLG15	"Index visit for population estimates for the ecological fish tissue contaminant index in 2015, based on fish plug samples. This may differ from INDEX_NCCA15 due to use of a different visit as index visit."	Y|N
+INDEX_FTIS15	"Index visit for population estimates for the ecological fish tissue contaminant index in 2015, based on fish fillet samples. This may differ from INDEX_NCCA15 due to use of a different visit as index visit."	Y|N
+INDEX_NCCA15	Index visit for NCCA 2015 survey - applies to both estuary and Great Lakes sites that are part of NCCA	
+DATE_COL	Date collected	|01|02|03|04|05|06|07|08|09|10|11|12
+LAT_DD	Actual latitude of sampling in decimal degrees	
+LON_DD	Actual longitude of sampling in decimal degrees	
+STATION_DEPTH	"Numeric, depth of station in m"	
+VISIT_NO	Visit: 1/2	|1|2
+YEAR	Year site visited	
+PUBLICATION_DATE	Date the dataset was published to the NARS site	
+UID	Unique identifier for the site/visit	
+COUNTRY	Country in which site is located	CAN|USA
+DWH_REGION	Site is located in the Deep Water Horizon impact area or located outside of impact area within Gulf Coast region. Missing values if outside of Gulf Coast region.	Inside DWH Area|Outside DWH Area|Outside Gulf Coast
+EPA_REG	EPA Region.  No missing values allowed.	Region_01|Region_02| Region_03|Region_04|Region_06|Region_09|Region_10|
+EST_GROUP	"34 major estuaries plus 7 other groups of estuaries organized by EMAP Provinces. 41 possible values. \blank"" or NA not allowed. Values begin with Province appreviation followed by major estuary name or Other."""	
+EVAL_CAT	"NCCA site evaluation result.  Frame_NotAssessed is used to identify pseudo sites that were created to identify polygons that were not in 1999-2001, 2005-2006, and 2010 sample frames but were in 2015 sample frame. No missing values allowed."	
+FEAT_NM	"Most detailed name available and may identify different portions of an estuary. \blank"" if missing"""	
+FRAME1999	Polygon associated with site is included or excluded from sample frame for the NCA 1999-2001 survey design.   Blank values are not allowed or NA for missing.	Exclude|Include| Not Present|
+FRAME2005	Polygon associated with site is included or excluded from sample frame for the NCA 2005-2006 survey design.   Blank values are not allowed or NA for missing	Exclude|Include| Not Present|
+FRAME2010	Polygon associate with site is included or excluded from sample frame for the NCCA 2010 survey design.   Blank values are not allowed or NA for missing	Exclude|Include| Not Present|
+FRAME2015	Polygon associate with site is included or excluded from sample frame for the NCCA 2015 survey design.   Blank values are not allowed or NA for missing	Exclude|Include| Not Present|
+LAT_DD83	Design latitude in decimal degrees from sample frame. No missing values allowed.
+LON_DD83	Design longitude in decimal degrees from sample frame. No missing values allowed.	
+NCA_REG	National Coastal Assessment Region used prior to NARS in 2010.  No missing values allowed.	East_Coast|Gulf_Coast|West_Coast|
+NCCA_REG	"National Coastal Condition Assessment Region.  Northeast includes states ME, NH, MA, RI, CT, NY, NJ, MD, DE, and VA.  Southeast includes NC, SC, GA, and east coast of FL.  No missing values allowed."	Northeast|Southeast|Gulf|West|Great Lakes|
+NEP_NAME	National Estuary Program name if site is in the NEP or  Chesapeake Bay if site in Chesapeake Bay.  Missing value if site is not in any NEP or  Chesapeake Bay. 	Albemarle-Pamlico Sounds|Barataria-Terrebonne NEP|Barnegat Bay|Buzzards Bay Estuary Program|Casco Bay Estuary Partnership|Charlotte Harbor NEP|Coastal Bend Bays and Estuaries|Delaware Estuary|Delaware Inland Bays|Galveston Bay|Indian River Lagoon|Long Island Sound Study|Lower Columbia River Estuary Partnership|Maryland Coastal Bays|Massachusetts Bays|Mobile Bay|Narragansett Bay|New York-New Jersey Harbor|Piscataqua Region Estuaries Partnership|Peconic Estuary Program|Puget Sound Partnership|San Francisco Estuary Partnership|Santa Monica Bay|Sarasota Bay|Tampa Bay|Tillamook Estuaries|Chesapeake Bay|Not_NEP|
+NEP_NAT	Site is located in a National Estuary Program watershed.   NEP if site is in an NEP; Not_NEP  if not. No missing values allowed.	NEP|Not_NEP|
+NPS_PARK	Name of National Park Service park in the Great Lakes. APIS - Apostle Islands National Lakeshore; GRPO - Grand Portage National Monument; INDU - Indiana Dunes National Lakeshore; ISRO - Isle Royale; PIRO - Pictured Rocks National Lakeshore; SLBE - Sleeping Bear Dunes National Lakeshore.	APIS|GRPO|INDU|ISRO|PIRO|SLBE|Not_NPS|
+PANEL_RVST	"NCCA long-term panels that identifies which coastal sites were visited in which NCCA cycle.  Text that has form NCAmm_nn.  \mm"" is current design cycle (e.g., 10 for 2010, 15 for 2015).   ""nn"" is first design cycle for the site (e.g., 10 for 2010, 15 for 2015). NRS10_10 """
+PANEL_SOT	"Survey over time sets of sites for only probability sites.   As new design cycles are added for NCCA, PANEL_SOT values must be updated.  Form is NCA_XX_XX_XX_etc.  Where XX equal  design cycle year  or NO if not evaluated and position designates the 1st, 2nd, and 3rd design cycles.  Note that all possible combinates for PANEL_RVST may not be present for PANEL_SOT.  For hand-picked sites, value is HAND.   No missing or \blank"" values allowed.""
+PANEL_USE	"NCCA Panel Assignment.  Text that has form NCAnn_mmXXXn_YYYY, where nn is current cycle year (09, 14, 19, etc), mm is cycle year coastal site was first selected for sampling, XXXn denotes revisit status, and YYYY denotes base or over sample status.  XXXn equals either RVT2 (if site should be visited twice in current cycle year) or RVT (if site should be visited once in current cycle and was previously visited in a prior cycle year) and is blank otherwise.  YYYY  is either blank (if the coastal site is a base site) or equals OverSamp (if the coastal site is an over sample site).  Note: For state specific designs, state two letter code is added."	
+PANEL_WGT	"Sets of probability sites required for the weight adjustment for each design cycle.  PANEL_WGT is not changed when future design cycles are completed.  Categories will differ by DSGN_CYCLE.   General form is NCAyy_xx_NTS, NCAyy_xx_TSN, NCAyy_xx_TSS and NCAyy_yy.  yy is design-cycle for which weight adjustment is being done and xx is the design-cycle associated with the sites from design-cycle xx used in design-cycle yy.  Hand-picked sites assigned as NONE, since they are not a probability site.     No missing or \blank"" values allowed."""	
+PROB_CAT	NCCA unequal probability categories used within a stratum. Missing values valid for Hand-picked sites as they are not a site from probability design. Text 	"Text | \blank"""""
+PROVINCE	Marine biogeographical province defined by EMAP Near Coastal Program.  No missing values allowed.	Acadian Province|Californian Province|Carolinian Province|Columbian Province|Louisianian Province|West Indian Province|Hawaiian Province|
+PSTL_CODE	"State two letter postal code for site sampled. 50 state postal codes plus AS, MP, GU, PR, VI for American Samoa, Commonwealth of Northern Marianas, Guam, Puerto Rico and Virgin Islands.  No missing values allowed."	
+SITE_ID	"NCCA Site ID for the study and year sampled. Preferred form is NCAnn_MM-xxxxx  where  nn is current cycle year (04, 08, 13, 18, etc), MM is two letter state code, and xxxxx is between 10001 and 99999.  No missing values allowed.  No missing values allowed."	
+SITETYPE	"Site type (Probability-based or hand-picked). PROB for sites from probability survey.  HAND for hand-picked sites.  Currently, NCCA does not have Hand-picked sites.  No missing values allowed. PROB | HAND"	PROB|HAND|
+SMALL_EST	Indicator of whether an estuary site is in a small or large estuary	Small|Large
+STATE_NM	"State name, Puerto Rico, Pacific Territory name. Complete name. No missing values allowed."	
+STRATUM	Strata used in NCCA survey design	
+STUDY	Name of the study.  A unique site may belong to multiple studies. No missing values allowed. NCCA	Estuarine|Reef_Flat|Near_Shore| Albemarle_Pamlico|
+TNT_CAT	"NCCA target status assigned based on  site evaluation. For population estimation must combine with SITETYPE to restrict to probability survey sites.  Frame_NotAssessed is used to identify pseudo sites that were created to identify polygons that were not in 1999-2001, 2005-2006, and 2010 sample frames but were in 2015 sample frame. "	Target|Target_Presumed|Uncertain|Non_Target|Not_Needed|Frame_NotAssessed|
+UNIQUE_ID	Unique site ID based on location that does not depend on year sampled or any other factor.  Form is NCA_ss_nnnnn  where ss state and nnnnn is number that starts at 10001.  No missing values allowed. Text	
+WGT_CAT	NCCA categories used to adjust weights for site.	
+WGT_SP	NCCA adjusted weight for site for the implemented survey design. To be used for NCCA national population estimation when want estimates to be for the Sampled Population. Note: >0 or 0 if site is not to be used for sampled population estimation	
+WTBDY_NM	General estuary or  tidal river name.	
+XCOORD	x-coordinate from US Contiguous Albers Equal Area Conic projection EXCEPT Hawaii sites which are calculated from Hawaii Albers Equal Area Conic projection. No missing values allowed.	
+YCOORD	y-coordinate from US Contiguous Albers Equal Area Conic projection EXCEPT Hawaii sites which are calculated from Hawaii Albers Equal Area Conic projection.  No missing values allowed.	
+WGT_CAT_AP	Albemarle-Pamlico special study categories used to adjust weights for site.	
+WGT_SP_AP	Albemarle-Pamlico special study adjusted weights for the implemented survey design.	
+
+2020:
+ncca20_bentcount_data.csv
+
+“This file contains benthic taxonomy data for sites that were sampled for the National Coastal Condition Assessment in 2020, 2021 and 2022."		
+
+Data have been thoroughly reviewed, however they are not considered final until the NCCA Report is published. Data may be updated at any time. The changelog for the associated file may be found below the column name definitions.         
+
+End-users are responsible for reviewing the suitability of these data for their purposes.                                               		
+"""Please bring any questions about the data to the attention of Hugh Sullivan, NCCA Lead at sullivan.hugh@epa.gov. ""                                             "		                                       		
+                                   
+COLUMN_HEADING		DESCRIPTION
+PUBLICATION_DATE		Date the dataset was published by NARS IM
+UID		Unique identifier for a single sampling event at a site/visit. Use the UID to associate data in the NCCA site info files with  information included in this file.       
+UNIQUE_ID		 Unique site ID based on location. Does not depend on year sampled or any other factor. Follows a unique site through multiple survey designs.  Form is NCA_ss_nnnnn  where ss is state/territory and nnnnn is number that starts at 10001.  No missing values allowed. Text        
+SITE_ID		"NCCA Site ID for the study and year sampled. Preferred form is NCAnn_MM-xxxxx  where  nn is survey cycle year (05, 10, 15, 20, etc), MM is two letter state code, and xxxxx is between 10001 and 99999.  No missing values allowed.  No missing values allowed."
+VISIT_NO		Sequential visit to the site within a sampling year
+DATE_COL		Date Collected mm/dd/yyyy
+PSTL_CODE		"State two letter postal code for site sampled. 50 state postal codes plus (if applicable) AS, MP, GU, PR, VI for American Samoa, Commonwealth of Northern Marianas, Guam, Puerto Rico and Virgin Islands.  No missing values allowed."
+WTBDY_TYPE		Marine or Great Lakes
+TAXA_ID		NARS IM-assigned taxonomic ID number
+TARGET_TAXON		Name of taxon at target taxon level used by NCCA
+APHIA_ID		Taxon ID from World Register of Marine Species (WoRMS)
+ITISTSN		ITIS Taxonomic Serial Number
+HABITAT		NCCA habitat type
+PHYLUM		Phylum of taxon
+CLASS		Class of taxon
+ORDER		Order of taxon
+FAMILY		Family of taxon
+DENSITY		number of organism / square meter in the sample when harmonized for grab size
+IS_DISTINCT		Taxon is unique within sample: Y/N
+TOTAL		Total number of specific organism counted in the sample
+			
+Changelog		
+		
+Publication Date 
+Of Most recent
+File Posted to
+NARS Data Page 
+        			Change
+05/03/2024	    	Initial publication
+05/20/2024	    	Publication of ncca20_bentcount_data_Rev_1.csv. Replaces incorrect LAT_DD coordinates with correct LAT_DD coordinates.
+08/23/2024	    	file refresh to update values for multiple variables. Moved LAT_DD and LON_DD coordinates to SiteInfo
+
+ncca20_bentgrab_data.csv
+
+“This file contains benthic grab data for sites that were sampled for the National Coastal Condition Assessment in 2020, 2021 and 2022."		
+
+Data have been thoroughly reviewed, however they are not considered final until the NCCA Report is published. Data may be updated at any time. The changelog for the associated file may be found below the column name definitions.           
+                                                                    		
+End-users are responsible for reviewing the suitability of these data for their purposes.  
+                                            		
+"""Please bring any questions about the data to the attention of Hugh Sullivan, NCCA Lead at sullivan.hugh@epa.gov. ""  
+
+Please note: Station information (sampling coordinates, site depth, etc.) may be imported from the Site Information files.	                              		
+                                      
+COLUMN_HEADING		DESCRIPTION
+PUBLICATION_DATE		Date the dataset was published by NARS IM       
+UID		Unique identifier for a single sampling event at a site/visit. Use the UID to associate data in the NCCA site info files with  information included in this file.
+UNIQUE_ID		 Unique site ID based on location. Does not depend on year sampled or any other factor. Follows a unique site through multiple survey designs.  Form is NCA_ss_nnnnn  where ss is state/territory and nnnnn is number that starts at 10001.  No missing values allowed. Text        
+SITE_ID		"NCCA Site ID for the study and year sampled. Preferred form is NCAnn_MM-xxxxx  where  nn is survey cycle year (05, 10, 15, 20, etc), MM is two letter state code, and xxxxx is between 10001 and 99999.  No missing values allowed.  No missing values allowed."
+VISIT_NO	1|2	sequential visit identifier for sites visited twice in a sampling season
+DATE_COL	mm/dd/yyyy	date sample was collected
+PSTL_CODE		"State two letter postal code for site sampled. 50 state postal codes plus (if applicable) AS, MP, GU, PR, VI for American Samoa, Commonwealth of Northern Marianas, Guam, Puerto Rico and Virgin Islands.  No missing values allowed."
+WTBDY_TYPE	marine|Great Lakes	type of water that sample was collected in
+NCCA_REG		NCCA Region	
+FINAL_GRAB_AREA		Adjusted grab area   
+GRAB_DEPTH		Depth of grab(s)      
+GRAB_TYPE		grab sampling equipment used to collect sample
+GRABS		Number of grabs taken
+SIEVE_SIZE		Sieve size
+NOT_COLLECTED		identifies samples not collected due to collection issues.
+SALINITY		Bottom water salinity measurement at estuarine/marine sites only
+BENT_COMMENT		Comment describing sampling issues. Applied by field crew
+SHIP_COMMENT		comment describing shipping issues. Applied by field crew
+	
+Changelog		
+		
+Publication Date 
+Of Most recent
+File Posted to
+NARS Data Page 
+        		Change
+05/03/2024		Initial publication
+05/09/2024		Rev_1 inserted NCCA_REG, LAT_DD, LON_DD
+05/20/2024		ncca20_bentgrab_data_Rev_2.csv: Moved LAT_DD and LON_DD to Site Info
+08/23/2024		file refresh to update values for multiple variables including grab and density calculations
+
+ncca20-benttaxalist-data.csv
+
+This file contains the comprehensive benthic macroinvertebrate taxa list maintained by the NARS_IM system used for assessment purposes for the National Coastal Condition Assessment.
+
+Data have been thoroughly reviewed, however they are not considered final until the NCCA Report is published. Data may be updated at any time. The changelog for the associated file may be found below the column name definitions.  
+
+End-users are responsible for reviewing the suitability of these data for their purposes.                                               		
+Please bring any questions about the data to the attention of Hugh Sullivan, NCCA Lead at sullivan.hugh@epa.gov.		                       		
+                   	
+COLUMN_HEADING	LEGAL_VALUES	DESCRIPTION
+PUBLICATION_DATE		Date the dataset was published by NARS IM   
+TAXA_ID		NARS IM-assigned taxonomic ID number
+TARGET_TAXON		Name of taxon at target taxon level used by NCCA
+APHIA_ID		Taxon ID from World Register of Marine Species (WoRMS)
+ITISTSN		ITIS Taxonomic Serial Number
+HABITAT	EST for estuary| GL for Great Lakes	NCCA habitat type
+PHYLUM		Phylum of taxon
+CLASS		Class of taxon
+ORDER		Order of taxon
+FAMILY		Family of taxon
+	
+Changelog		
+		
+Publication Date 
+Of Most recent
+File Posted to
+NARS Data Page 
+        		Change
+5/3/2024		Initial publication
+8/23/2024		File refresh for multiple variables including updates to target taxon counts 
+
+ncca20_siteinfo_estuaries_data_2.csv
+
+"This file contains data about estuarine sites that were sampled for the National Coastal Condition Assessment in 2020 and 2021."		
+Data have been thoroughly reviewed, however they are not considered final until the NCCA Report is published. Data may be updated at any time. The changelog for the associated file may be found below the column name definitions.                                          		
+End-users are responsible for reviewing the suitability of these data for their purposes.                                               		
+"""Please bring any questions about the data to the attention of Hugh Sullivan, NCCA Lead at sullivan.hugh@epa.gov. ""                                             "		
+                                                		                                         		
+This file does not include information used to determine the statistical weight for each site. Future updates of this file coinciding with NCCA Report publication will include site weights.                                        				                                  				
+"""For information about NCCA protocols, please check the NCCA 2020 Field Operations Manual, Site Evaluation Guidelines; Lab Operations Manual, and Quality Assurance Project Plan on the NCCA Website: https://www.epa.gov/national-aquatic-resource-surveys/manuals-used-national-aquatic-resource-surveys#National%20Coastal%20Condition%20Assessment""                                         					
+COLUMN_NAME            	Legal Values	Description		                                              
+PUBLICATION_DATE		Date the dataset was published by NARS IM         		                                              
+UNIQUE_ID		 Unique site ID based on location. Does not depend on year sampled or any other factor. Follows a unique site through multiple survey designs.  Form is NCA_ss_nnnnn  where ss is state/territory and nnnnn is number that starts at 10001.  No missing values allowed. Text          		
+UID		Unique identifier for a single sampling event at a site/visit. Use the UID to associate data in other NCCA files with station information included in this file.		                                              
+SITE_ID		"NCCA Site ID for the study and year sampled. Preferred form is NCAnn_MM-xxxxx  where  nn is survey cycle year (05, 10, 15, 20, etc), MM is two letter state code, and xxxxx is between 10001 and 99999.  No missing values allowed.  No missing values allowed."		                                              
+DATE_COL	|01|02|03|04|05|06|07|08|09|10|11|12; year	Date Collected mm/dd/yyyy		                                              
+PSTL_CODE		"State two letter postal code for site sampled. 50 state postal codes plus (if applicable) AS, MP, GU, PR, VI for American Samoa, Commonwealth of Northern Marianas, Guam, Puerto Rico and Virgin Islands.  No missing values allowed."		
+LAT_DD		Actual latitude where sampling occurred in decimal degrees                      		                                              
+LON_DD		Actual longitude where sampling occurred in decimal degrees                     	
+STATION_DEPTH		" ""Numeric, depth of station in m""                        "		
+WTBDY_TYPE	"Waterbody type, based on VALXSITE from verification form"	MARINE|GREAT_LAKES		
+VISIT_NO	  |1|2	   Visit: 1/2        		
+YEAR		Year site was visited  		
+DSGN_CYCLE		Cycle for which sample design was created. NCCA surveys are designed to occur in years ending in 0 and 5.              		
+IND_DOMAIN		"Name of indicator group within a study. Valid values are EXTENT (all sites evaluated), CORE (all sites sampled for main indicators), FT_EXTENT and FT_CORE for fish tissue, HAND for hand-picked. NCCA has only CORE estuarine sites."		
+EPA_REG	 Region_01|Region_02| Region_03|Region_04|Region_05 |Region_06|Region_09|Region_10|	 EPA Region.  No missing values allowed.             		
+EST_GROUP		"34 major estuaries plus 7 other groups of estuaries organized by EMAP Provinces. 41 possible values. \blank"""" or NA not allowed. Values begin with Province appreviation followed by major estuary name or Other."		
+EVAL_CAT		"NCCA site evaluation result.  Frame_NotAssessed is used to identify pseudo sites that were created to identify polygons that were not in 1999-2001, 2005-2006, and 2010 sample frames but were in 2015 sample frame. No missing values allowed."		
+FEAT_NM		"Most detailed name available and may identify different portions of an estuary. \blank"""" if missing"		
+LAT_DD83		Design latitude in decimal degrees. From sample frame. No missing values allowed.		
+LON_DD83		 Design longitude in decimal degrees. From sample frame. No missing values allowed.                     		
+NCA_REG	 East_Coast|Gulf_Coast|West_Coast| Pacific 	"National Coastal Assessment Region. Used prior to NARS in 2010.  No missing values allowed. ""Pacific"" indicates Pacific Island Territory Reef Flat Study"		
+NCCA_REG	Northeast|Southeast|Gulf|West|Great Lakes|Pacific	"National Coastal Condition Assessment Region.  Northeast includes states ME, NH, MA, RI, CT, NY, NJ, MD, DE, and VA.  Southeast includes NC, SC, GA, and east coast of FL.  No missing values allowed."		
+NEP_OR_ESTUARY_PROGRAM_NAME		NEP or Non-NEP Estuary Program name 	
+NEP_NAT	NEP | Not_NEP	Is site within a National Estuary Program Study Area		
+PROVINCE	"Acadian Province|Californian Province|Carolinian Province|Columbian Province|Louisianian Province|West Indian Province |All Great Lakes sites are listed as """"GREAT LAKES Province"""	Marine biogeographical province defined by EMAP Near Coastal Program.  No missing values allowed.                       		
+SITETYPE	PROB|HAND|   	"Site type (Probability-based or hand-picked). PROB for sites from probability survey.  HAND for hand-picked sites.  Currently, NCCA does not have any estuarine Hand-picked sites.  No missing values allowed. "		
+SMALL_EST	Small|Large   	Indicator of whether an estuary site is in a small or large estuary. Not identified for Great Lakes or Long Island Sound 2021 sampling 		
+STATE_NM		State or territory  complete name. No missing values allowed.                   	
+WTBDY_NM		 General estuary or  tidal river name.                   		
+XCOORD		x-coordinate from US Contiguous Albers Equal Area Conic projection EXCEPT Hawaii sites which are calculated from Hawaii Albers Equal Area Conic projection. No missing values allowed.            		
+YCOORD		 y-coordinate from US Contiguous Albers Equal Area Conic projection EXCEPT Hawaii sites which are calculated from Hawaii Albers Equal Area Conic projection.  No missing values allowed.  		
+CHES_BAY	Indicator of whether site is inside or outside Chesapeake Bay	Inside Chesapeake Bay|Outside Chesapeake Bay		
+DWH_REGION	  Inside DWH Area|Outside DWH Area|Outside Gulf Coast 	"Site is located in the Deep Water Horizon Oil Spill impact area or located outside of impact area within Gulf Coast region. """"Outside of Gulf Coast"""" if outside of Gulf Coast region. Blank if not an estuarine site."		
+PENS_PERD_BAY	Indicator of whether site is inside or outside Pensacola/Perdido Bay	Inside PPB|Outside PPB		
+INDEX_NCCA20	Index visit for 2020 National Coastal Condition Assessment (Y/N). Missing value indicates not part of study.			
+INDEX_LIS	Index visit for Long Island Sound Study (Y/N). Missing value indicates not part of study.				
+				
+Changelog				
+				
+Publication Date 
+Of Most recent
+File Posted to
+NARS Data Page 
+    		    Change		
+5/3/2024		Complete republication of data. Supercedes all previous copies.		
+11/12/2024		file refresh to update values for multiple variables. This file supercedes all previous publications.		
+
+ncca20_siteinfo_reef_flats_data.csv
+
+This file contains data about sites that were samples for the Reef Flat Study of Pacfic Territories as part of the National Coastal Condition Assessment in 2020 and 2021. 
+                                              		
+Data have been thoroughly reviewed, however they are not considered final until the NCCA Report is published. Data may be updated at any time. The changelog for the associated file may be found below the column name definitions.      
+
+End-users are responsible for reviewing the suitability of these data for their purposes.     
+
+"""Please bring any questions about the data to the attention of Hugh Sullivan, NCCA Lead at sullivan.hugh@epa.gov. ""                                             "		
+                                                		                                 		
+This file does not include information used to determine the statistical weight for each site. Future updates of this file coinciding with NCCA Report publication will include site weights.                                                		                                		
+"""For information about NCCA protocols, please check the NCCA 2020 Field Operations Manual, Site Evaluation Guidelines; Lab Operations Manual, and Quality Assurance Project Plan on the NCCA Website: https://www.epa.gov/national-aquatic-resource-surveys/manuals-used-national-aquatic-resource-surveys#National%20Coastal%20Condition%20Assessment""                                         			
+COLUMN_NAME            	Legal Values	Description
+PUBLICATION_DATE	Date the dataset was published to the NARS site	
+UNIQUE_ID	Unique site ID based on location that does not depend on year sampled or any other factor.  Form is NCA_ss_nnnnn  where ss state and nnnnn is number that starts at 10001.  No missing values allowed. Text	
+UID	Unique identifier for the site/visit	
+SITE_ID	NCCA Site ID for the study and year sampled	
+YEAR	Year site visited	
+VISIT_NO	"Sequential visit in each year, typically 1 or 2."	
+DATE_COL	Date samples were collected at the site. Use ACTUAL_DATE column for collection date of individual sample types.	
+PSTL_CODE	"State two letter postal code for site sampled. 50 state postal codes plus AS, MP, GU, PR, VI for American Samoa, Commonwealth of Northern Marianas, Guam, Puerto Rico and Virgin Islands.  No missing values allowed."	
+LAT_DD	Actual latitude of sampling in decimal degrees	
+LON_DD	Actual longitude of sampling in decimal degrees	
+STATION_DEPTH	Site depth in meters	
+DSGN_CYCLE	NCCA survey design time period.  Some of the sub-studies may be conducted in more than one year although that is not identified by the DSGN_CYCLE. No missing values allowed. 1999-2001 | 2005-2006 | 2010 | 2015 | 2020	
+IND_DOMAIN	"Name of indicator group within a study. Valid values are EXTENT (all sites evaluated), CORE (all sites sampled for main indicators), FT_EXTENT and FT_CORE for fish tissue, HAND for hand-picked"	
+EPA_REG	EPA Region.  No missing values allowed.	
+EVAL_CAT	"NCCA site evaluation result.  Frame_NotAssessed is used to identify pseudo sites that were created to identify polygons that were not in 1999-2001, 2005-2006, and 2010 sample frames but were in 2015 sample frame. No missing values allowed."	
+FEAT_NM	"Most detailed name available and may identify different portions of an estuary. \blank"" if missing"""	
+LAT_DD84	Latitude of site with WGS84 datum (for Pacific Territories and Hawaii)	
+LON_DD84	Longitude of site with WGS84 datum (for Pacific Territories and Hawaii)	
+NCA_REG	National Coastal Assessment Region used prior to NARS in 2010.  No missing values allowed.	
+NCCA_REG	"National Coastal Condition Assessment Region.  Northeast includes states ME, NH, MA, RI, CT, NY, NJ, MD, DE, and VA.  Southeast includes NC, SC, GA, and east coast of FL.  Gulf Coast  includes the west coast of Florida, Alabama, Mississippi, Louisiana and Texas. West coast includes Washington, Oregon and California. Great Lakes includes Lakes Superior, Michigan, Huron, Erie and Ontario. No missing values allowed."	
+NEP_NAME	National Estuary Program name if site is in the NEP or  Chesapeake Bay if site in Chesapeake Bay.  Missing value if site is not in any NEP or  Chesapeake Bay. 	
+NEP_NAT	Site is located in a National Estuary Program watershed.   NEP if site is in an NEP; Not_NEP  if not. No missing values allowed.	
+PROVINCE	Marine biogeographical province defined by EMAP Near Coastal Program.  No missing values allowed.	
+SITETYPE	"Site type (Probability-based or hand-picked). PROB for sites from probability survey.  HAND for hand-picked sites.  Currently, NCCA does not have Hand-picked sites.  No missing values allowed. PROB | HAND"	
+STATE_NM	"State name, Puerto Rico, Pacific Territory name. Complete name. No missing values allowed."	
+WTBDY_NM	General estuary or  tidal river name.	
+WTBDY_TYPE	"Waterbody type, based on VALXSITE from verification form"	MARINE|GREAT_LAKES
+XCOORD	x-coordinate from US Contiguous Albers Equal Area Conic projection EXCEPT Hawaii sites which are calculated from Hawaii Albers Equal Area Conic projection. No missing values allowed.	
+YCOORD	y-coordinate from US Contiguous Albers Equal Area Conic projection EXCEPT Hawaii sites which are calculated from Hawaii Albers Equal Area Conic projection.  No missing values allowed.	
+INDEX_RF	Index visit for Reef Flat Study	
+		
+Changelog		
+		
+Publication Date 
+Of Most recent
+File Posted to
+NARS Data Page 
+                		Change
+11/12/2024		        initial publication
+
+

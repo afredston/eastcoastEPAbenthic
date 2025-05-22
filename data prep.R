@@ -191,7 +191,7 @@ BC2000cor
 #6) WoRMS_aphiaID = WORMS_APHIAID 
 BC2000.sub<-BC2000cor %>% 
   mutate(siteID = SITE_ID,
-         density_m2 = num_m2,
+         density_m2 = tot_num_m2,
          lon = LON_DD,
          lat = LAT_DD,
          year = SAMPYEAR,
